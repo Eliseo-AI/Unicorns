@@ -1,7 +1,7 @@
 # Unicorns
 Table of Content
 ================
-* [Interactive-Covid-19-Dashboard](#Interactive-Covid-19-Dashboard)
+* [Interactive-Unicorns_Companies-Dashboard](#Interactive-Unicorns_Companies-Dashboard)
   * [Description](#description)
   * [Datasets](#datasets)
   * [Installation Requirements](#installation-requirements)
@@ -13,7 +13,7 @@ Table of Content
 https://share.streamlit.io/soledadli/interactive-covid-19-dashboard/main/app.py
 
 ## Description
-A collaborative work of building an interactive Covid-19 dashboard to provide insights about COVID globally by students from the Digital Sciences Track of Center for Research and Interdiscplinarity. 
+A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the Digital Sciences Track of Université Paris Cité. 
 
 ## Datasets
 The data sets are from the open data of [Jonhs Hopkins University](https://github.com/CSSEGISandData/COVID-19)
