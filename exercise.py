@@ -18,6 +18,6 @@ with dataset:
 with features:
     st.title("Please, select the feaures")
 
-with header:
+with model_trainig:
     st.title("Data Analysis of Unicorn Companies")
     st.text("I")
