@@ -14,7 +14,7 @@ with header:
 
 with dataset:
     st.title("Unicorns Companies Dataset")
-    st.text("The daset used in this app is from kaggle:
+    st.text("The daset used in this app is from kaggle:")
             
 with features:
     st.title("PLease, select the feaures")
