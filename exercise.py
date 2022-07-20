@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import datetime
 
-header = st.beta_container()
-dataset= st.beta_container()
-features = st.beta_container()
-model_trainig = st.beta_container()
+header = st.container()
+dataset= st.container()
+features = st.container()
+model_trainig = st.container()
 
 with header:
     st.title("Data Analysis of Unicorn Companies")
@@ -16,7 +16,7 @@ with dataset:
     st.text("The daset used in this app is from kaggle:")
             
 with features:
-    st.title("PLease, select the feaures")
+    st.title("Please, select the feaures")
 
 with header:
     st.title("Data Analysis of Unicorn Companies")
