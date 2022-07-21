@@ -9,8 +9,8 @@ Table of Content
   * [Licensing](#licensing)
   * [Authors](#Authors)
 
-# Interactive-Covid-19-Dashboard
-https://share.streamlit.io/soledadli/interactive-covid-19-dashboard/main/app.py
+# Interactive-Unicorns-Dashboard
+https://eli-2020-unicorns-exercise-3diu8b.streamlitapp.com/
 
 ## Description
 A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the Digital Sciences Track of Université Paris Cité. 
