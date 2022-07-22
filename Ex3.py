@@ -143,7 +143,7 @@ class Page2(Page):
         #st.sidebar.write("""#### Choose your SG bias""")
         industries=data['Industry'].unique()
         industries=industries[industries!='non-who']
-                country_list = sorted(set(data["Country"]))
+        country_list = sorted(set(data["Country"]))
         country_list.insert(0,'All')
         sorted(country_list)
 
