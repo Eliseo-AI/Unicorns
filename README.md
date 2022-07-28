@@ -33,15 +33,7 @@ To calulcate the normalization we acquire to get the population of the each coun
 
 
 ## Installation Requirements
-- Download Zip
-```
-Code - Download ZIP
-```
 
-- Clone this repository with this command
-```
-git clone https://github.com/soledadli/interactive-Covid-19-dashboard.git
-```
 - Install the project dependencies run pip install -r requirements.txt
 ```
 pip install -r requirements.txt
@@ -57,9 +49,6 @@ To run the streamlit code
 ```
 streamlit run app.py
 ```
-## Software Heritage
-[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:f16dc74c8cb24abe9674c52b352154a7eecaabaa/)](https://archive.softwareheritage.org/swh:1:dir:f16dc74c8cb24abe9674c52b352154a7eecaabaa;origin=https://github.com/soledadli/interactive-Covid-19-dashboard.git;visit=swh:1:snp:2cf6701fa76c93de35a2755c576ce5a4060d5b79;anchor=swh:1:rev:37f7e56df4be5edc7df6a6c12b21e7463b0c9fcc)
-
 ## Licensing
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
