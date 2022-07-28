@@ -18,7 +18,7 @@ with dataset:
     st.write(data_unicorn.head())
     
     st.subheader('Total Valuation of Unicorns by Country')
-    country = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
+    countries = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
     st.bar_chart(doses)
     
     st.subheader('Total Valuation by Industry')
