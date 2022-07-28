@@ -3,23 +3,17 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 
-DATA_URL = ('[Github](https://github.com/Eli-2020/Unicorns/blob/main/data/unicorns_2022.csv)')
 
 st.title("Unicorns Companies")
 st.markdown("This application is a Streamlit dashboard that can be used "
 "to analize unicorn companies around the world"
 "")
 @st.cache(persist=True)
-def load_data(nrows):
-    data = pd.read_csv(DATA_URL, nrows=nrows, parse_dates=[['date_joined']])
-    data.dropna(subset=['lat','lng'], inplace=True)
-    lowercase = lambda x: str(x).lower()
-    data.rename(lowercase, axis='columns', inplace= True)
-    data.rename(columns={'capital' : 'city/types'}, inplace= True)
-    return data
+
+data= ('data/unicorns_2022.csv','sep:","')
 
 st.header("Where are the most valuable Unicorn Companies")
-injured_people = st.slider("value of comanies in US$ Dollars", 0, 150)
+injured_people = st.slider("value of companies in US$ Dollars", 0, 150)
 st.map(data.query("value >= @value")[["lat","lng"]].dropna(how="any"))
 
 st.header("How many unicorns per year")
