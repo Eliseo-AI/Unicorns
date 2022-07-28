@@ -33,10 +33,9 @@ with dataset:
     data_unicorn['date_joined'] = pd.to_datetime(data_unicorn['date_joined']).dt.strftime('%Y-%m-%d')
     
     industry_options = data_unicorn['industry'].unique().tolist()
-    year_option = pd.DatetimeIndex(data_unicorn['date_joined']).year
-    year_options = year_option.unique().tolist()
-    
-    date = st.selectbox("Which date would you like to see", year_options,100)
+    year_option = pd.DatetimeIndex(data_unicorn['date_joined']).unique().tolist()
+        
+    date = st.selectbox("Which date would you like to see", year_option,100)
     industry_u = st.multiselect("Which industry would you like to see", industry_options, ['Fintech'])
     
     data_unicorn = data_unicorn[data_unicorn['industry'].isin(industry_u)]
