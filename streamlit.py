@@ -19,11 +19,11 @@ with dataset:
     
     st.subheader('Total Valuation of Unicorns by Country')
     countries = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
-    st.barh_chart(countries)
+    st.bar_chart(countries)
     
     st.subheader('Total Valuation by Industry')
     industry_value = pd.DataFrame(data_unicorn.groupby(["industry"])["value"].sum()).head(50)
-    st.barh_chart(data=industry_value)
+    st.bar_chart(data=industry_value)
         
     st.subheader('Choose the Best combination between date and age range for you')
     
