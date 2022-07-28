@@ -18,6 +18,7 @@ def load_data(nrows):
     data.rename(columns={'capital' : 'city/types'}, inplace= True)
     return data
 
+data = pd.read_csv(DATA_URL, nrows=nrows, parse_dates=[['date_joined']])
 st.header("Where are the most valuable Unicorn Companies")
 injured_people = st.slider("value of comanies in US$ Dollars", 0, 150)
 st.map(data.query("value >= @value")[["lat","lng"]].dropna(how="any"))
