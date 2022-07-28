@@ -10,7 +10,7 @@ st.markdown("This application is a Streamlit dashboard that can be used "
 "")
 @st.cache(persist=True)
 
-data = pd.to_read('data/unicorns_2022.csv','sep:","')
+data = pd.to_read('data/unicorns_2022.csv', sep = ',')
 
 st.header("Where are the most valuable Unicorn Companies")
 injured_people = st.slider("value of companies in US$ Dollars", 0, 150)
