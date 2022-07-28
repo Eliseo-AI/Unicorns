@@ -1,53 +1,49 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import pydeck as pdk
+import plotly.express as px
 
+header = st.beta_container()
+dataset = st.beta_container()
+features = st.beta_container()
+model_trainig = st.beta_container()
 
-st.title("Unicorns Companies")
-st.markdown("This application is a Streamlit dashboard that can be used "
-"to analize unicorn companies around the world"
-"")
-@st.cache(persist=True)
+with header:
+    st.title('Welcome')
+    st.text('This is the Dashboard of the Unicorn Companies')
 
-data = pd.to_read('data/unicorns_2022.csv', sep = ',')
-
-st.header("Where are the most valuable Unicorn Companies")
-injured_people = st.slider("value of companies in US$ Dollars", 0, 150)
-st.map(data.query("value >= @value")[["lat","lng"]].dropna(how="any"))
-
-st.header("How many unicorns per year")
-hour = st.slider("Hour to look at", 2011, 2022)
-data = data[data['date_joined'].dt.year == year]
-
-st.markdown("new unicorns between %i:00 and %i:00" % (year, (year + 1) % 2022))
-midpoint = (np.average(data['lat']),np.average(data['lng']))
-
-
-st.write(pdk.Deck(
-    map_style="mapbox://styles/mapbox/light-v9",
-    initial_view_state={
-        "lat": midpoint[0],
-        "lng": midpoint[1],
-        "zoom": 11,
-        "pitch": 50,
-    },
-    layers=[
-        pdk.Layer(
-        "HexagonLayer",
-        data =data[['date_joined','lat','lng']],
-        get_position=['lng','lat'],
-        radius=100,
-        extruded=True,
-        pickable=True,
-        elevation_scale=4,
-        elevation_range=[0,1000],
-        ),
-    ],
-))
-
-
-if st.checkbox("Show Raw Data", False):
-    st.subheader('Raw Data')
-    st.write(data)
-
+with dataset:
+    st.header('Dataset')
+    st.text('The dateset include the total of Unicorns companies around the world',
+           'top 5 Unicorns by Valuation in US$')
+   
+    data_unicorn = pd.read_csv('data/unicorns_2022.csv', sep=';')
+    st.write(data_graph.head())
+    
+    st.subheader('Total Valuation of Unicorns by Country')
+    country = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
+    st.bar_chart(doses)
+    
+    st.subheader('Total Valuation by Industry')
+    industry_value = pd.DataFrame(data_unicorn.groupby(["industry"])["value"].sum()).head(50)
+    st.bar_chart(data=regions)
+        
+    st.subheader('Choose the Best combination between date and age range for you')
+    
+    data_unicorn['date_joined'] = pd.to_datetime(data_unicorn['date_joined']).dt.strftime('%Y-%m-%d')
+    
+    industry_options = data_unicorn['industry'].unique().tolist()
+    date_options = data_unicorn['date_joined'].unique().tolist()
+    
+    date = st.selectbox("Which date would you like to see", date_options,100)
+    industry = st.multiselect("Which industry would you like to see", industry_options, ['Fintech'])
+    
+    data_unicorn = data_unicorn[data_graph['industry'].isin(industry)]
+    data_unicorn = data_unicorn[data_graph['date_joined']==date]
+    
+    fig2 = px.bar(data_graph,x="industry",y="value",color="industry", range_y=[0,500])
+    
+    fig2.update_layout(width=800)
+    
+    st.write(fig2)
+    
+    
