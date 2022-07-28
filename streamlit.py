@@ -35,10 +35,10 @@ with dataset:
     date = st.selectbox("Which date would you like to see", date_options,100)
     industry_u = st.multiselect("Which industry would you like to see", industry_options, ['Fintech'])
     
-    data_unicorn = data_unicorn[data_graph['industry'].isin(industry_u)]
-    data_unicorn = data_unicorn[data_graph['date_joined']==date]
+    data_unicorn = data_unicorn[data_unicorn['industry'].isin(industry_u)]
+    data_unicorn = data_unicorn[data_unicorn['date_joined']==date]
     
-    fig2 = px.bar(data_graph,x="industry",y="value",color="industry", range_y=[0,500])
+    fig2 = px.bar(data_unicorn,x="industry",y="value",color="industry", range_y=[0,500])
     
     fig2.update_layout(width=800)
     
