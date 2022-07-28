@@ -12,8 +12,7 @@ with header:
 
 with dataset:
     st.header('Dataset')
-    st.text('The dateset include the total of Unicorns companies around the world',
-           'top 5 Unicorns by Valuation in US$')
+    st.text('The dateset include the total of Unicorns companies around the world top 5 Unicorns by Valuation in US$')
    
     data_unicorn = pd.read_csv('data/unicorns_2022.csv', sep=';')
     st.write(data_graph.head())
