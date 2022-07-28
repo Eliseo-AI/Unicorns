@@ -18,7 +18,7 @@ def load_data(nrows):
     data.rename(columns={'capital' : 'city/types'}, inplace= True)
     return data
 
-data = pd.read_csv(DATA_URL)
+data = pd.read_csv(https://github.com/Eli-2020/unicorns_2022.csv)
 st.header("Where are the most valuable Unicorn Companies")
 injured_people = st.slider("value of comanies in US$ Dollars", 0, 150)
 st.map(data.query("value >= @value")[["lat","lng"]].dropna(how="any"))
