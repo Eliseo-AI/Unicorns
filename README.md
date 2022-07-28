@@ -10,7 +10,7 @@ Table of Content
   * [Authors](#Authors)
 
 # Interactive-Unicorns-Dashboard
-https://eli-2020-unicorns-exercise-3diu8b.streamlitapp.com/
+https://eli-2020-unicorns-streamlit-1oh7v8.streamlitapp.com/
 
 ## Description
 A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the Digital Sciences Track of Université Paris Cité. 
