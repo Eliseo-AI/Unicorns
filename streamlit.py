@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import datetime
 
 header = st.container()
 dataset = st.container()
@@ -18,7 +19,7 @@ with dataset:
    
     data_unicorn = pd.read_csv('data/unicorns_2022.csv', sep=',')
     st.write(data_unicorn.head())
-    
+  
     st.subheader('Total Valuation of Unicorns by Country')
     countries = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
     st.bar_chart(countries)
@@ -32,9 +33,9 @@ with dataset:
     data_unicorn['date_joined'] = pd.to_datetime(data_unicorn['date_joined']).dt.strftime('%Y-%m-%d')
     
     industry_options = data_unicorn['industry'].unique().tolist()
-    date_options = data_unicorn['date_joined'].unique().tolist()
+    year_options = pd.DatetimeIndex(data_unicorn['date_joined']).year.tolist()
     
-    date = st.selectbox("Which date would you like to see", date_options,100)
+    date = st.selectbox("Which date would you like to see", year_options,100)
     industry_u = st.multiselect("Which industry would you like to see", industry_options, ['Fintech'])
     
     data_unicorn = data_unicorn[data_unicorn['industry'].isin(industry_u)]
