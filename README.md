@@ -5,7 +5,6 @@ Table of Content
   * [Description](#description)
   * [Datasets](#datasets)
   * [Installation Requirements](#installation-requirements)
-  * [Software Heritage](#software-heritage)
   * [Licensing](#licensing)
   * [Authors](#Authors)
 
