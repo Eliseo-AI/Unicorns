@@ -13,7 +13,7 @@ Table of Content
 [Streamlit app](https://eli-2020-unicorns-streamlit-1oh7v8.streamlitapp.com/)
 
 ## Description
-A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the Digital Sciences Track of Université Paris Cité. 
+A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the [Digital Sciences Track of Université Paris Cité](https://u-paris.fr/en/master-aire-digital-sciences/). 
 
 ## Datasets
 The data sets are from the open data of [Jonhs Hopkins University](https://github.com/CSSEGISandData/COVID-19)
