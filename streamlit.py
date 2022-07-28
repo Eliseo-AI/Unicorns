@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 
-DATA_URL = ('[Github](https://github.com/Eli-2020/unicorns_2022.csv)')
+DATA_URL = ('[Github](https://github.com/Eli-2020/data/unicorns_2022.csv)')
 
 st.title("Unicorns Companies")
 st.markdown("This application is a Streamlit dashboard that can be used "
