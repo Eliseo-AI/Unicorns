@@ -1,0 +1,1158 @@
+ranking_companies,unicorn,date_joined,country,city,industry,selected_investors,value,lat,lng,capital,population,id_city
+1,Bytedance,2017-04-07,China,Beijing,Artificial intelligence,"Sequoia Capital China, SIG Asia Investments, Sina Weibo, Softbank Group",140.0,39.905,116.3914,primary,19433000.0,1156228865
+2,SpaceX,2012-12-01,United States,Hawthorne,Other,"Founders Fund, Draper Fisher Jurvetson, Rothenberg Ventures",125.0,33.9146,-118.3476,,86068.0,1840020486
+3,SHEIN,2018-07-03,China,Shenzhen,E-commerce & direct-to-consumer,"Tiger Global Management, Sequoia Capital China, Shunwei Capital Partners",100.0,22.535,114.054,minor,15929000.0,1156158707
+4,Stripe,2014-01-23,United States,San Francisco,Fintech,"Khosla Ventures, LowercaseCapital, capitalG",95.0,37.7562,-122.443,,3592294.0,1840021543
+5,Klarna,2011-12-12,Sweden,Stockholm,Fintech,"Institutional Venture Partners, Sequoia Capital, General Atlantic",45.6,59.3294,18.0686,primary,972647.0,1752425602
+6,Canva,2018-01-08,Australia,Sydney,Internet software & services,"Sequoia Capital China, Blackbird Ventures, Matrix Partners",40.0,-33.865,151.2094,admin,5312163.0,1036074917
+7,Checkout.com,2019-05-02,United Kingdom,London,Fintech,"Tiger Global Management, Insight Partners, DST Global",40.0,51.5072,-0.1275,primary,10979000.0,1826645935
+8,Instacart,2014-12-30,United States,San Francisco,"Supply chain, logistics, & delivery","Khosla Ventures, Kleiner Perkins Caufield & Byers, Collaborative Fund",39.0,37.7562,-122.443,,3592294.0,1840021543
+9,Databricks,2019-02-05,United States,San Francisco,Data management & analytics,"Andreessen Horowitz, New Enterprise Associates, Battery Ventures",38.0,37.7562,-122.443,,3592294.0,1840021543
+10,Revolut,2018-04-26,United Kingdom,London,Fintech,"index Ventures, DST Global, Ribbit Capital",33.0,51.5072,-0.1275,primary,10979000.0,1826645935
+11,Epic Games,2018-10-26,United States,Cary,Other,"Tencent Holdings, KKR, Smash Ventures",31.5,35.782,-78.8191,,170282.0,1840016196
+12,FTX,2021-07-20,"Bahamas, The",Nassau,Fintech,"Sequoia Capital, Thoma Bravo, Softbank",32.0,25.0667,-77.3333,primary,274400.0,1044318561
+13,Fanatics,2012-06-06,United States,Jacksonville,E-commerce & direct-to-consumer,"SoftBank Group, Andreessen Horowitz, Temasek Holdings",27.0,30.3322,-81.6749,,1181496.0,1840015031
+14,Chime,2019-03-05,United States,San Francisco,Fintech,"Forerunner Ventures, Crosslink Capital, Homebrew",25.0,37.7562,-122.443,,3592294.0,1840021543
+15,BYJU's,2017-07-25,India,Bangalore,Edtech,"Tencent Holdings, Lightspeed India Partners, Sequoia Capital India",22.0,12.9699,77.598,admin,13707000.0,1356410365
+16,Xiaohongshu,2016-03-31,China,Shanghai,E-commerce & direct-to-consumer,"GGV Capital, ZhenFund, Tencent",20.0,31.1667,121.4667,admin,22120000.0,1156073548
+17,J&T Express,2021-04-07,Indonesia,Jakarta,"Supply chain, logistics, & delivery","Hillhouse Capital Management, Boyu Capital, Sequoia Capital China",20.0,-6.2146,106.8451,primary,34540000.0,1360771077
+18,Miro,2022-01-05,United States,San Francisco,Internet software & services,"Accel, AltaIR Capital, Technology Crossover Ventures",17.5,37.7562,-122.443,,3592294.0,1840021543
+19,Yuanfudao,2017-05-31,China,Beijing,Edtech,"Tencent Holdings, Warbug Pincus, IDG Capital",15.5,39.905,116.3914,primary,19433000.0,1156228865
+20,DJI Innovations,2015-01-23,China,Shenzhen,Hardware,"Accel Partners, Sequoia Capital",15.0,22.535,114.054,minor,15929000.0,1156158707
+21,Discord,2018-04-20,United States,San Francisco,Internet software & services,"Benchmark, Greylock Partners, Tencent Holdings",15.0,37.7562,-122.443,,3592294.0,1840021543
+22,goPuff,2020-10-08,United States,Philadelphia,E-commerce & direct-to-consumer,"Accel, Softbank Group, Anthos Capital",15.0,40.0077,-75.1339,,5649300.0,1840000673
+23,Yuanqi Senlin,2020-03-01,China,Beijing,Consumer & retail,"Sequoia Capital China, Longfor Capitalm, Gaorong Capital",15.0,39.905,116.3914,primary,19433000.0,1156228865
+24,Ripple,2019-12-20,United States,San Francisco,Fintech,"IDG Capital, Venture51, Lightspeed Venture Partners",15.0,37.7562,-122.443,,3592294.0,1840021543
+25,Blockchain.com,2021-02-17,United Kingdom,London,Fintech,"Lightspeed Venture Partners, Google Ventures, Lakestar",14.0,51.5072,-0.1275,primary,10979000.0,1826645935
+26,Plaid,2018-12-11,United States,San Francisco,Fintech,"New Enterprise Associates, Spar Capital, Index Ventures",13.5,37.7562,-122.443,,3592294.0,1840021543
+27,OpenSea,2021-07-20,United States,New York,E-commerce & direct-to-consumer,"Andreessen Horowitz, Thirty Five Ventures, Sound Ventures",13.3,40.6943,-73.9249,,18713220.0,1840034016
+28,Grammarly,2019-10-10,United States,San Francisco,Internet software & services,"General Catalyst, Institutional Venture Partners, Breyer Capital",13.0,37.7562,-122.443,,3592294.0,1840021543
+29,Devoted Health,2018-10-16,United States,Waltham,Health,"Andreessen Horowitz, F-Prime Capital, Venrock",12.6,42.3889,-71.2423,,62495.0,1840000428
+30,Faire,2019-10-30,United States,San Francisco,Artificial intelligence,"Khosla Ventures, Forerunner Ventures, Sequoia Capital",12.59,37.7562,-122.443,,3592294.0,1840021543
+31,Brex,2018-10-05,United States,San Francisco,Fintech,"DST Global, Ribbit Capital, Greenoaks Capital Management",12.3,37.7562,-122.443,,3592294.0,1840021543
+32,JUUL Labs,2017-12-20,United States,San Francisco,Consumer & retail,Tiger Global Management,12.0,37.7562,-122.443,,3592294.0,1840021543
+33,Bitmain Technologies,2018-07-06,China,Beijing,Hardware,"Coatue Management, Sequoia Capital China, IDG Capital",12.0,39.905,116.3914,primary,19433000.0,1156228865
+34,Biosplice Therapeutics,2018-08-06,United States,San Diego,Health,"Vickers Venture Partners, IKEA GreenTech",12.0,32.8312,-117.1225,,3220118.0,1840021990
+35,GoodLeap,2021-10-13,United States,Roseville,Internet software & services,"New Enterprise Associates, BDT Capital Partners, Davidson Kempner Capital Management",12.0,38.7703,-121.3196,,141500.0,1840020233
+36,Xingsheng Selected,2020-07-22,China,Changsha,E-commerce & direct-to-consumer,"KKR, Tencent Holdings, Sequoia Capital China",12.0,28.1987,112.9709,admin,8394500.0,1156961497
+37,Deel,2021-04-21,United States,San Francisco,Fintech,"Andreessen Horowitz, Spark Capital, Y Combinator",12.0,37.7562,-122.443,,3592294.0,1840021543
+38,Getir,2021-03-26,Turkey,Istanbul,E-commerce & direct-to-consumer,"Tiger Global Management, Sequoia Capital, Revo Capital",11.8,41.01,28.9603,admin,15154000.0,1792756324
+39,Airtable,2018-11-15,United States,San Francisco,Internet software & services,"Caffeinated Capital, CRV, Founder Collective",11.7,37.7562,-122.443,,3592294.0,1840021543
+40,ZongMu Technology,2021-06-03,China,Shanghai,Auto & transportation,"LTW Capital, Legend Capital, Qualcomm Ventures",11.4,31.1667,121.4667,admin,22120000.0,1156073548
+41,Rippling,2020-08-04,United States,San Francisco,Internet software & services,"Initialized Capital, Y Combinator, Kleiner Perkins Caufield & Byers",11.25,37.7562,-122.443,,3592294.0,1840021543
+42,Global Switch,2016-12-22,United Kingdom,London,Hardware,"Aviation Industry Corporation of China, Essence Financial, Jiangsu Sha Steel Group",11.1,51.5072,-0.1275,primary,10979000.0,1826645935
+43,Celonis,2018-06-26,Germany,Munich,Data management & analytics,"Accel, 83North",11.0,48.1372,11.5755,admin,1471508.0,1276692352
+44,Bolt,2021-10-08,United States,San Francisco,Fintech,"Activant Capital, Tribe Capital, General Atlantic",11.0,37.7562,-122.443,,3592294.0,1840021543
+45,Alchemy,2021-10-28,United States,San Francisco,Fintech,"DFJ Growth Fund, Coatue Management, Addition",10.2,37.7562,-122.443,,3592294.0,1840021543
+46,Weilong,2021-05-08,China,Luohe,Consumer & retail,"Tencent Holdings, Hillhouse Capital Management, Yunfeng Capital",10.88,33.583,114.0109,minor,2500000.0,1156330876
+47,Swiggy,2018-06-21,India,Bangalore,"Supply chain, logistics, & delivery","Accel India, SAIF Partners, Norwest Venture Partners",10.7,12.9699,77.598,admin,13707000.0,1356410365
+48,Lalamove,2019-02-21,Hong Kong,Hong Kong,"Supply chain, logistics, & delivery","MindWorks Ventures, Shunwei Capital Partners, Xiang He Capital",10.0,22.305,114.185,primary,7347000.0,1344982653
+49,Figma,2020-04-30,United States,San Francisco,Internet software & services,"Index Ventures, Greylock Partners, Kleiner Perkins Caufield & Byers",10.0,37.7562,-122.443,,3592294.0,1840021543
+50,Gusto,2015-12-18,United States,San Francisco,Fintech,"General Catalyst Partners, Google Ventures, Kleiner Perkins Caufield & Byers",10.0,37.7562,-122.443,,3592294.0,1840021543
+51,Chehaoduo,2016-03-12,China,Beijing,E-commerce & direct-to-consumer,"Sequoia Capital China, GX Capital",10.0,39.905,116.3914,primary,19433000.0,1156228865
+52,reddit,2017-07-31,United States,San Francisco,Internet software & services,"Y Combinator, Sequoia Capital, Coatue Management",10.0,37.7562,-122.443,,3592294.0,1840021543
+53,Talkdesk,2018-10-03,United States,San Francisco,Internet software & services,"DJF, Salesforce Ventures, Storm Ventures",10.0,37.7562,-122.443,,3592294.0,1840021543
+54,Notion Labs,2020-04-01,United States,San Francisco,Internet software & services,"Index Ventures, Draft Ventures, Felicis Ventures",10.0,37.7562,-122.443,,3592294.0,1840021543
+55,Thrasio,2020-07-15,United States,Walpole,Other,"Upper90, RiverPark Ventures, Advent International",10.0,42.1465,-71.2555,,25129.0,1840053559
+56,Digital Currency Group,2021-11-01,United States,New York,Fintech,"Ribbit Capital, capitalG, Softbank Group",10.0,40.6943,-73.9249,,18713220.0,1840034016
+57,KuCoin,2022-05-10,Seychelles,Victoria,Fintech,"IDG Capital, Matrix Partners China, Jump Crypto",10.0,-4.6236,55.4544,primary,26450.0,1690193579
+58,OutSystems,2018-06-05,United States,Boston,Internet software & services,"KKR, ES Ventures, North Bridge Growth Equity",9.5,42.3188,-71.0846,admin,4688346.0,1840000455
+59,ServiceTitan,2018-11-14,United States,Glendale,Internet software & services,"Bessemer Venture Partners, ICONIQ Capital, Battery Ventures",9.5,33.5791,-112.2311,,252381.0,1840020563
+60,HEYTEA,2019-07-01,China,Shenzhen,Other,"Sequoia Capital China, Tencent Investment, BA Capital",9.28,22.535,114.054,minor,15929000.0,1156158707
+61,N26,2019-01-10,Germany,Berlin,Fintech,"Redalpine Venture Partners, Earlybird Venture Capital, Valar Ventures",9.23,52.5167,13.3833,primary,3644826.0,1276451290
+62,Klaviyo,2020-11-17,United States,Boston,Internet software & services,"Summit Partners, Accel, Astral Capital",9.2,42.3188,-71.0846,admin,4688346.0,1840000455
+63,Northvolt,2019-06-12,Sweden,Stockholm,Other,"Vattenfall, Volkswagen Group, Goldman Sachs",9.08,59.3294,18.0686,primary,972647.0,1752425602
+64,Tanium,2015-03-31,United States,Kirkland,Cybersecurity,"Andreessen Horowitz, Nor-Cal Invest, TPG Growth",9.0,47.6974,-122.2054,,93010.0,1840019836
+65,Niantic,2017-11-24,United States,San Francisco,Mobile & telecommunications,"Nintendo, Google, Pokemon Company International, Spark Capital",9.0,37.7562,-122.443,,3592294.0,1840021543
+66,OYO Rooms,2018-09-25,India,Gurgaon,Travel,"SoftBank Group, Sequoia Capital India,Lightspeed India Partners",9.0,28.45,77.02,,197340.0,1356836043
+67,Rapyd,2019-12-03,United Kingdom,London,Fintech,"Target Global, General Catalyst, Durable Capital Partners",8.75,51.5072,-0.1275,primary,10979000.0,1826645935
+68,Kavak,2020-10-01,Mexico,Lerma,E-commerce & direct-to-consumer,"DST Global, SoftBank Group, Mountain Nazca",8.7,19.2847,-99.5119,minor,105578.0,1484402392
+69,Snyk,2020-01-21,United States,Boston,Cybersecurity,"BOLDstart Ventures, Google Ventures, Accel",8.6,42.3188,-71.0846,admin,4688346.0,1840000455
+70,Nuro,2019-02-11,United States,Mountain View,Auto & transportation,"SoftBank Group, Greylock Partners, Gaorong Capital",8.6,37.4,-122.0796,,82739.0,1840020332
+71,Chainalysis,2020-11-23,United States,New York,Fintech,"Addition, Benhcmark, Accel",8.6,40.6943,-73.9249,,18713220.0,1840034016
+72,Pony.ai,2018-07-11,United States,Fremont,Artificial intelligence,"Sequoia Capital China, IDG Capital, DCM Ventures",8.5,37.5265,-121.9852,,241110.0,1840020292
+73,Bolt,2018-05-29,Estonia,Tallinn,Auto & transportation,"Didi Chuxing, Diamler, TMT Investments",8.4,59.4372,24.745,primary,438341.0,1233260021
+74,Lacework,2021-01-07,United States,San Jose,Cybersecurity,"Sutter Hill Ventures, Liberty Global Ventures, Coatue Management",8.3,37.3019,-121.8486,,1798103.0,1840021570
+75,Tipalti,2020-10-06,United States,San Mateo,Fintech,"01 Advisors, Zeev Ventures, Group 11",8.3,37.5521,-122.3122,,104430.0,1840021551
+76,Tempus,2018-03-21,United States,Chicago,Health,"New Enterprise Associates, T. Rowe Associates, Lightbank",8.1,41.8373,-87.6862,,8604203.0,1840000494
+77,Ramp,2021-03-29,United States,New York,Fintech,"D1 Capital Partners, Stripe, Coatue Management",8.1,40.6943,-73.9249,,18713220.0,1840034016
+78,Dream11,2019-04-09,India,Mumbai,Internet software & services,"Kaalari Capital, Tencent Holdings, Steadview Capital",8.0,18.9667,72.8333,admin,23355000.0,1356226629
+79,Fireblocks,2021-07-27,United States,New York,Fintech,"Tenaya Capital, Coatue Management, Stripes Group",8.0,40.6943,-73.9249,,18713220.0,1840034016
+80,Flexport,2018-04-30,United States,San Francisco,"Supply chain, logistics, & delivery","Bloomberg Beta, Founders Fund, First Round Capital",8.0,37.7562,-122.443,,3592294.0,1840021543
+81,Caris Life Sciences,2021-05-12,United States,Irving,Health,"Sixth Street Partners, OrbiMed Advisors, Highland Capital Management",7.83,32.8584,-96.9702,,239798.0,1840019438
+82,Dapper Labs,2021-03-30,Canada,Vancouver,Fintech,"Union Square Ventures, Venrock, Andreessen Horowitz",7.6,49.25,-123.1,,2264823.0,1124825478
+83,Hopin,2020-11-10,United Kingdom,London,Internet software & services,"Accel, Northzone Ventures, Institutional Venture Partners",7.75,51.5072,-0.1275,primary,10979000.0,1826645935
+84,Netskope,2018-11-13,United States,Santa Clara,Cybersecurity,"Lightspeed Venture Partners, Social Capital, Accel",7.5,37.3645,-121.968,,130365.0,1840021571
+85,Razorpay,2020-10-11,India,Bangalore,Fintech,"Sequoia Capital India, Tiger Global Management, Matrix Partners India",7.5,12.9699,77.598,admin,13707000.0,1356410365
+86,Automattic,2013-05-27,United States,San Francisco,Internet software & services,"Insight Venture Partners, Lowercase Capital, Polaris Partners",7.5,37.7562,-122.443,,3592294.0,1840021543
+87,Toss,2018-12-09,"Korea, South",Seoul,Fintech,"Bessemer Venture Partners, Qualcomm Ventures, Kleiner Perkins Caufield & Byers",7.4,37.56,126.99,primary,21794000.0,1410836482
+88,Carta,2019-05-06,United States,San Francisco,Fintech,"Menlo Ventures, Spark Capital, Union Square Ventures",7.4,37.7562,-122.443,,3592294.0,1840021543
+89,Scale AI,2019-08-05,United States,San Francisco,Artificial intelligence,"Accel, Y Combinator, Index Ventures",7.3,37.7562,-122.443,,3592294.0,1840021543
+90,Argo AI,2019-07-12,United States,Pittsburgh,Artificial intelligence,"Volkswagen Group, Ford Autonomous Vehicles",7.25,40.4396,-79.9762,,1703266.0,1840001254
+91,Gong,2020-08-12,United States,Palo Alto,Artificial intelligence,"Norwest Venture Partners, Next World Capital, Wing Venture Capital",7.25,37.3913,-122.1468,,65364.0,1840020333
+92,TripActions,2018-11-08,United States,Palo Alto,Travel,"Andreessen Horowitz, Lightspeed Venture Partners, Zeev Ventures",7.25,37.3913,-122.1468,,65364.0,1840020333
+93,Gemini,2021-11-19,United States,New York,Fintech,"Morgan Creek Digital, Marcy Venture Partners, 10T Fund",7.1,40.6943,-73.9249,,18713220.0,1840034016
+94,We Doctor,2015-09-22,China,Hangzhou,Health,"Tencent, Morningside Group",7.0,30.25,120.1675,admin,6446000.0,1156275243
+95,Ro,2020-07-27,United States,New York,Health,"Initialized Capital, General Catalyst, SignalFire",7.0,40.6943,-73.9249,,18713220.0,1840034016
+96,ConsenSys,2021-11-17,United States,New York,Fintech,"Third Point, Electric Capital, Coinbase Ventures",7.0,40.6943,-73.9249,,18713220.0,1840034016
+97,Automation Anywhere,2018-07-02,United States,San Jose,Artificial intelligence,"General Atlantic, Goldman Sachs, New Enterprise Associates",6.8,37.3019,-121.8486,,1798103.0,1840021570
+98,1Password,2021-07-08,Canada,Toronto,Cybersecurity,"Slack Fund, Accel, Skip Capital",6.8,43.7417,-79.3733,,5429524.0,1124279679
+99,Ziroom,2018-01-17,China,Beijing,E-commerce & direct-to-consumer,"Sequoia Capital China, Warburg Pincus, General Catalyst",6.6,39.905,116.3914,primary,19433000.0,1156228865
+100,SVOLT,2020-06-08,China,Changzhou,Auto & transportation,"IDG Capital, Bank Of China Group Investment,, SDIC CMC Investment Management",6.51,31.8122,119.9692,minor,4592431.0,1156185511
+101,National Stock Exchange of India,2020-07-01,India,Mumbai,Fintech,"TA Associates, SoftBank Group, GS Growth",6.5,18.9667,72.8333,admin,23355000.0,1356226629
+102,Mollie,2020-09-08,Netherlands,Amsterdam,Fintech,Technology Crossover Ventures,6.5,52.3667,4.8833,primary,862965.0,1528355309
+103,Ola Cabs,2014-10-27,India,Bangalore,Auto & transportation,"Accel Partners, SoftBank Group, Sequoia Capital",7.5,12.9699,77.598,admin,13707000.0,1356410365
+104,Doctolib,2019-03-19,France,Paris,Health,"BPI France, Kerala Ventures, Accel",6.4,48.8566,2.3522,primary,11020000.0,1250015082
+105,DataRobot,2019-07-29,United States,Boston,Artificial intelligence,"New Enterprise Associates, Accomplice, IA Ventures",6.3,42.3188,-71.0846,admin,4688346.0,1840000455
+106,Personio,2021-01-19,Germany,Munich,Internet software & services,"Global Founders Capital, Nortzone Ventures, Picus Capital",6.3,48.1372,11.5755,admin,1471508.0,1276692352
+107,Upgrade,2018-02-12,United States,San Francisco,Fintech,"Union Square Ventures, Ribbit Capital, VY Capital",6.28,37.7562,-122.443,,3592294.0,1840021543
+108,Hinge Health,2021-01-06,United States,San Francisco,Health,"Atomico, Insight Partners, Coatue Management",6.2,37.7562,-122.443,,3592294.0,1840021543
+109,Black Unicorn Factory,2021-05-20,United States,Los Angeles,Other,Barter Ventures,6.1,34.1139,-118.4068,,12750807.0,1840020491
+110,Benchling,2021-04-14,United States,San Francisco,Internet software & services,"Thrive Capital, Benchmark, MenloVentures",6.1,37.7562,-122.443,,3592294.0,1840021543
+111,Royole Corporation,2015-08-18,China,Shenzhen,Hardware,"Warmsun Holding, IDG Capital Partners",6.0,22.535,114.054,minor,15929000.0,1156158707
+112,Better.com,2020-11-10,United States,New York,Fintech,"Pine Brook, American Express Ventures, Kleiner Perkins Caufield & Byers",6.0,40.6943,-73.9249,,18713220.0,1840034016
+113,Wiz,2021-03-17,Israel,Tel Aviv-Yafo,Cybersecurity,"Insight Partners, Sequoia Capital, Index Ventures",6.0,32.08,34.78,admin,451523.0,1376401542
+114,iCapital Network,2021-07-27,United States,New York,Fintech,"BlackRock, Blackstone, UBS",6.0,40.6943,-73.9249,,18713220.0,1840034016
+115,6Sense,2021-03-30,United States,San Francisco,Artificial intelligence,"Venrock, Battery Ventures, Insight Partners",5.2,37.7562,-122.443,,3592294.0,1840021543
+116,Attentive,2020-09-23,United States,Hoboken,Mobile & telecommunications,"NextView Ventures, Eniac Ventures, Sequoia Capital",5.99,40.7453,-74.0279,,52677.0,1840003599
+117,Easyhome,2018-02-12,China,Beijing,Consumer & retail,"Alibaba Group, Boyu Capital, Borui Capital",5.78,39.905,116.3914,primary,19433000.0,1156228865
+118,Lianjia,2016-04-07,China,Beijing,E-commerce & direct-to-consumer,"Tencent, Baidu, Huasheng Capital",5.77,39.905,116.3914,primary,19433000.0,1156228865
+119,Vice Media,2011-04-02,United States,Brooklyn,Internet software & services,"Technology Crossover Ventures, A&E Television Networks",5.7,40.6501,-73.9496,,2559903.0,1840034030
+120,Cityblock Health,2020-12-10,United States,Brooklyn,Health,"Thrive Capital, Maverick Ventures, Redpoint Ventures",5.7,40.6501,-73.9496,,2559903.0,1840034030
+121,Workato,2021-01-12,United States,Mountain View,Internet software & services,"Battery Ventures, Storm Ventures, Redpoint Ventures",5.7,37.4,-122.0796,,82739.0,1840020332
+122,Back Market,2021-05-18,France,Paris,E-commerce & direct-to-consumer,"Aglae Ventures, Eurazeo, Daphni",5.7,48.8566,2.3522,primary,11020000.0,1250015082
+123,RELEX,2022-02-17,Finland,Helsinki,"Supply chain, logistics, & delivery","Blackstone, Technology Crossover Ventures, Summit Partners",5.7,60.1756,24.9342,primary,642045.0,1246177997
+124,The Boring Company,2022-04-20,United States,Pflugerville,Other,"VY Capital, 8VC, Craft Ventures",5.7,30.452,-97.6022,,65380.0,1840020892
+125,Postman,2020-06-11,United States,San Francisco,Internet software & services,"Nexus Venture Partners, CRV, Insight Partners",5.6,37.7562,-122.443,,3592294.0,1840021543
+126,FiveTran,2020-06-30,United States,Oakland,Data management & analytics,"Matrix Partners, Andreessen Horowitz, General Catalyst",5.6,37.7903,-122.2165,,433031.0,1840020296
+127,Trade Republic,2021-05-20,Germany,Berlin,Fintech,"Founders Fund. Accel, Creandum",5.36,52.5167,13.3833,primary,3644826.0,1276451290
+128,Rappi,2018-08-31,Colombia,Bogota,"Supply chain, logistics, & delivery","DST Global, Andreessen Horowitz, Sequoia Capital, Redpoint e.ventures",5.25,4.6126,-74.0705,primary,9464000.0,1170483426
+129,Collibra,2019-01-29,Belgium,Brussels,Data management & analytics,"Index Ventures, Battery Ventures, ICONIQ Capital",5.25,50.8333,4.3333,primary,1743000.0,1056469830
+130,OneTrust,2019-07-11,United States,Atlanta,Internet software & services,Insight Partners,5.1,33.7627,-84.4224,admin,5449398.0,1840013660
+131,QuintoAndar,2019-09-09,Brazil,Campinas,E-commerce & direct-to-consumer,"Kaszek Ventures, General Atlantic, SoftBank Group",5.1,-22.9009,-47.0573,,1164098.0,1076145766
+132,C6 Bank,2020-12-02,Brazil,Sao Paulo,Fintech,Credit Suisse,5.05,-23.5504,-46.6339,admin,22046000.0,1076532519
+133,United Imaging Healthcare,2017-09-15,China,Shanghai,Health,"China Life Insurance, China Development Bank Capital, CITIC Securities International",5.0,31.1667,121.4667,admin,22120000.0,1156073548
+134,Hello TransTech,2018-06-01,China,Shanghai,Auto & transportation,"Ant Financial Services Group, GGV Capital",5.0,31.1667,121.4667,admin,22120000.0,1156073548
+135,Airwallex,2019-03-25,Australia,Melbourne,Fintech,"DST Global, Sequoia Capital China, Tencent Holdings",5.5,-37.8136,144.9631,admin,5078193.0,1036533631
+136,Mambu,2021-01-06,Netherlands,Amsterdam,Fintech,"Runa Capital, Acton Capital Partners, Point Nine Capital",5.5,52.3667,4.8833,primary,862965.0,1528355309
+137,Horizon Robotics,2019-02-27,China,Beijing,Artificial intelligence,"Hillhouse Capital Management, Linear Venture, Morningside Venture Capital",5.0,39.905,116.3914,primary,19433000.0,1156228865
+138,WM Motor,2019-03-08,China,Shanghai,Auto & transportation,"Baidu Capital, Linear Venture, Tencent",5.0,31.1667,121.4667,admin,22120000.0,1156073548
+139,Howden Group Holdings,2020-09-29,United Kingdom,London,Other,"General Atlantic, 3i Group, Huagai Capital",5.0,51.5072,-0.1275,primary,10979000.0,1826645935
+140,SambaNova Systems,2021-04-13,United States,Palo Alto,Data management & analytics,"Walden International, Google Ventures, Intel Capital",5.0,37.3913,-122.1468,,65364.0,1840020333
+141,ZEPZ,2021-08-23,United Kingdom,London,Fintech,"Accel, Technology Crossover Ventures, LeapFrog Investments",5.0,51.5072,-0.1275,primary,10979000.0,1826645935
+142,OakNorth Bank,2017-10-12,United Kingdom,London,Fintech,"Clermont Group, Coltrane Asset Management, Toscafund Asset Management",5.0,51.5072,-0.1275,primary,10979000.0,1826645935
+143,Moon Active,2020-01-26,Israel,Tel Aviv-Yafo,Mobile & telecommunications,"Insight Partners, Andalusian Capital Partners",5.0,32.08,34.78,admin,451523.0,1376401542
+144,OfBusiness,2021-07-31,India,Gurgaon,E-commerce & direct-to-consumer,"Matrix Partners India, Falcon Edge Capital, SoftBank Group",5.0,28.45,77.02,,197340.0,1356836043
+145,Cockroach Labs,2021-01-12,United States,New York,Data management & analytics,"Google Ventures, Benchmark, FirstMark Capital",5.0,40.6943,-73.9249,,18713220.0,1840034016
+146,Pine Labs,2020-01-24,India,New Delhi,Fintech,"Sequoia Capital India, Temasek, PayPal Ventures",5.0,28.7,77.2,primary,142004.0,1356215164
+147,Qonto,2022-01-11,France,Paris,Fintech,"Alven Capital, Valar Ventures, Tencent Holdings",5.0,48.8566,2.3522,primary,11020000.0,1250015082
+148,Ola Electric Mobility,2019-07-02,India,Bangalore,Auto & transportation,"SoftBank Group, Tiger Global Management, Matrix Partners India",5.0,12.9699,77.598,admin,13707000.0,1356410365
+149,Icertis,2019-07-17,United States,Bellevue,Artificial intelligence,"Eight Roads Ventures, Greycroft, Ignition Partners",5.0,47.5951,-122.1535,,148164.0,1840018417
+150,Hopper,2021-03-24,Canada,Montreal,Travel,"Capital One Growth Ventures, Citi Ventures, OMERS Ventures",5.0,45.5089,-73.5617,,3519595.0,1124586170
+151,VerSe Innovation(Dailyhunt),2020-12-22,India,Bangalore,Internet software & services,"Falcon Edge Capital, Omidyar Network, Sequoia Capital India",5.0,12.9699,77.598,admin,13707000.0,1356410365
+152,ShareChat,2021-04-08,India,Bangalore,Internet software & services,"India Quotient, Elevation Capital, Lightspeed Venture Partners",5.0,12.9699,77.598,admin,13707000.0,1356410365
+153,Meesho,2021-04-05,India,Bangalore,Internet software & services,"Venture Highway, Sequoia Capital India, Prosus Ventures",4.9,12.9699,77.598,admin,13707000.0,1356410365
+154,Cerebral,2021-06-10,United States,San Francisco,Health,"Oak HC/FT Partners, Artis Ventures, WestCap Group",4.8,37.7562,-122.443,,3592294.0,1840021543
+155,Creditas,2020-12-18,Brazil,Sao Paulo,Fintech,"Kaszek Ventures, Amadeus Capital Partners, Quona Capital",4.8,-23.5504,-46.6339,admin,22046000.0,1076532519
+156,Reify Health,2021-08-10,United States,Boston,Health,"Sierra Ventures, Battery Ventures, Asset Management Ventures",4.8,42.3188,-71.0846,admin,4688346.0,1840000455
+157,Chipone,2021-12-16,China,Beijing,Hardware,"China Grand Prosperity Investment, Silk Road Huacheng, Oriza Equity Investment",4.73,39.905,116.3914,primary,19433000.0,1156228865
+158,BetterUp,2021-02-25,United States,San Francisco,Internet software & services,"Threshold Ventures, Lightspeed Venture Partners, Crosslink Capital",4.7,37.7562,-122.443,,3592294.0,1840021543
+159,Pleo,2021-07-06,Denmark,Copenhagen,Fintech,"Creandum, Founders, Kinnevik",4.7,55.6761,12.5689,primary,602481.0,1208763942
+160,SonarSource,2022-04-26,Switzerland,Geneva,Internet software & services,"Advent International,General Catalyst,Insight Partners",4.7,46.2,6.15,admin,201818.0,1756810813
+161,Anduril,2019-09-11,United States,Irvine,Artificial intelligence,"Andreessen Horowitz, Founders Fund, Revolution Ventures",4.6,33.6772,-117.7738,,287401.0,1840019325
+162,Lyra Health,2020-08-25,United States,Burlingame,Health,"Greylock Partners, Venrock, Providence Ventures",5.85,37.586,-122.3669,,30889.0,1840018925
+163,Dataiku,2019-12-04,United States,New York,Internet software & services,"Alven Capital, FirstMark Capital, capitalG",4.6,40.6943,-73.9249,,18713220.0,1840034016
+164,Checkr,2019-09-19,United States,San Francisco,Internet software & services,"Y Combinator, Accel, T. Rowe Price",4.6,37.7562,-122.443,,3592294.0,1840021543
+165,Color,2021-01-04,United States,Burlingame,Health,"General Catalyst, Viking Global Investors, T. Rowe Price",4.6,37.586,-122.3669,,30889.0,1840018925
+166,Meizu Technology,2014-07-23,China,Zhuhai,Hardware,"Telling Telecommunication Holding Co., Alibaba Group",4.58,22.2769,113.5678,minor,1891100.0,1156722242
+167,Lendable,2021-03-31,United Kingdom,London,Fintech,"Ontario Teachers' Pension Plan, Goldman Sachs",4.58,51.5072,-0.1275,primary,10979000.0,1826645935
+168,Vinted,2019-11-27,Lithuania,Vilnius,E-commerce & direct-to-consumer,"Accel, Insight Partners, Burda Principal Investments",4.53,54.6833,25.2833,primary,574147.0,1440887149
+169,VIPKid,2016-08-04,China,Beijing,Edtech,"Sequoia Capital China, Tencent Holdings, Sinovation Ventures",4.5,39.905,116.3914,primary,19433000.0,1156228865
+170,Socure,2021-03-16,United States,New York,Cybersecurity,"Two Sigma Ventures, Flint Capital, Commerce Ventures",4.5,40.6943,-73.9249,,18713220.0,1840034016
+171,Monzo,2018-10-31,United Kingdom,London,Fintech,"Passion Capital, Thrive Capital, Orange Digital Ventures",4.5,51.5072,-0.1275,primary,10979000.0,1826645935
+172,UBTECH Robotics,2016-07-25,China,Shenzhen,Hardware,"CDH Investments, Goldstone Investments, Qiming Venture Partners",4.58,22.535,114.054,minor,15929000.0,1156158707
+173,Outreach,2019-04-16,United States,Seattle,Internet software & services,"Mayfield Fund, M12, Trinity Ventures",4.4,47.6211,-122.3244,,3789215.0,1840021117
+174,WeRide,2020-12-23,China,Guangzhou,Auto & transportation,"Atop Capital, IDInvest Partners, Qiming Venture Partners",4.4,23.1288,113.259,admin,20902000.0,1156237133
+175,Guild Education,2019-11-13,United States,Denver,Internet software & services,"General Atlantic, Blackstone, ICONIQ Growth",4.4,39.7621,-104.8759,admin,2876625.0,1840018789
+176,Arctic Wolf Networks,2020-10-22,United States,Eden Prairie,Cybersecurity,"Lightspeed Venture Partners, Redpoint Ventures, Viking Global Investors",4.3,44.8488,-93.4595,,64893.0,1840007821
+177,Sorare,2021-09-21,France,Paris,E-commerce & direct-to-consumer,"Benchmark, Accel, SoftBank Group",4.3,48.8566,2.3522,primary,11020000.0,1250015082
+178,Relativity Space,2020-11-23,United States,Inglewood,Other,"Playground Global, Bond, Tribe Capital",4.2,33.9566,-118.3444,,108151.0,1840019237
+179,Miaoshou Doctor,2019-06-27,China,Beijing,E-commerce & direct-to-consumer,"Sequoia Capital China, Qiming Venture Partners, Tencent Holdings",4.25,39.905,116.3914,primary,19433000.0,1156228865
+180,ThoughtSpot,2018-05-08,United States,Sunnyvale,Internet software & services,"Lightspeed Venture Partners, Khosla Ventures, Geodesic Capital",4.2,37.3836,-122.0256,,152703.0,1840021573
+181,Globalization Partners,2022-01-24,United States,Boston,Internet software & services,"Vista Equity Partners, Wincove, TDR Capital",4.2,42.3188,-71.0846,admin,4688346.0,1840000455
+182,dbt Labs,2021-06-30,United States,Philadelphia,Data management & analytics,"Andreessen Horowitz, Amplify Partners, Sequoia Capital",4.2,40.0077,-75.1339,,5649300.0,1840000673
+183,SSENSE,2021-06-08,Canada,Montreal,E-commerce & direct-to-consumer,Sequoia Capital,4.15,45.5089,-73.5617,,3519595.0,1124586170
+184,Dataminr,2018-06-04,United States,New York,Artificial intelligence,"Venrock, Institutional Venture Partners, Goldman Sachs",4.1,40.6943,-73.9249,,18713220.0,1840034016
+185,BitPanda,2021-03-16,Austria,Vienna,Fintech,"Speedinvest, Valar Ventures, Uniqa Ventures",4.11,48.2083,16.3731,primary,1911191.0,1040261752
+186,Weee!,2021-03-16,United States,Fremont,"Supply chain, logistics, & delivery","Goodwater Capital, iFly, XVC Venture Capital",4.1,37.5265,-121.9852,,241110.0,1840020292
+187,Houzz,2014-09-30,United States,Palo Alto,E-commerce & direct-to-consumer,"New Enterprise Associates, Sequoia Capital, Comcast Ventures",4.0,37.3913,-122.1468,,65364.0,1840020333
+188,CRED,2021-04-06,India,Bangalore,Fintech,"Tiger Global Management, DST Global, Sequoia Capital India",4.01,12.9699,77.598,admin,13707000.0,1356410365
+189,Yello Mobile,2014-11-11,"Korea, South",Seoul,Mobile & telecommunications,Formation 8,4.0,37.56,126.99,primary,21794000.0,1410836482
+190,MEGVII,2017-10-31,China,Beijing,Artificial intelligence,"Ant Financial Services Group, Russia-China Investment Fund, Foxconn Technology Company",4.0,39.905,116.3914,primary,19433000.0,1156228865
+191,Greensill,2018-07-16,United Kingdom,London,Fintech,"SoftBank Group, General Atlantic",4.0,51.5072,-0.1275,primary,10979000.0,1826645935
+192,Impossible Foods,2019-05-13,United States,Redwood City,Consumer & retail,"Khosla Ventures, Horizons Ventures, Temasek Holdings",4.0,37.5026,-122.2252,,85925.0,1840020304
+193,Radiology Partners,2018-02-26,United States,El Segundo,Health,"New Enterprise Associates, Starr Investment Holdings",4.0,33.9169,-118.4021,,16610.0,1840020481
+194,Next Insurance,2019-10-07,United States,Palo Alto,Fintech,"Zeev Ventures, Ribbit Capital, TLV Partners",4.0,37.3913,-122.1468,,65364.0,1840020333
+195,Patreon,2020-09-02,United States,San Francisco,Internet software & services,"Index Ventures, Thrive Capital, CRV",4.0,37.7562,-122.443,,3592294.0,1840021543
+196,PointClickCare,2021-01-07,Canada,Mississauga,Internet software & services,"Dragoneer Investment Group, Hellman & Friedman, JMI Equity",4.0,43.6,-79.65,,721599.0,1124112672
+197,Zapier,2021-01-14,United States,Sunnyvale,Internet software & services,"Sequoia Capital, Bessemer Venture Partners, Threshold Ventures",4.0,37.3836,-122.0256,,152703.0,1840021573
+198,Clubhouse,2021-01-24,United States,San Francisco,Mobile & telecommunications,"Andreessen Horowitz, TQ Ventures",4.0,37.7562,-122.443,,3592294.0,1840021543
+199,BrowserStack,2021-06-16,Ireland,Dublin,Internet software & services,"Accel, Insight Partners, Bond Capital",4.0,53.3497,-6.2603,primary,1173179.0,1372595407
+200,Olive,2020-12-01,United States,Columbus,Internet software & services,"Drive Capital, General Catalyst, Ascension Ventures",4.0,39.9862,-82.985,admin,1562009.0,1840003760
+201,Rubrik,2017-04-28,United States,Palo Alto,Data management & analytics,"Greylock Partners, Lightspeed Venture Partners, Khosla Ventures",4.0,37.3913,-122.1468,,65364.0,1840020333
+202,Melio,2021-01-25,United States,New York,Fintech,"Accel, Aleph, American Express Ventures",4.0,40.6943,-73.9249,,18713220.0,1840034016
+203,Vuori,2021-10-13,United States,Carlsbad,E-commerce & direct-to-consumer,"SoftBank Group, Norwest Venture Partners",4.0,33.1247,-117.2837,,115382.0,1840019352
+204,ClickUp,2020-12-15,United States,San Diego,Internet software & services,"Georgian Partners, Craft Ventures",4.0,32.8312,-117.1225,,3220118.0,1840021990
+205,Cerebras Systems,2018-11-14,United States,Los Altos,Hardware,"Benchmark, Foundation Capital, Sequoia Capital",4.0,37.3685,-122.0966,,30089.0,1840020328
+206,Farmers Business Network,2020-08-03,United States,San Carlos,Other,"Blackrock, Kleiner Perkins Caulfield & Byers, Google Ventures",4.0,37.4982,-122.268,,30185.0,1840021550
+207,Branch,2018-09-10,United States,Redwood City,Mobile & telecommunications,"New Enterprise Associates, Pear, Cowboy Ventures",4.0,37.5026,-122.2252,,85925.0,1840020304
+208,Aurora Solar,2021-05-24,United States,San Francisco,Internet software & services,"Fifth Wall Ventures, Energize Ventures, 	ICONIQ Capital",4.0,37.7562,-122.443,,3592294.0,1840021543
+209,Webflow,2021-01-13,United States,San Francisco,Internet software & services,"Accel, Silversmith Capital Partners, capitalG",4.0,37.7562,-122.443,,3592294.0,1840021543
+210,Yuga Labs,2022-03-22,United States,Miami,Fintech,"Andreessen Horowitz, Thrive Capital, Sound Ventures",4.0,25.7839,-80.2102,,6445545.0,1840015149
+211,Digit Insurance,2021-01-15,India,Bangalore,Fintech,"Fairfax Financial Holdings, A91 Partners, TVS Capital",4.0,12.9699,77.598,admin,13707000.0,1356410365
+212,Abnormal Security,2022-05-10,United States,San Francisco,Cybersecurity,"Greylock Partners, Insight Partners,Menlo Ventures",4.0,37.7562,-122.443,,3592294.0,1840021543
+213,Medlinker,2018-07-31,China,Chengdu,Health,"China Health Industry Investment Fund, China Renaissance, and Sequoia Capital China",3.92,30.66,104.0633,admin,11309000.0,1156421555
+214,Intarcia Therapeutics,2014-04-01,United States,Boston,Health,"New Enterprise Associates, New Leaf Venture Partners, Charter Venture Capital",3.8,42.3188,-71.0846,admin,4688346.0,1840000455
+215,StockX,2019-06-26,United States,Detroit,E-commerce & direct-to-consumer,"Google Ventures, Battery Ventures, DST Global",3.8,42.3834,-83.1024,,3506126.0,1840003971
+216,MessageBird,2020-10-08,Netherlands,Amsterdam,Mobile & telecommunications,"Y Combinator, Atomico, Accel",3.8,52.3667,4.8833,primary,862965.0,1528355309
+217,Convoy,2018-09-21,United States,Seattle,"Supply chain, logistics, & delivery","Greylock Partners, capitalG, Y Combinator",3.8,47.6211,-122.3244,,3789215.0,1840021117
+218,Articulate,2021-07-01,United States,New York,Edtech,"Blackstone, ICONIQ Growth, General Atlantic",3.75,40.6943,-73.9249,,18713220.0,1840034016
+219,FalconX,2021-08-10,United States,San Mateo,Fintech,"Tiger Global Management, American Express Ventures, B Capital Group",3.75,37.5521,-122.3122,,104430.0,1840021551
+220,Dutchie,2021-03-16,United States,Bend,E-commerce & direct-to-consumer,"Casa Verde Capital, Gron Ventures, Thrity Five Ventures",3.75,44.0562,-121.3087,,109802.0,1840018618
+221,Cohesity,2018-06-11,United States,San Jose,Data management & analytics,"SoftBank Group, Sequoia Capital, Wing Venture Capital",3.7,37.3019,-121.8486,,1798103.0,1840021570
+222,VAST Data,2020-04-16,United States,New York,Data management & analytics,"Norwest Venture Partners, Goldman Sachs, Dell Technologies Capital",3.7,40.6943,-73.9249,,18713220.0,1840034016
+223,GOAT,2020-09-23,United States,Culver City,E-commerce & direct-to-consumer,"Upfront Ventures, Webb Investment Network, D1 Capital Partners",3.7,34.0058,-118.3968,,39185.0,1840019243
+224,Noom,2021-05-24,United States,New York,Health,"Qualcomm Ventures, Samsung Ventures, Silver Lake",3.7,40.6943,-73.9249,,18713220.0,1840034016
+225,Redwood Materials,2021-07-28,United States,Carson City,Other,"Breakthrough Energy Ventures, Capricorn Investment Group, Valor Equity Partners",3.7,39.1512,-119.7474,admin,58756.0,1840003826
+226,Papaya Global,2021-03-04,United States,New York,Internet software & services,"Bessemer Venture Partners, Insight Partners, New Era Ventures",3.7,40.6943,-73.9249,,18713220.0,1840034016
+227,Abogen,2021-11-29,China,Suzhou,Health,"Hillhouse Capital Management, SoftBank Group, Qiming Venture Partners",3.7,33.6333,116.9683,,5690000.0,1156871297
+228,Harness,2021-01-14,United States,San Francisco,Artificial intelligence,"Menlo Ventures, Alkeon Capital Management, Citi Ventures",3.7,37.7562,-122.443,,3592294.0,1840021543
+229,Autograph,2022-01-20,United States,Santa Monica,Internet software & services,01 Advisors. Kleiner Perkins Caufield & Byers. Andreessen Horowitz,3.66,34.0232,-118.4813,,90401.0,1840021866
+230,Relativity,2021-03-18,United States,Chicago,Internet software & services,"Silver Lake, ICONIQ Capital",3.6,41.8373,-87.6862,,8604203.0,1840000494
+231,Whoop,2020-10-28,United States,Boston,E-commerce & direct-to-consumer,"NextView Ventures, Promus Ventures, Two Sigma Ventures",3.6,42.3188,-71.0846,admin,4688346.0,1840000455
+232,Applied Intuition,2020-10-22,United States,Sunnyvale,Data management & analytics,"Andreessen Horowitz, Lux Capital, General Catalyst",3.6,37.3836,-122.0256,,152703.0,1840021573
+233,Course Hero,2020-02-12,United States,Redwood City,Edtech,"NewView Capital, Maveron, Ridge Ventures",3.6,37.5026,-122.2252,,85925.0,1840020304
+234,SpotOn,2021-05-26,United States,San Francisco,Fintech,"Dragoneer Investment Group, DST Global, Franklin Templeton",3.6,37.7562,-122.443,,3592294.0,1840021543
+235,Otto Bock HealthCare,2017-06-24,Germany,Duderstadt,Health,EQT Partners,3.52,51.5125,10.2597,,20466.0,1276392919
+236,Indigo Ag,2017-09-26,United States,Boston,Artificial intelligence,"Activant Capital Group, Alaska Permanent Fund, Baillie Gifford & Co.",3.5,42.3188,-71.0846,admin,4688346.0,1840000455
+237,HyalRoute,2020-05-26,Singapore,Singapore,Mobile & telecommunications,Kuang-Chi,3.5,1.3,103.8,primary,5745000.0,1702341327
+238,Rec Room,2021-03-23,United States,Seattle,Internet software & services,"First Round Capital, Sequoia Capital, Index Ventures",3.5,47.6211,-122.3244,,3789215.0,1840021117
+239,Commure,2021-09-16,United States,San Francisco,Internet software & services,"General Catalyst, HCA Healthcare",3.5,37.7562,-122.443,,3592294.0,1840021543
+240,Mirakl,2020-09-22,France,Paris,E-commerce & direct-to-consumer,"Elaia Partners, 83North, Felix Capital",3.5,48.8566,2.3522,primary,11020000.0,1250015082
+241,Coalition,2021-03-17,United States,San Francisco,Cybersecurity,"Two Sigma Ventures, Flint Capital, Commerce Ventures",3.5,37.7562,-122.443,,3592294.0,1840021543
+242,Tekion,2020-10-21,United States,San Ramon,Internet software & services,"Airbus Ventures, Index Ventures, Advent International",3.5,37.7625,-121.9365,,75995.0,1840021530
+243,Celsius Network,2021-10-12,United States,Hoboken,Fintech,"WestCap Group, Caisse de depot et placement du Quebec",3.5,40.7453,-74.0279,,52677.0,1840003599
+244,GoStudent,2021-06-22,Austria,Vienna,Edtech,"DN Capital, Left Lane Capital, Coatue Management",3.5,48.2083,16.3731,primary,1911191.0,1040261752
+245,Highspot,2021-02-22,United States,Seattle,Internet software & services,"Madrona Venture Group, Shasta Ventures, Salesforce Ventures",3.5,47.6211,-122.3244,,3789215.0,1840021117
+246,Handshake,2021-05-12,United States,San Francisco,Internet software & services,"Kleiner Perkins Caufield & Byers, Lightspeed Venture Partners, True Ventures",3.5,37.7562,-122.443,,3592294.0,1840021543
+247,ChargeBee Technologies,2021-04-20,United States,San Francisco,Fintech,"Insight Partners, Tiger Global Management, Accel",3.5,37.7562,-122.443,,3592294.0,1840021543
+248,Flock Safety,2021-07-13,United States,Atlanta,Hardware,"Matrix Partners, Initialized Capital, Tiger Global Management",3.5,33.7627,-84.4224,admin,5449398.0,1840013660
+249,Helion Energy,2021-11-05,United States,Redmond,Other,"Mithril Capital Management, Y Combinator, Capricorn Investment Group",3.5,47.6762,-122.1169,,71929.0,1840019835
+250,Unacademy,2020-09-02,India,Bangalore,Edtech,"Blume Ventures, Nexus Venture Partners, Sequoia Capital India",3.44,12.9699,77.598,admin,13707000.0,1356410365
+251,MoonPay,2021-11-22,United States,Miami,Fintech,"New Enterprise Associates, Coatue Management, Tiger Global Management",3.4,25.7839,-80.2102,,6445545.0,1840015149
+252,Upstox,2021-11-29,India,Mumbai,Fintech,"Tiger Global Management, Kalaari Capital",3.4,18.9667,72.8333,admin,23355000.0,1356226629
+253,Youxia Motors,2018-04-02,China,Shanghai,Auto & transportation,"China Environmental Protection Industry, China Fortune Ocean",3.35,31.1667,121.4667,admin,22120000.0,1156073548
+254,OwnBackup,2021-01-28,United States,Englewood Cliffs,Data management & analytics,"Insight Partners, Salesforce Ventures, Vertex Ventures",3.35,40.8822,-73.9466,,5354.0,1840003547
+255,Starburst,2021-01-06,United States,Boston,Data management & analytics,"Index Ventures, Coatue Management, Andreessen Horowitz",3.35,42.3188,-71.0846,admin,4688346.0,1840000455
+256,Starling Bank,2021-03-08,United Kingdom,London,Fintech,"JTC Group, Qatar Investment Authority, Fidelity Investment",3.34,51.5072,-0.1275,primary,10979000.0,1826645935
+257,ECARX,2020-10-26,China,Wuhan,Auto & transportation,"Geely, SIG Asia Investments, China State Capital Venture Capital Fund",3.31,30.5872,114.2881,admin,8962000.0,1156117184
+258,Sila Nanotechnologies,2019-04-16,United States,Alameda,Other,"Bessemer Venture Partners, Sutter Hill Ventures, Matrix Partners",3.3,37.767,-122.2672,,77624.0,1840018913
+259,Scopely,2019-10-29,United States,Culver City,Mobile & telecommunications,"Greycroft, Sands Capital, Revolution Growth",3.3,34.0058,-118.3968,,39185.0,1840019243
+260,Komodo Health,2020-05-22,United States,San Francisco,Health,"Andreessen Horowitz, IA Ventures, Felicis Ventures",3.3,37.7562,-122.443,,3592294.0,1840021543
+261,Kurly,2021-07-09,"Korea, South",Seoul,"Supply chain, logistics, & delivery","Sequoia Capital China, DST Global, DST Global",3.3,37.56,126.99,primary,21794000.0,1410836482
+262,Cars24,2020-11-24,India,Gurgaon,E-commerce & direct-to-consumer,"Moore Strategic Ventures, DST Global, Sequoia Capital India",3.3,28.45,77.02,,197340.0,1356836043
+263,BlockDaemon,2021-09-21,United States,Los Angeles,Fintech,"BOLDstart Ventures, Lerer Hippeau, Kenetic Capital",3.25,34.1139,-118.4068,,12750807.0,1840020491
+264,Dadi Cinema,2016-05-11,China,Shenzhen,Other,Alibaba Pictures Group,3.24,22.535,114.054,minor,15929000.0,1156158707
+265,Aiven,2021-10-18,Finland,Helsinki,Internet software & services,"Institutional Venture Partners, Atomico, Earlybird Venture Capital",3.21,60.1756,24.9342,primary,642045.0,1246177997
+266,Thumbtack,2015-09-29,United States,San Francisco,E-commerce & direct-to-consumer,"Tiger Global, Sequoia Capital, Google Capital",3.2,37.7562,-122.443,,3592294.0,1840021543
+267,Cedar,2021-03-09,United States,New York,Fintech,"Thrive Capital, Founders Fund, Cocnord Health Partners",3.2,40.6943,-73.9249,,18713220.0,1840034016
+268,Eruditus Executive Education,2021-08-12,India,Mumbai,Edtech,"Sequoia Capital India, Softbank, Bertelsmann India Investments",3.2,18.9667,72.8333,admin,23355000.0,1356226629
+269,Blockstream,2021-08-24,Canada,Vancouver,Fintech,"AME Cloud Ventures, Future Perfect Ventures, Blockchain Capital",3.2,49.25,-123.1,,2264823.0,1124825478
+270,Innovaccer,2021-02-19,United States,San Francisco,Health,"M12, WestBridge Capital, Lightspeed Venture Partners",3.2,37.7562,-122.443,,3592294.0,1840021543
+271,Ironclad,2022-01-18,United States,Sacramento,Internet software & services,"Accel, Sequoia Capital, Y Combinator",3.2,38.5667,-121.4683,admin,1898019.0,1840021491
+272,Skims,2021-04-09,United States,Los Angeles,E-commerce & direct-to-consumer,"Thrive Capital, Alliance Consumer Growth, Imaginary Ventures",3.2,34.1139,-118.4068,,12750807.0,1840020491
+273,Eikon Therapeutics,2022-01-06,United States,Hayward,Health,"The Column Group, Foresite Capital, Foresite Capital",3.2,37.6328,-122.0772,,159203.0,1840020293
+274,PsiQuantum,2021-07-27,United States,Palo Alto,Hardware,"Playground Global, M12, BlackRock",3.15,37.3913,-122.1468,,65364.0,1840020333
+275,Udaan,2018-09-04,India,Bangalore,"Supply chain, logistics, & delivery","DST Global, Lightspeed Venture Partners, Microsoft ScaleUp",3.1,12.9699,77.598,admin,13707000.0,1356410365
+276,HighRadius,2020-01-07,United States,Houston,Fintech,"Susquehanna Growth Equity, Citi Ventures, ICONIQ Capital",3.1,29.7863,-95.3889,,5464251.0,1840020925
+277,Nuvemshop,2021-08-17,Brazil,Sao Paulo,E-commerce & direct-to-consumer,"Kaszek Ventures, Qualcomm Ventures, Accel",3.1,-23.5504,-46.6339,admin,22046000.0,1076532519
+278,Yixia,2015-11-24,China,Beijing,Mobile & telecommunications,"Sequoia Capital China, Sina Weibo, Kleiner Perkins Caufield & Byers, Redpoint Ventures",3.0,39.905,116.3914,primary,19433000.0,1156228865
+279,Traveloka,2017-01-01,Indonesia,Jakarta,Travel,"Global Founders Capital, East Ventures, Expedia Inc.",3.0,-6.2146,106.8451,primary,34540000.0,1360771077
+280,SouChe Holdings,2017-11-01,China,Hangzhou,E-commerce & direct-to-consumer,"Morningside Ventures, Warburg Pincus, CreditEase Fintech Investment Fund",3.0,30.25,120.1675,admin,6446000.0,1156275243
+281,BGL Group,2017-11-24,United Kingdom,Peterborough,Fintech,CPP Investment Board,3.0,52.5833,-0.25,,82.0,1826626144
+282,Circle,2018-05-15,United States,Boston,Fintech,"General Catalyst, Digital Currency Group, Accel",3.0,42.3188,-71.0846,admin,4688346.0,1840000455
+283,Zuoyebang,2018-07-18,China,Beijing,Edtech,"Sequoia Capital China, Xiang He Capital, GGV Capital",3.0,39.905,116.3914,primary,19433000.0,1156228865
+284,FlixMobility,2019-07-18,Germany,Munich,Auto & transportation,"Holtzbrinck Ventures, Unternehmertum Venture Capital, General Atlantic",3.0,48.1372,11.5755,admin,1471508.0,1276692352
+285,Wildlife Studios,2019-12-05,Brazil,Sao Paulo,Other,"Benchmark, Bessemer Venture Partners",3.0,-23.5504,-46.6339,admin,22046000.0,1076532519
+286,ApplyBoard,2020-05-05,Canada,Kitchener,Edtech,"Artiman Ventures, Plug and Play Ventures, Anthos Capital",3.2,43.4186,-80.4728,,470015.0,1124158530
+287,Forter,2020-11-19,United States,New York,Cybersecurity,"Sequoia Capital Israel, Scale Venture Partners, Commerce Ventures",3.0,40.6943,-73.9249,,18713220.0,1840034016
+288,Calendly,2021-01-26,United States,Atlanta,Internet software & services,"ICONIQ Capital, OpenView Venture Partners",3.0,33.7627,-84.4224,admin,5449398.0,1840013660
+289,BlockFi,2021-03-11,United States,Jersey City,Fintech,"ConsenSys Ventures, Valar Ventures, PUC",3.0,40.7161,-74.0682,,262075.0,1840003600
+290,ActiveCampaign,2021-04-21,United States,Chicago,Internet software & services,"Silversmith Capital Partners, Susquehanna Growth Equity, Tiger Global Management",3.0,41.8373,-87.6862,,8604203.0,1840000494
+291,CMR Surgical,2019-09-17,United Kingdom,Cambridge,Health,"Cambridge Innovation Capital, LGT Capital Partners, Escala Capital",3.0,52.2053,0.1192,,66.0,1826229713
+292,Lucid Software,2021-06-29,United States,South Jordan,Internet software & services,"Spectrum Equity, ICONIQ Capital, Grayhawk Capital",3.0,40.557,-111.9782,,76598.0,1840021385
+293,Age of Learning,2016-05-03,United States,Glendale,Edtech,Iconiq Capital,3.0,33.5791,-112.2311,,252381.0,1840020563
+294,Carbon Health,2021-07-21,United States,San Francisco,Health,"Brookfield Asset Management, Blackstone, Data Collective",3.0,37.7562,-122.443,,3592294.0,1840021543
+295,Contentful,2021-07-28,Germany,Berlin,Internet software & services,"Balderton Capital, General Catalyst, Tiger Global Management",3.0,52.5167,13.3833,primary,3644826.0,1276451290
+296,LaunchDarkly,2021-08-10,United States,Oakland,Internet software & services,"Uncork Capital, Threshold Ventures, Bloomberg Beta",3.0,37.7903,-122.2165,,433031.0,1840020296
+297,Seismic,2018-12-18,United States,San Diego,Internet software & services,"Jackson Square Ventures, General Atlantic, Lightspeed Venture Partners",3.0,32.8312,-117.1225,,3220118.0,1840021990
+298,Grafana Labs,2021-03-25,United States,New York,Internet software & services,"Lightspeed Venture Partners, Lead Edge Capital, Coatue Management",3.0,40.6943,-73.9249,,18713220.0,1840034016
+299,Gorillas,2021-03-25,Germany,Berlin,E-commerce & direct-to-consumer,"Coatue Management, Atlantic Food Labs, DST Global",3.1,52.5167,13.3833,primary,3644826.0,1276451290
+300,Sky Mavis,2021-10-04,Vietnam,Ho Chi Minh City,Internet software & services,"Fabric Ventures, 500 Global, Standard Crypto",3.0,10.8167,106.6333,admin,13312000.0,1704774326
+301,Outschool,2021-04-14,United States,San Francisco,Edtech,"Uniion Square Ventures, Tiger Global Management, Lightspeed Venture Capital",3.0,37.7562,-122.443,,3592294.0,1840021543
+302,TradingView,2021-10-14,United States,Westerville,Fintech,"Tiger Global Management, Insight Partners, Jump Capital",3.0,40.1241,-82.9209,,41103.0,1840003763
+303,Groww,2021-04-07,India,Bangalore,Fintech,"Tiger Global Management, Sequoia Capital India, Ribbit Capital",3.0,12.9699,77.598,admin,13707000.0,1356410365
+304,Podium,2020-04-07,United States,Lehi,Internet software & services,"Accel, Summit Partners, Google Ventures",3.0,40.4136,-111.8726,,69724.0,1840020168
+305,Via,2020-03-30,United States,New York,Auto & transportation,"83North, RiverPark Ventures, Pitango Venture Capital",3.3,40.6943,-73.9249,,18713220.0,1840034016
+306,Anchorage Digital,2021-12-15,United States,San Francisco,Fintech,"Andreessen Horowitz, Blockchain Capital, Lux Capital",3.0,37.7562,-122.443,,3592294.0,1840021543
+307,Inxeption,2022-01-13,United States,San Francisco,Fintech,"Coatue Management, BMO Capital, Schonfeld Strategic Advisors",3.0,37.7562,-122.443,,3592294.0,1840021543
+308,Lattice,2021-03-23,United States,San Francisco,Internet software & services,"Khosla Ventures, Thrive Capital, Y Combinator",3.0,37.7562,-122.443,,3592294.0,1840021543
+309,Flutterwave,2021-03-09,United States,San Francisco,Fintech,"Green Visor Capital, CRE Venture Capital, Greycroft",3.0,37.7562,-122.443,,3592294.0,1840021543
+310,Amber Group,2021-06-21,Hong Kong,Hong Kong,Fintech,"Tiger Global Management, Tiger Brokers, DCM Ventures",3.0,22.305,114.185,primary,7347000.0,1344982653
+311,wefox,2019-03-05,Germany,Berlin,Fintech,"Salesforce Ventures, Seedcamp, OMERS Ventures",3.0,52.5167,13.3833,primary,3644826.0,1276451290
+312,Cross River Bank,2022-02-11,United States,Fort Lee,Fintech,"Battery Ventures, Andreessen Horowitz, Ribbit Capital",3.0,40.8509,-73.9712,,38605.0,1840003552
+313,Remote,2021-07-13,United States,San Francisco,Fintech,"Index Ventures, Sequoia Capital, General Catalyst",3.0,37.7562,-122.443,,3592294.0,1840021543
+314,Sentry,2021-02-18,United States,San Francisco,Other,"New Enterprise Associates, Accel, Bond",3.0,37.7562,-122.443,,3592294.0,1840021543
+315,Kraken,2019-06-25,United States,San Francisco,Fintech,"Bnk To The Future, Trammell Ventures, SBI Investment",2.92,37.7562,-122.443,,3592294.0,1840021543
+316,OpenAI,2019-07-22,United States,San Francisco,Artificial intelligence,Khosla Ventures,2.92,37.7562,-122.443,,3592294.0,1840021543
+317,Workrise,2019-09-30,United States,Austin,Internet software & services,"Founders Fund, Quantum Energy Partners, Bedrock Capital",2.9,30.3004,-97.7522,admin,1687311.0,1840019590
+318,Loft,2020-01-03,Brazil,Sao Paulo,E-commerce & direct-to-consumer,"Monashees+, Andreessen Horowitz, QED Investors",2.9,-23.5504,-46.6339,admin,22046000.0,1076532519
+319,BharatPe,2021-07-30,India,New Delhi,Fintech,"Insight Partners, Sequoia Capital India, BEENEXT",2.85,28.7,77.2,primary,142004.0,1356215164
+320,DriveWealth,2021-08-20,United States,Chatham,Fintech,"Point72 Ventures, Route 66 Ventures, Accel",2.85,39.6733,-89.6938,,13008.0,1840010560
+321,Flink,2021-12-01,Germany,Berlin,E-commerce & direct-to-consumer,"Mubadala Capital, Bond, Prosus Ventures",2.85,52.5167,13.3833,primary,3644826.0,1276451290
+322,Alan,2021-04-19,France,Paris,Fintech,"Index Ventures, Temasek, Portag3 Ventures",2.85,48.8566,2.3522,primary,11020000.0,1250015082
+323,Meicai,2016-06-22,China,Beijing,Mobile & telecommunications,"Tiger Global Management, Blue Lake Capital, ZhenFund",2.8,39.905,116.3914,primary,19433000.0,1156228865
+324,ContentSquare,2021-05-25,France,Paris,Internet software & services,"Highland Europe, Eurazeo, Canaan Partners",2.8,48.8566,2.3522,primary,11020000.0,1250015082
+325,Zipline,2019-05-20,United States,South San Francisco,"Supply chain, logistics, & delivery","Sequoia Capital, Baillie Gifford & Co., Google Ventures",2.8,37.6536,-122.4197,,67789.0,1840021552
+326,Graphcore,2018-12-18,United Kingdom,Bristol,Artificial intelligence,"Dell Technologies Capital, Pitango Venture Capital, Amadeus Capital Partners",2.77,51.45,-2.5833,,724000.0,1826921049
+327,Illumio,2015-04-14,United States,Sunnyvale,Cybersecurity,"Data Collective, Formation 8, General Catalyst Partners",2.75,37.3836,-122.0256,,152703.0,1840021573
+328,MasterClass,2021-05-13,United States,San Francisco,Edtech,"Institutional Venture Partners, New Enterprise Associates, Javelin Venture Partners",2.75,37.7562,-122.443,,3592294.0,1840021543
+329,Dream Games,2021-06-30,Turkey,Istanbul,Mobile & telecommunications,"Makers Fund, Index Ventures, Inova Ventures Participacees",2.75,41.01,28.9603,admin,15154000.0,1792756324
+330,Transmit Security,2021-06-22,Israel,Tel Aviv-Yafo,Cybersecurity,"General Atlantic, Insight Partners, Vintage Investment Partners",2.74,32.08,34.78,admin,451523.0,1376401542
+331,Hozon Auto,2022-02-22,China,Shanghai,Auto & transportation,"HD Capital, Qihoo 360 Technology, China Fortune Land Development",3.95,31.1667,121.4667,admin,22120000.0,1156073548
+332,Tradeshift,2018-05-30,United States,San Francisco,Fintech,"Notion Capital, Scentan Ventures, Kite Ventures",2.7,37.7562,-122.443,,3592294.0,1840021543
+333,Nextiva,2021-09-14,United States,Scottsdale,Internet software & services,Goldman Sachs Asset Management,2.7,33.6872,-111.8651,,258069.0,1840021940
+334,o9 Solutions,2020-04-28,United States,Dallas,Artificial intelligence,KKR,2.7,32.7936,-96.7662,,5743938.0,1840019440
+335,Thought Machine,2021-11-29,United Kingdom,London,Fintech,"British Patient Capital, SEB Venture Capital, IQ Capital",2.7,51.5072,-0.1275,primary,10979000.0,1826645935
+336,BackBase,2021-06-09,Netherlands,Amsterdam,Fintech,Motive Partners,2.66,52.3667,4.8833,primary,862965.0,1528355309
+337,ManoMano,2021-07-05,France,Paris,E-commerce & direct-to-consumer,"General Atlantic, Piton Capital, Partech Partners",2.6,48.8566,2.3522,primary,11020000.0,1250015082
+338,Sourcegraph,2021-07-13,United States,San Francisco,Internet software & services,"Redpoint Ventures, Goldcrest Capital, Insight Partners",2.62,37.7562,-122.443,,3592294.0,1840021543
+339,Pendo,2019-10-17,United States,Raleigh,Internet software & services,"Contour Venture Partners, Battery Ventures, Core Capital Partners",2.6,35.8325,-78.6435,admin,1038738.0,1840014497
+340,Plume,2021-02-23,United States,Palo Alto,Internet software & services,"Insight Partners, Jackson Square Ventures, Liberty Gloval Ventures",2.6,37.3913,-122.1468,,65364.0,1840020333
+341,Moglix,2021-05-17,Singapore,Singapore,E-commerce & direct-to-consumer,"Jungle Ventures, Accel, Venture Highway",2.6,1.3,103.8,primary,5745000.0,1702341327
+342,Axonius,2021-03-01,United States,New York,Cybersecurity,"Vertex Ventures Israel, Bessemer Venture Partners, Emerge",2.6,40.6943,-73.9249,,18713220.0,1840034016
+343,Xinchao Media,2018-04-09,China,Chengdu,Internet software & services,"JD.com, Baidu, Vision Plus Capital",2.0,30.66,104.0633,admin,11309000.0,1156421555
+344,JumpCloud,2021-09-13,United States,Louisville,Data management & analytics,"Foundry Group, General Atlantic, BlackRock",2.62,38.1663,-85.6485,,1005654.0,1840030815
+345,Unico,2021-08-03,Brazil,Sao Paulo,Artificial intelligence,"Big Bets, General Atlantic, SOFTBANK Latin America Ventures",2.6,-23.5504,-46.6339,admin,22046000.0,1076532519
+346,Oura,2022-04-05,Finland,Oulu,Health,"Forerunner Ventures, Lifeline Ventures, MSD Capital",2.55,65.0142,25.4719,admin,200526.0,1246093273
+347,Eat Just,2017-11-30,United States,San Francisco,Consumer & retail,"Khosla Ventures, Horizons Ventures, Founders Fund",2.59,37.7562,-122.443,,3592294.0,1840021543
+348,Cribl,2021-08-25,United States,San Francisco,Data management & analytics,"Institutional Venture Partners, CRV, Sequoia Capital",2.5,37.7562,-122.443,,3592294.0,1840021543
+349,Vista Global,2017-08-23,United Arab Emirates,Dubai,Other,Rhone Capital,2.5,25.2697,55.3094,admin,2502715.0,1784736618
+350,BYTON,2018-04-20,China,Nanjing,Auto & transportation,"FAW Group, Tencent Holdings, Tus Holdings",2.5,32.05,118.7667,admin,7496000.0,1156644065
+351,Acronis,2019-09-18,Switzerland,Schaffhausen,Cybersecurity,"Goldman Sachs, VebVentures, Insight Partners",2.5,47.6965,8.6339,admin,36587.0,1756849233
+352,Side,2021-03-22,United States,San Francisco,Internet software & services,"Coatue Managemeny, Trinity Ventures, Matrix Partners",2.5,37.7562,-122.443,,3592294.0,1840021543
+353,Lenskart,2019-12-20,India,Faridabad,E-commerce & direct-to-consumer,"Chiratae Ventures, PremjiInvest, Softbank",2.5,28.4333,77.3167,,1394000.0,1356013205
+354,Infra.Market,2021-02-25,India,Thane,E-commerce & direct-to-consumer,"Accel, Tiger Global Management, Nexus Venture Partners",2.5,19.18,72.9633,,1261517.0,1356681152
+355,Varo Bank,2021-09-09,United States,San Francisco,Fintech,"Warburg Pincus, The Rise Fund, HarbourVest Partners",2.5,37.7562,-122.443,,3592294.0,1840021543
+356,Cato Networks,2020-11-17,Israel,Tel Aviv-Yafo,Cybersecurity,"Aspect Ventures, SingTel Innov8, Greylock Partners",2.5,32.08,34.78,admin,451523.0,1376401542
+357,Aura,2021-06-09,United States,Burlington,Cybersecurity,"Warburg Pincus, General Catalyst",2.5,36.0758,-79.4686,,131043.0,1840013362
+358,Vercel,2021-06-23,United States,San Francisco,Internet software & services,"CRV, Accel, Google Ventures",2.5,37.7562,-122.443,,3592294.0,1840021543
+359,Sysdig,2021-04-28,United States,San Francisco,Cybersecurity,"Accel, Bain Capital Ventures, Insight Partners",2.5,37.7562,-122.443,,3592294.0,1840021543
+360,Zetwerk,2021-08-20,India,Bangalore,Internet software & services,"Sequoia Capital India, Kae Capital, Accel",2.68,12.9699,77.598,admin,13707000.0,1356410365
+361,Uniphore,2022-02-16,United States,Palo Alto,Artificial Intelligence,"Chiratae Ventures, March Capital Partners, National Grid Partners",2.5,37.3913,-122.1468,,65364.0,1840020333
+362,Somatus,2022-02-23,United States,McLean,Health,"The Blue Venture Fund, Flare Capital Partners, Longitude Capital",2.5,38.9436,-77.1943,,47682.0,1840006018
+363,Immutable,2022-03-07,Australia,Sydney,Fintech,"Fabric Ventures, AirTree Ventures, Temasek",2.5,-33.865,151.2094,admin,5312163.0,1036074917
+364,A24 Films,2022-03-09,United States,New York,Other,"Stripes Group, Neuberger Berman",2.5,40.6943,-73.9249,,18713220.0,1840034016
+365,SiFive,2022-03-16,United States,San Mateo,Hardware,"Sutter Hill Ventures, Osage University Partners, Spark Capital",2.5,37.5521,-122.3122,,104430.0,1840021551
+366,Games24x7,2022-03-30,India,Mumbai,Internet software & services,"Tiger Global Management, The Raine Group, Malabar Investments",2.5,18.9667,72.8333,admin,23355000.0,1356226629
+367,Fetch Rewards,2021-03-31,United States,Madison,E-commerce & direct-to-consumer,"Greycroft, Loeb.NYC, DST Global",2.5,43.0826,-89.3931,admin,447245.0,1840002915
+368,Coda Payments,2022-04-15,Singapore,Singapore,Fintech,"GIC. Apis Partners, Insight Partners",2.5,1.3,103.8,primary,5745000.0,1702341327
+369,Uala,2021-08-13,Argentina,Buenos Aires,Fintech,"Soros Fund Management, Ribbit Capital, Monashees+",2.45,-34.5997,-58.3819,primary,16157000.0,1032717330
+370,Mobile Premier League,2021-09-15,India,Bangalore,Internet software & services,"Sequoia Capital India, RTP Global, Go-Ventures",2.45,12.9699,77.598,admin,13707000.0,1356410365
+371,Cybereason,2019-08-06,United States,Boston,Cybersecurity,"SoftBank Group, CRV, Spark Capital",2.44,42.3188,-71.0846,admin,4688346.0,1840000455
+372,Cgtz,2017-02-21,China,Hangzhou,Fintech,"Shunwei Capital Partners, China Media Group, Guangzhou Huiyin Aofeng Equity Investment Fund",2.41,30.25,120.1675,admin,6446000.0,1156275243
+373,Star Charge,2021-05-19,China,Changzhou,Auto & transportation,"Shunwei Capital Partners, China Media Group, Guangzhou Huiyin Aofeng Equity Investment Fund",2.41,31.8122,119.9692,minor,4592431.0,1156185511
+374,EquipmentShare,2020-05-01,United States,Columbia,Fintech,"Romulus Capital, Insight Partners, RedBird Capital Partners",2.41,34.0376,-80.9037,admin,560041.0,1840014730
+375,Carbon,2015-08-20,United States,Redwood City,Hardware,"Google Ventures, Sequoia Capital, Wakefield Group",2.4,37.5026,-122.2252,,85925.0,1840020304
+376,PolicyBazaar,2019-05-06,India,Gurgaon,Fintech,"Info Edge, Softbank Capital",2.4,28.45,77.02,,197340.0,1356836043
+377,Paxos,2021-04-29,United States,New York,Fintech,"Liberty City Ventures, RRE Ventures, Mithril Capital Management",2.4,40.6943,-73.9249,,18713220.0,1840034016
+378,Exabeam,2021-06-01,United States,Foster City,Cybersecurity,"Norwest Venture Partners, Aspect Ventures, Lightspeed Venture Partners",2.4,37.5553,-122.2659,,33901.0,1840020302
+379,BitSight Technologies,2021-09-13,United States,Boston,Cybersecurity,"Menlo Ventures, GGV Capital, Flybridge Capital Partners",2.4,42.3188,-71.0846,admin,4688346.0,1840000455
+380,Trumid,2020-07-15,United States,New York,Fintech,"T. Rowe Price, Dragoneer Investment Group, BlackRock",2.4,40.6943,-73.9249,,18713220.0,1840034016
+381,ABL Space Systems,2021-03-25,United States,El Segundo,Other,"T. Rowe Price, Lockheed Martin Ventures, Fidelity Investment",2.4,33.9169,-118.4021,,16610.0,1840020481
+382,HoneyBook,2021-05-04,United States,San Francisco,Internet software & services,"Norwest Venture Partners, Hillsven Capital, Aleph",2.4,37.7562,-122.443,,3592294.0,1840021543
+383,Beta Technologies,2022-04-19,United States,South Burlington,Other,"The Rise Fund, Fidelity Investments. RedBird Capital Partners",2.4,44.4622,-73.2203,,19509.0,1840002311
+384,Project44,2021-06-01,United States,Chicago,"Supply chain, logistics, & delivery","Emergence Capital Partners, 8VC, Chicago Ventures",2.62,41.8373,-87.6862,,8604203.0,1840000494
+385,Freenome,2020-08-26,United States,South San Francisco,Health,"Andreessen Horowitz, Data Collective, Roche Venture Fund",2.62,37.6536,-122.4197,,67789.0,1840021552
+386,Bought By Many,2021-06-01,United Kingdom,London,Fintech,"Octopus Ventures, Munich Re Ventures, CommerzVentures",2.35,51.5072,-0.1275,primary,10979000.0,1826645935
+387,Jobandtalent,2021-12-01,Spain,Madrid,Internet software & services,"Kibo Ventures, SoftBank Group, Atomico",2.35,40.4167,-3.7167,primary,6026000.0,1724616994
+388,WEMAKEPRICE,2015-09-09,"Korea, South",Seoul,E-commerce & direct-to-consumer,"IMM Investment, NXC",2.34,37.56,126.99,primary,21794000.0,1410836482
+389,Biren Technology,2020-08-18,China,Shanghai,Hardware,"V FUND, IDG Capital, Green Pine Capital Partners",2.32,31.1667,121.4667,admin,22120000.0,1156073548
+390,Voodoo,2020-08-17,France,Paris,Other,"Tencent Holdings, Goldman Sachs",2.31,48.8566,2.3522,primary,11020000.0,1250015082
+391,Uptake,2015-10-27,United States,Chicago,Artificial intelligence,"Revolution, New Enterprise Associates, Caterpillar",2.3,41.8373,-87.6862,,8604203.0,1840000494
+392,Motive,2019-04-23,United States,San Francisco,"Supply chain, logistics, & delivery","Google Ventures, Index Ventures, Scale Venture Partners",2.85,37.7562,-122.443,,3592294.0,1840021543
+393,Skydance Media,2020-02-11,United States,Santa Monica,Other,"RedBird Capital Partners, CJ ENM, Tencent Holdings",2.3,34.0232,-118.4813,,90401.0,1840021866
+394,Greenlight,2020-09-24,United States,Atlanta,Fintech,"Relay Ventures, TTV Capital, Canapi Ventures",2.3,33.7627,-84.4224,admin,5449398.0,1840013660
+395,Bowery Farming,2021-05-25,United States,New York,Other,"Temasek, Google Ventures, General Catalyst",2.3,40.6943,-73.9249,,18713220.0,1840034016
+396,Odoo,2021-07-29,Belgium,Louvain-la-Neuve,Internet software & services,"Summit Partners, Noshaq, Sofinnova Partners",2.3,50.6696,4.6112,,31551.0,1056082103
+397,MoMo,2021-12-10,Vietnam,Ho Chi Minh City,Fintech,"Goodwater Capital, Warburg Pincus, GS Growth",2.27,10.8167,106.6333,admin,13312000.0,1704774326
+398,Zume,2018-11-01,United States,Mountain View,Consumer & retail,"Softbank Group, AME Cloud Ventures, SignalFire",2.25,37.4,-122.0796,,82739.0,1840020332
+399,Algolia,2021-07-28,United States,San Francisco,Internet software & services,"Accel, Alven Capital, Storm Ventures",2.25,37.7562,-122.443,,3592294.0,1840021543
+400,Pattern,2021-10-06,United States,Lehi,Internet software & services,"Knox Lane, Ainge Advisory, Carlson Private Capital Partners",2.25,40.4136,-111.8726,,69724.0,1840020168
+401,Newfront Insurance,2022-04-12,United States,San Francisco,Fintech,"Founders Fund, Meritech Capital Partners, GS Growth",2.2,37.7562,-122.443,,3592294.0,1840021543
+402,NuCom Group,2018-02-22,Germany,Unterfohring,Other,General Atlantic,2.2,48.1917,11.6528,,11296.0,1276741944
+403,MUSINSA,2019-11-11,"Korea, South",Seoul,E-commerce & direct-to-consumer,Sequoia Capital,2.2,37.56,126.99,primary,21794000.0,1410836482
+404,Current,2021-04-27,United States,New York,Fintech,"Expa, QED Investors, Foundation Capital",2.2,40.6943,-73.9249,,18713220.0,1840034016
+405,Bitso,2021-05-05,Mexico,Mexico City,Fintech,"Pantera Capital, QED Investors, Coinbase Ventures",2.2,19.4333,-99.1333,primary,20996000.0,1484247881
+406,Gympass,2019-06-12,United States,New York,Internet software & services,"General Atlantic, SoftBank Group, Atomico",2.2,40.6943,-73.9249,,18713220.0,1840034016
+407,Dialpad,2020-10-06,United States,San Francisco,Internet software & services,"Andreessen Horowitz, Google Ventures, Section 32",2.2,37.7562,-122.443,,3592294.0,1840021543
+408,G7 Networks,2022-02-15,China,Beijing,"Supply chain, logistics, & delivery","Eastern Bell Capital 32, SDIC CMC Investment Management, Trustbridge Partners",2.2,39.905,116.3914,primary,19433000.0,1156228865
+409,BloomReach,2022-02-23,United States,Mountain View,Artificial intelligence,"Bain Capital Ventures, Sixth Street Growth, Lightspeed Venture Partners",2.2,37.4,-122.0796,,82739.0,1840020332
+410,Motif FoodWorks,2021-06-16,United States,Boston,Consumer & retail,"General Atlantic, Breakthrough Energy Ventures, Viking Global Investors",2.2,42.3188,-71.0846,admin,4688346.0,1840000455
+411,Huaqin Telecom Technology,2019-10-08,China,Shanghai,Mobile & telecommunications,"Zhangjiang Haocheng Venture Capital, Walden International, Intel Capital",2.19,31.1667,121.4667,admin,22120000.0,1156073548
+412,Accelerant,2022-01-12,United Kingdom,Colchester,Other,"Deer Park Road, Altamont Capital Partners, Eldridge",2.19,51.8917,0.903,,111921.0,1826545433
+413,Hesai Tech,2020-08-01,China,Shanghai,Artificial intelligence,"Lightspeed China Partners, Baidu Ventures, Qiming Venture Partners",2.18,31.1667,121.4667,admin,22120000.0,1156073548
+414,YITU Technology,2018-03-08,China,Shanghai,Artificial intelligence,"Sequoia Capital China, Banyan Capital",2.17,31.1667,121.4667,admin,22120000.0,1156073548
+415,Addepar,2021-06-15,United States,Mountain View,Fintech,"8VC, D1 Capital Partners, Sway Ventures",2.17,37.4,-122.0796,,82739.0,1840020332
+416,Qualia,2020-12-21,United States,San Francisco,Fintech,"8VC, Menlo Ventures, Tiger Global Management",2.17,37.7562,-122.443,,3592294.0,1840021543
+417,Neo4j,2021-06-17,United States,San Mateo,Data management & analytics,"Eight Roads Ventures, One Peak Partners, Creandum",2.0,37.5521,-122.3122,,104430.0,1840021551
+418,CloudWalk,2021-09-08,Brazil,Sao Paulo,Fintech,"Plug and Play Ventures, Valor Capital Group, DST Global",2.15,-23.5504,-46.6339,admin,22046000.0,1076532519
+419,CoinDCX,2021-08-10,India,Mumbai,Fintech,"Polychain Capital, Coinbase Ventures, Jump Capital",2.15,18.9667,72.8333,admin,23355000.0,1356226629
+420,FirstCry,2020-02-07,India,Pune,E-commerce & direct-to-consumer,"SoftBank Group, SAIF Partners India, Valiant Capital Partners",2.1,18.5196,73.8553,,7764000.0,1356081074
+421,Eightfold.ai,2020-10-27,United States,Santa Clara,Internet software & services,"Foundation Capital, Institutional Venture Partners, General Catalyst",2.1,37.3645,-121.968,,130365.0,1840021571
+422,Urban Company,2021-04-27,India,Gurgaon,E-commerce & direct-to-consumer,"VY Capital, Accel, Elevation Capital",2.1,28.45,77.02,,197340.0,1356836043
+423,ReCharge,2021-05-06,United States,Los Angeles,Fintech,"ICONIQ Growth, Bain Capital Ventures, Summit Partners",2.1,34.1139,-118.4068,,12750807.0,1840020491
+424,Moveworks,2021-06-30,United States,Mountain View,Artificial intelligence,"Lightspeed Venture Partners, Sapphire Ventures, Kleiner Perkins Caufield & Byers",2.1,37.4,-122.0796,,82739.0,1840020332
+425,Medable,2021-10-26,United States,Palo Alto,Internet software & services,"GSR Ventures, Sapphire Ventures, Streamlined Ventures",2.1,37.3913,-122.1468,,65364.0,1840020333
+426,GoCardless,2022-02-08,United Kingdom,London,Fintech,"Accel, Passion Capital, Balderton Capital",2.1,51.5072,-0.1275,primary,10979000.0,1826645935
+427,Forto,2021-06-21,Germany,Berlin,"Supply chain, logistics, & delivery","Cherry Ventures, Northzone Ventures, Global Founders Capital",2.1,52.5167,13.3833,primary,3644826.0,1276451290
+428,Jeeves,2022-03-14,United States,Orlando,Fintech,"Tencent Holdings, CRV, Clocktower Technology Ventures",2.1,28.4772,-81.3369,,1822394.0,1840015099
+429,Babel Finance,2022-05-25,Hong Kong,Hong Kong,Fintech,"Dragonfly Capital, BAI Capital, 10T Fund",2.0,22.305,114.185,primary,7347000.0,1344982653
+430,Trendy Group International,2012-02-13,Hong Kong,Hong Kong,Consumer & retail,L Capital Partners,2.0,22.305,114.185,primary,7347000.0,1344982653
+431,Avant,2012-12-17,United States,Chicago,Artificial intelligence,"RRE Ventures, Tiger Global, August Capital",2.0,41.8373,-87.6862,,8604203.0,1840000494
+432,Tubatu.com,2015-03-09,China,Shenzhen,E-commerce & direct-to-consumer,"Sequoia Capital China, Matrix Partners China, 58.com",2.0,22.535,114.054,minor,15929000.0,1156158707
+433,BlaBlaCar,2015-09-16,France,Paris,Auto & transportation,"Accel Partners, Index Ventures, Insight Venture Partners",2.0,48.8566,2.3522,primary,11020000.0,1250015082
+434,HuiMin,2016-09-05,China,Beijing,E-commerce & direct-to-consumer,"Zheshang Venture Capital, GP Capital, Western Capital Management",2.0,39.905,116.3914,primary,19433000.0,1156228865
+435,Quora,2017-04-21,United States,Mountain View,Internet software & services,"Y Combinator, Matrix Partners, Benchmark",2.0,37.4,-122.0796,,82739.0,1840020332
+436,Improbable,2017-05-11,United Kingdom,London,Other,"Andreessen Horowitz, SoftBank Group, Temasek Holdings",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+437,Preferred Networks,2018-05-17,Japan,Tokyo,Artificial intelligence,"Toyota Motor Corporation, Mizuho Financial Group, FANUC",2.0,35.6897,139.6922,primary,37977000.0,1392685764
+438,Formlabs,2018-08-01,United States,Somerville,Hardware,"Pitango Venture Capital, DFJ Growth Fund, Foundry Group",2.0,42.3908,-71.1013,,81360.0,1840003123
+439,4Paradigm,2018-12-19,China,Beijing,Artificial intelligence,"Sequoia Capital China, China Construction Bank, Bank of China",2.0,39.905,116.3914,primary,19433000.0,1156228865
+440,Calm,2019-02-06,United States,San Francisco,Consumer & retail,"Insight Venture Partners, TPG Growth, Sound Ventures",2.0,37.7562,-122.443,,3592294.0,1840021543
+441,Kaseya,2019-03-27,United States,Miami,Cybersecurity,"Insight Partners, TPG Alternative & Renewable Technologies, Ireland Strategic Investment Fund",2.0,25.7839,-80.2102,,6445545.0,1840015149
+442,Mafengwo,2019-05-23,China,Beijing,Travel,"Qiming Venture Partners, Capital Today, General Atlantic",2.0,39.905,116.3914,primary,19433000.0,1156228865
+443,Druva,2019-06-20,United States,Sunnyvale,Data management & analytics,"Nexus Venture Partners, Tenaya Capital, Sequoia Capital",2.0,37.3836,-122.0256,,152703.0,1840021573
+444,Kujiale,2019-10-25,China,Hangzhou,Internet software & services,"GGV Capital, IDG Capital, Linear Venture",2.0,30.25,120.1675,admin,6446000.0,1156275243
+445,AppsFlyer,2020-01-21,United States,San Francisco,Mobile & telecommunications,"Magma Venture Partners, Pitango Venture Capital, Qumra Capital",2.0,37.7562,-122.443,,3592294.0,1840021543
+446,Keep,2020-05-19,China,Beijing,Mobile & telecommunications,"Bertelsmann Asia Investments, GGV Capital, Morningside Venture Capital",2.0,39.905,116.3914,primary,19433000.0,1156228865
+447,Redis Labs,2020-08-25,United States,Mountain View,Data management & analytics,"Viola Ventures, Dell Technologies Capital, Bain Capital Ventures",2.0,37.4,-122.0796,,82739.0,1840020332
+448,Xingyun Group,2020-09-24,China,Shenzhen,E-commerce & direct-to-consumer,"Matrix Partners China, Eastern Bell Capital, Hongtai Capital Holdings",2.0,22.535,114.054,minor,15929000.0,1156158707
+449,Unqork,2020-10-06,United States,New York,Fintech,"Blackrock, capitalG, World Lab Innovation",2.0,40.6943,-73.9249,,18713220.0,1840034016
+450,Virta Health,2020-12-02,United States,San Francisco,Health,"Caffeinated Capital, Obvious Ventures, Venrock",2.0,37.7562,-122.443,,3592294.0,1840021543
+451,ISN,2020-12-17,United States,Dallas,"Supply chain, logistics, & delivery",Blackstone,2.0,32.7936,-96.7662,,5743938.0,1840019440
+452,Earnix,2021-02-21,Israel,Givatayim,Fintech,"Jerusalem Venture Partners, Israel Growth Partners, Insight Partners",2.0,32.0697,34.8117,,59518.0,1376739486
+453,Guoquan Shihui,2021-03-17,China,Shanghai,Consumer & retail,"Tiantu Capital, CMB International Capital, Vision Knight Capital",2.0,31.1667,121.4667,admin,22120000.0,1156073548
+454,Clearco,2021-04-20,Canada,Toronto,Fintech,"Highland Capital Partners, Oak HC/FT Partners, Emergence Capital Partners",2.0,43.7417,-79.3733,,5429524.0,1124279679
+455,Hive,2021-04-21,United States,San Francisco,Artificial intelligence,"Tomales Bay Capital, Bain & Company, General Catalyst",2.0,37.7562,-122.443,,3592294.0,1840021543
+456,KRY,2021-04-27,Sweden,Stockholm,Health,"Index Ventures, Creandum, Accel",2.0,59.3294,18.0686,primary,972647.0,1752425602
+457,Kajabi,2021-05-04,United States,Irvine,Internet software & services,"Meritech Capital Partners, Tiger Global Management, Spectrum Equity",2.0,33.6772,-117.7738,,287401.0,1840019325
+458,Ethos,2021-05-11,United States,San Francisco,Fintech,"Sequoia Capital, Google Ventures, Accel",2.7,37.7562,-122.443,,3592294.0,1840021543
+459,PayFit,2022-01-06,United Kingdom,London,Fintech,"Accel, frst, Kima Ventures",2.1,51.5072,-0.1275,primary,10979000.0,1826645935
+460,Beisen,2021-05-11,China,Beijing,Internet software & services,"Matrix Partners China, Sequoia Capital China, Genesis Capital",2.0,39.905,116.3914,primary,19433000.0,1156228865
+461,Pipe,2021-05-19,United States,Miami,Fintech,"next47, MaC Venture Capital, FinVC",2.0,25.7839,-80.2102,,6445545.0,1840015149
+462,Iterable,2021-06-15,United States,San Francisco,Internet software & services,"CRV, Blue Cloud Ventures, Index Ventures",2.0,37.7562,-122.443,,3592294.0,1840021543
+463,Bunq,2021-06-18,Netherlands,Amsterdam,Fintech,Undisclosed,2.0,52.3667,4.8833,primary,862965.0,1528355309
+464,Clip,2021-06-10,Mexico,Mexico City,Fintech,"Alta Ventures Mexico, General Atlantic, SoftBank Group",2.0,19.4333,-99.1333,primary,20996000.0,1484247881
+465,Loggi,2019-06-05,Brazil,Sao Paulo,"Supply chain, logistics, & delivery","Qualcomm Ventures, SoftBank Group. Monashees+",2.0,-23.5504,-46.6339,admin,22046000.0,1076532519
+466,MURAL,2021-07-20,United States,San Francisco,Internet software & services,"Insight Partners, Tiger Global Management, Gradient Ventures",2.0,37.7562,-122.443,,3592294.0,1840021543
+467,Pagaya,2020-06-17,Israel,Tel Aviv-Yafo,Fintech,"Oak HC/FT Partners, GF Investments, Harvey Golub Family Office",2.0,32.08,34.78,admin,451523.0,1376401542
+468,OCSiAl,2019-03-04,Luxembourg,Esch-sur-Alzette,Other,"A&NN, Rusnano",2.0,49.4969,5.9806,admin,36228.0,1442192663
+469,XtalPi,2021-08-11,China,Shenzhen,Artificial intelligence,"Tencent Holdings, 5Y Capital, Sequoia Capital China",2.0,22.535,114.054,minor,15929000.0,1156158707
+470,Divvy Homes,2021-08-13,United States,San Francisco,Fintech,"Andreessen Horowitz, Caffeinated Capital, SciFi VC",2.0,37.7562,-122.443,,3592294.0,1840021543
+471,Apeel Sciences,2020-05-26,United States,Goleta,Other,"Upfront Ventures, Tao Capital Partners, Andreessen Horowitz",2.0,34.436,-119.8596,,30911.0,1840001783
+472,Opay,2021-08-23,Nigeria,Lagos,Fintech,"Sequoia Capital China, Source Code Capital, Redpoint Ventures China",2.0,6.45,3.4,minor,15279000.0,1566593751
+473,Aviatrix,2021-09-08,United States,Santa Clara,Internet software & services,"Ignition Partners, Formation 8, CRV",2.0,37.3645,-121.968,,130365.0,1840021571
+474,SmartNews,2019-08-05,Japan,Tokyo,Mobile & telecommunications,"Japan Post Capital, Globis Capital Partners, Atomico",2.0,35.6897,139.6922,primary,37977000.0,1392685764
+475,Misfits Market,2021-04-21,United States,Pennsauken,E-commerce & direct-to-consumer,"Accel, D1 Capita Partners, Greenoaks Capital Management",2.0,39.9649,-75.0563,,35660.0,1840081687
+476,Spring Health,2021-09-16,United States,New York,Health,"Rethink Impact, Work-Bench, RRE Ventures",2.0,40.6943,-73.9249,,18713220.0,1840034016
+477,Black Sesame Technologies,2021-09-22,China,Shanghai,Artificial intelligence,"Northern Light Venture Capital, Xiaomi, FutureX Capital",2.0,31.1667,121.4667,admin,22120000.0,1156073548
+478,Advance Intelligence Group,2021-09-23,Singapore,Singapore,Artificial intelligence,"Vision Plus Capital, GSR Ventures, ZhenFund",2.0,1.3,103.8,primary,5745000.0,1702341327
+479,Modern Treasury,2021-10-06,United States,San Francisco,Fintech,"Benchmark, Altimeter Capital, Quiet Capital",2.0,37.7562,-122.443,,3592294.0,1840021543
+480,Magic Leap,2014-10-21,United States,Plantation,Hardware,"Obvious Ventures, Qualcomm Ventures, Andreessen Horowitz",2.0,26.126,-80.2617,,94580.0,1840015142
+481,Tier,2021-10-25,Germany,Berlin,Travel,"Northzone Ventures, White Star Capital, Novator Partners",2.0,52.5167,13.3833,primary,3644826.0,1276451290
+482,ClickHouse,2021-10-28,United States,San Francisco,Data management & analytics,"Lightspeed Venture Partners, Almaz Capital Partners, Altimeter Capital",2.0,37.7562,-122.443,,3592294.0,1840021543
+483,Mynt,2021-11-01,Philippines,Taguig City,Fintech,"Insight Partners, Warburg Pincus, Ayala Corporation",2.0,14.5167,121.05,admin,804915.0,1608766695
+484,Everlaw,2020-03-10,United States,Oakland,Internet software & services,"K9 Ventures, Menlo Ventures, Andreessen Horowitz",2.0,37.7903,-122.2165,,433031.0,1840020296
+485,Zilch,2021-11-10,United Kingdom,London,Fintech,"Gauss Ventures, Ventura Capital, dmg ventures",2.0,51.5072,-0.1275,primary,10979000.0,1826645935
+486,VerbIT,2021-06-08,United States,New York,Artificial intelligence,"ClalTech, Vertex Ventures, Oryzn Capital",2.0,40.6943,-73.9249,,18713220.0,1840034016
+487,StarkWare,2021-11-17,Israel,Netanya,Cybersecurity,"Sequoia Capital, Paradigm, Pantera Capital",8.0,32.3328,34.86,,217244.0,1376203187
+488,Netlify,2021-11-17,United States,San Francisco,Internet software & services,"Andreessen Horowitz, Kleiner Perkins Caufield & Byers, EQT Ventures",2.0,37.7562,-122.443,,3592294.0,1840021543
+489,SWORD Health,2021-11-22,United States,New York,Health,"Khosla Ventures, Green Innovations, Founders Fund",2.0,40.6943,-73.9249,,18713220.0,1840034016
+490,LTK,2021-11-22,United States,Dallas,Internet software & services,"SoftBank Group, Maverick Capital",2.0,32.7936,-96.7662,,5743938.0,1840019440
+491,Trax,2019-07-22,Singapore,Singapore,Artificial intelligence,"Hopu Investment Management, Boyu Capital, DC Thomson Ventures",2.0,1.3,103.8,primary,5745000.0,1702341327
+492,Exotec,2022-01-17,France,Croix,Hardware,"Breega Capital, Iris Capital, 360 Capital Partners",2.0,50.6781,3.1508,,21041.0,1250218619
+493,Dremio,2021-01-06,United States,Santa Clara,Data management & analytics,"Lightspeed Venture Partners, Redpoint Ventures, Norwest Venture Partners",2.0,37.3645,-121.968,,130365.0,1840021571
+494,Akulaku,2022-02-15,Indonesia,Jakarta,E-commerce & direct-to-consumer,"DCM Ventures, IDG Capital, Siam Commercial Bank",2.0,-6.2146,106.8451,primary,34540000.0,1360771077
+495,Cloudinary,2022-02-15,United States,Santa Clara,Internet software & services,"Blackstone, Bessemer Venture Partners",2.0,37.3645,-121.968,,130365.0,1840021571
+496,Lunar,2021-07-12,Denmark,Aarhus,Fintech,"SEED Capital, Greyhound Capital, Socii Capital",2.0,56.1572,10.2107,minor,237551.0,1208841031
+497,UpGrad,2021-08-09,India,Mumbai,Edtech,"Qualcomm Ventures, Accel, Canaan Partners",2.0,18.9667,72.8333,admin,23355000.0,1356226629
+498,Salsify,2022-04-13,United States,Boston,Internet software & services,"Matrix Partners, North Bridge Venture Partners, Venrock",2.0,42.3188,-71.0846,admin,4688346.0,1840000455
+499,CertiK,2022-03-31,United States,New York,Cybersecurity,"Tiger Global Management, Lightspeed Venture Partners, Hillhouse Capital Management",2.0,40.6943,-73.9249,,18713220.0,1840034016
+500,ROX Motor,2022-04-29,China,Shanghai,Auto & transportation,"Sequoia Capital China, IDG Capital, Qiming Venture Partners",2.0,31.1667,121.4667,admin,22120000.0,1156073548
+501,Hugging Face,2022-05-09,United States,New York,Artificial intelligence,"Betaworks Ventures, Addition, Lux Capital",2.0,40.6943,-73.9249,,18713220.0,1840034016
+502,Devo Technology,2021-10-26,United States,Cambridge,Data management & analytics,"Insight Partners, Kibo Ventures, Bessemer Venture Partners",2.0,42.3759,-71.1185,,118927.0,1840000429
+503,Rimac Automobili,2022-06-01,Croatia,Zagreb,Auto & transportation,"Porsche, 	InvestIndustrial, SoftBank Group",2.0,45.8,15.95,primary,790017.0,1191233290
+504,Ankorstore,2022-01-10,France,Paris,E-commerce & direct-to-consumer,"Global Founders Capital, Aglae Ventures, Alven Capital",1.98,48.8566,2.3522,primary,11020000.0,1250015082
+505,Fenbi Education,2021-02-07,China,Beijing,Edtech,"Trustbridge Partners, Hony Capital, IDG Capital",1.95,39.905,116.3914,primary,19433000.0,1156228865
+506,Rokt,2021-12-16,United States,New York,Internet software & services,"Square Peg Capital, TDM Growth Partners, Tiger Global Management",1.95,40.6943,-73.9249,,18713220.0,1840034016
+507,InVision,2017-11-01,United States,New York,Internet software & services,"FirstMark Capital, Tiger Global Management, ICONIQ Capital",1.9,40.6943,-73.9249,,18713220.0,1840034016
+508,eDaili,2019-02-01,China,Shanghai,E-commerce & direct-to-consumer,"K2VC, Lightspeed China Partners, Sky9 Capital",1.9,31.1667,121.4667,admin,22120000.0,1156073548
+509,MX Technologies,2021-01-13,United States,Lehi,Fintech,"Point72 Ventures, Pelion Venture Partners, Commerce Ventures",1.9,40.4136,-111.8726,,69724.0,1840020168
+510,Aledade,2021-01-19,United States,Bethesda,Health,"Venrock, CVF Capital Partners, ARCH Venture Partners",1.9,38.9866,-77.1188,,63195.0,1840005826
+511,CoinSwitch Kuber,2021-10-06,India,Bangalore,Fintech,"Tiger Global Management, Sequoia Capital India, Ribbit Capital",1.9,12.9699,77.598,admin,13707000.0,1356410365
+512,Acorns,2022-03-09,United States,Irvine,Fintech,"e.ventures, Bain Capital Ventures, Greycroft",1.9,33.6772,-117.7738,,287401.0,1840019325
+513,Roofstock,2022-03-10,United States,Oakland,Fintech,"Khosla Ventures, Bain Capital Ventures, Lightspeed Venture Partners",1.94,37.7903,-122.2165,,433031.0,1840020296
+514,thatgamecompany,2022-03-03,United States,Los Angeles,Internet software & services,"Benchmark, Sequoia Capital, TPG Capital",1.94,34.1139,-118.4068,,12750807.0,1840020491
+515,ConcertAI,2022-03-29,United States,Boston,Artificial Intelligence,"Sixth Street Partners, Declaration Partners, Maverick Ventures Israel",1.9,42.3188,-71.0846,admin,4688346.0,1840000455
+516,Material Bank,2022-05-06,United States,Boca Raton,E-commerce & direct-to-consumer,"Bain Capital Ventures, SoftBank Group, Fifth Wall Ventures",1.9,26.3752,-80.108,,99805.0,1840014207
+517,Volocopter,2022-03-04,Germany,Bruchsal,Auto & transportation,"btov Partners, Geely, Intel Capital",1.87,49.1333,8.6,,44644.0,1276034362
+518,ENOVATE,2019-04-15,China,Shanghai,Auto & transportation,Automobile Industry Guidance Fund,1.85,31.1667,121.4667,admin,22120000.0,1156073548
+519,CFGI,2021-09-15,United States,Boston,Fintech,"The Carlyle Group, CVC Capital Partners",1.85,42.3188,-71.0846,admin,4688346.0,1840000455
+520,Retool,2021-12-22,United States,San Francisco,Internet software & services,Sequoia Capital,1.85,37.7562,-122.443,,3592294.0,1840021543
+521,ZocDoc,2015-08-20,United States,New York,Health,"Founders Fund, Khosla Ventures, Goldman Sachs",1.8,40.6943,-73.9249,,18713220.0,1840034016
+522,Diamond Foundry,2021-03-29,United States,San Francisco,Other,"Fashion Tech Lab, Fidelity Investments, Vast Ventures",1.8,37.7562,-122.443,,3592294.0,1840021543
+523,FullStory,2021-08-04,United States,Atlanta,Internet software & services,"Google Ventures, Kleiner Perkins Caufield & Byers, Stripes Group",1.8,33.7627,-84.4224,admin,5449398.0,1840013660
+524,Lightricks,2019-07-31,Israel,Jerusalem,Artificial intelligence,"Viola Ventures, Insight Partners, ClalTech, Goldman Sachs",1.8,31.7833,35.2167,primary,919438.0,1376261644
+525,Opentrons,2021-09-23,United States,New York,Hardware,"SOSV, Khosla Ventures, Lerer Hippeau",1.8,40.6943,-73.9249,,18713220.0,1840034016
+526,Slice,2021-11-28,India,Bangalore,Fintech,"Gunosy Capital, Blume Ventures, Das Capital",1.8,12.9699,77.598,admin,13707000.0,1356410365
+527,Cambrian BioPharma,2021-10-26,United States,Brooklyn,Health,"Future Ventures, Apeiron Investment Group, Moore Capital Management",1.79,40.6501,-73.9496,,2559903.0,1840034030
+528,AIWAYS,2018-04-16,China,Shanghai,Auto & transportation,"Jiangsu Sha Steel Group, Shanghai Puyin Industry, Funa Yuanchuang Technology",1.78,31.1667,121.4667,admin,22120000.0,1156073548
+529,Trulioo,2021-06-07,Canada,Vancouver,Cybersecurity,"Blumberg Capital, American Express Ventures, BDC Venture Capital",1.75,49.25,-123.1,,2264823.0,1124825478
+530,Spinny,2021-11-24,India,Gurgaon,E-commerce & direct-to-consumer,"General Catalyst, Eleation Capital, Avenir Growth Capital",1.75,28.45,77.02,,197340.0,1356836043
+531,Crusoe,2022-04-21,United States,Denver,Internet software & services,"Bain Capital Ventures, Founders Fund, Winklevoss Capital",1.75,39.7621,-104.8759,admin,2876625.0,1840018789
+532,Orca Security,2021-03-23,United States,Portland,Cybersecurity,"YL Ventures, Redpoint Ventures, GGV Capital",1.8,45.5372,-122.65,,2074775.0,1840019941
+533,Apus Group,2015-01-16,China,Beijing,Mobile & telecommunications,"Redpoint Ventures, QiMing Venture Partners, Chengwei Capital",1.73,39.905,116.3914,primary,19433000.0,1156228865
+534,Harry's,2018-02-16,United States,New York,Consumer & retail,"Thrive Capital, Tiger Global Management, Temasek",1.7,40.6943,-73.9249,,18713220.0,1840034016
+535,PAX,2018-10-22,United States,San Francisco,Consumer & retail,"Tao Capital Partners, Global Asset Capital, Tiger Global Management",1.7,37.7562,-122.443,,3592294.0,1840021543
+536,DispatchHealth,2021-03-03,United States,Denver,Health,"Alta Partners, Questa Capital, Echo Health Ventures",1.7,39.7621,-104.8759,admin,2876625.0,1840018789
+537,Saliogen Therapeutics,2021-12-07,United States,Cambridge,Health,"PBM Capital Group, T. Rowe Price, D1 Capital Partners",1.7,42.3759,-71.1185,,118927.0,1840000429
+538,Pax8,2022-04-11,United States,Greenwood Village,Internet software & services,"Liberty Global Ventures, Sageview Capital, Blue Cloud Ventures",1.7,39.6152,-104.913,,15735.0,1840020212
+539,Multiverse,2022-06-08,United Kingdom,London,Edtech,"Lightspeed Venture Partners, Google Ventures, General Catalyst",1.7,51.5072,-0.1275,primary,10979000.0,1826645935
+540,Tessera Therapeutics,2022-04-19,United States,Cambridge,Health,"Altitude Life Science Ventures, SoftBank Group, Alaska Permanent Fund",1.69,42.3759,-71.1185,,118927.0,1840000429
+541,Unite Us,2021-03-16,United States,New York,Health,"Insight Partners, Sequoia Capital, Index Ventures",1.6,40.6943,-73.9249,,18713220.0,1840034016
+542,CircleCI,2021-05-11,United States,San Francisco,Internet software & services,"Threshold Ventures, Baseline Ventures, Harrison Metal",1.7,37.7562,-122.443,,3592294.0,1840021543
+543,Wave,2021-09-07,Senegal,Dakar,Fintech,"Stripe, Founders Fund, Partech Partners",1.7,14.7319,-17.4572,primary,1146053.0,1686604760
+544,Vestiaire Collective,2021-03-01,France,Paris,E-commerce & direct-to-consumer,"Eurazeo, IDInvest Partners, Balderton Capital",1.7,48.8566,2.3522,primary,11020000.0,1250015082
+545,Dragos,2021-10-28,United States,Hanover,Cybersecurity,"DataTribe, Energy Impact Partners, AllegisCyber Capital",1.7,39.8117,-76.9835,,68165.0,1840001450
+546,Reltio,2021-11-04,United States,Redwood City,Data management & analytics,"Crosslink Capital, .406 Ventures, Sapphire Ventures",1.7,37.5026,-122.2252,,85925.0,1840020304
+547,H2O.ai,2021-11-07,United States,Mountain View,Artificial intelligence,"Nexus Venture Partners, Transamerica Ventures, Crane Venture Partners",1.7,37.4,-122.0796,,82739.0,1840020332
+548,ZenBusiness,2021-11-09,United States,Austin,Fintech,"Greycroft, Lerer Hippeau, Geekdom Fund",1.7,30.3004,-97.7522,admin,1687311.0,1840019590
+549,Carsome,2021-07-12,Malaysia,Petaling Jaya,E-commerce & direct-to-consumer,"Gobi Partners, 500 Startups, Ondine Capital",1.7,3.1073,101.6067,,638516.0,1458989343
+550,Productboard,2022-02-02,United States,San Francisco,Internet software & services,"Index Ventures, Kleiner Perkins Caufield & Byers, Bessemer Venture Partners",1.7,37.7562,-122.443,,3592294.0,1840021543
+551,Spotter,2022-02-16,United States,Los Angeles,Fintech,"SoftBank Group, Access Industries, Crossbeam Venture Partners",1.7,34.1139,-118.4068,,12750807.0,1840020491
+552,Hibob,2021-10-12,Israel,Tel Aviv-Yafo,Internet software & services,"Bessemer Venture Partners, Eight Roads Ventures, Battery Ventures",1.65,32.08,34.78,admin,451523.0,1376401542
+553,Optimism,2022-03-17,United States,San Francisco,Internet software & services,"Paradigm, Huobi Ventures, Andreessen Horowitz",1.65,37.7562,-122.443,,3592294.0,1840021543
+554,Trader Interactive,2021-05-12,United States,Norfolk,Other,Carsales,1.63,36.8945,-76.259,,242742.0,1840003869
+555,Jusfoun Big Data,2018-07-09,China,Beijing,Data management & analytics,"Boxin Capital, DT Capital Partners, IDG Capital",1.62,39.905,116.3914,primary,19433000.0,1156228865
+556,Transcarent,2022-01-11,United States,San Francisco,Health,"Alta Partners, General Catalyst, Jove Equity Partners",1.62,37.7562,-122.443,,3592294.0,1840021543
+557,DealShare,2022-01-27,India,Bangalore,E-commerce & direct-to-consumer,"Alpha Wave Global, Matrix Partners India, Tiger Global Management",1.7,12.9699,77.598,admin,13707000.0,1356410365
+558,Zhubajie,2015-06-16,China,Chongqing,Internet software & services,"Cybernaut Growth Fund, IDG Capital",1.61,29.5628,106.5528,admin,7739000.0,1156936556
+559,solarisBank,2021-07-13,Germany,Berlin,Fintech,"Yabeo Capital, SBI Investment, Vulcan Capital",1.65,52.5167,13.3833,primary,3644826.0,1276451290
+560,Infinidat,2015-04-29,United States,Waltham,Hardware,"TPG Growth, Goldman Sachs",1.6,42.3889,-71.2423,,62495.0,1840000428
+561,Afiniti,2017-04-14,Bermuda,Hamilton,Artificial intelligence,GAM Holding,1.6,32.2942,-64.7839,primary,52320.0,1060000000
+562,Cao Cao Mobility,2018-01-17,China,Hangzhou,Auto & transportation,"People Electrical Appliance Group China, Zhongrong International Trust",1.6,30.25,120.1675,admin,6446000.0,1156275243
+563,Verkada,2020-01-29,United States,San Mateo,Cybersecurity,"next47, First Round Capital, Sequoia Capital",1.6,37.5521,-122.3122,,104430.0,1840021551
+564,Clari,2021-03-03,United States,Sunnyvale,Internet software & services,"Sequoia Capital, Bain Capital Ventures, enaya Capital",2.6,37.3836,-122.0256,,152703.0,1840021573
+565,Tonal,2021-03-31,United States,San Francisco,E-commerce & direct-to-consumer,"Mayfield Fund, Shasta Ventures, L Catterton",1.6,37.7562,-122.443,,3592294.0,1840021543
+566,Clio,2021-04-27,Canada,Burnaby,Internet software & services,"OMERS Private Equity, T. Rowe Price, Technology Crossover Ventures",1.6,49.2667,-122.9667,,232755.0,1124817304
+567,SafetyCulture,2021-05-03,Australia,Sydney,Internet software & services,"Blackbird Ventures, IndexVentures, Tiger Global Management",1.6,-33.865,151.2094,admin,5312163.0,1036074917
+568,Monte Carlo,2022-05-24,United States,San Francisco,Artificial intelligence,"GGV Capital, Accel, Redpoint Ventures",1.6,37.7562,-122.443,,3592294.0,1840021543
+569,Cresta,2022-03-17,United States,San Francisco,Artificial Intelligence,"Andreessen Horowitz, Greylock Partners, Sequoia Capital",1.6,37.7562,-122.443,,3592294.0,1840021543
+570,Extend,2021-05-18,United States,San Francisco,Fintech,"GreatPoint Ventures, Meritech Capital Partners, PayPal Ventures",1.36,37.7562,-122.443,,3592294.0,1840021543
+571,Generate Biomedicines,2021-11-18,United States,Cambridge,Health,"Altitude Life Science Ventures. T. Rowe Price, Morningside Venture Partners",1.36,42.3759,-71.1185,,118927.0,1840000429
+572,Cognite,2021-05-19,Norway,Oslo,Data management & analytics,"Technology Crossover Ventures, Accel, Aker",1.5,59.9111,10.7528,primary,693494.0,1578324706
+573,ASAPP,2021-05-19,United States,New York,Artificial intelligence,"March Capital Partners, HOF Capital, Emergence Capital Partners",1.6,40.6943,-73.9249,,18713220.0,1840034016
+574,SmartHR,2021-06-08,Japan,Tokyo,Fintech,"BEENEXT, World Innovation Lab, Light Street Capital",1.6,35.6897,139.6922,primary,37977000.0,1392685764
+575,Mercury,2021-07-03,United States,San Francisco,Fintech,"Andreessen Horowitz, Coatue Management, Clocktower Technology Ventures",1.6,37.7562,-122.443,,3592294.0,1840021543
+576,HomeLight,2021-09-02,United States,San Francisco,Fintech,"Zeev Ventures, Menlo Ventures,Crosslink Capital",1.6,37.7562,-122.443,,3592294.0,1840021543
+577,Truepill,2021-10-27,United States,Hayward,Health,"Initialized Capital, Sound Ventures, TI Platform Management",1.6,37.6328,-122.0772,,159203.0,1840020293
+578,ezCater,2019-04-02,United States,Boston,"Supply chain, logistics, & delivery","Insight Venture Partners, ICONIQ Capital, Launchpad Venture Group",1.6,42.3188,-71.0846,admin,4688346.0,1840000455
+579,Wayflyer,2022-02-01,Ireland,Dublin,Fintech,"QED Investors, DST Global, Left Lane Capital",1.6,53.3497,-6.2603,primary,1173179.0,1372595407
+580,Capitolis,2022-03-22,United States,New York,Fintech,"Sequoia Capital, Index Ventures, S Capital",1.6,40.6943,-73.9249,,18713220.0,1840034016
+581,Nord Security,2022-04-07,Lithuania,Vilnius,Cybersecurity,"General Catalyst, BaltCap, Novator Partners",1.6,54.6833,25.2833,primary,574147.0,1440887149
+582,Vanta,2022-06-07,United States,San Francisco,Cybersecurity,"Craft Ventures, Sequoia Capital, Verissimo Ventures",1.6,37.7562,-122.443,,3592294.0,1840021543
+583,Promasidor Holdings,2016-11-08,South Africa,Johannesburg,Consumer & retail,"IFC, Ajinomoto",1.59,-26.2044,28.0416,admin,4434827.0,1710550792
+584,ICON 3D,2022-02-18,United States,Austin,Hardware,"Moderne Ventures, Oakhouse Partners, Bjarke Ingels Group",1.57,30.3004,-97.7522,admin,1687311.0,1840019590
+585,Baiwang,2019-03-25,China,Beijing,Fintech,"Guozhong Venture Capital Management, Shenzhen Capital Group, Oriental Fortune Capital",1.55,39.905,116.3914,primary,19433000.0,1156228865
+586,Iluvatar CoreX,2021-03-01,China,Shanghai,Hardware,"Centurium Capital, Cedarlake Capital, Unicom Innovation Venture Capital",1.55,31.1667,121.4667,admin,22120000.0,1156073548
+587,Wenheyou,2021-04-17,China,Changsha,Other,"Sequoia Capital China, Warburg Pincus, IDG Capital",1.55,28.1987,112.9709,admin,8394500.0,1156961497
+588,Kitopi,2021-07-01,United Arab Emirates,Dubai,"Supply chain, logistics, & delivery","CE-Ventures, BECO Capital, Nordstar",1.55,25.2697,55.3094,admin,2502715.0,1784736618
+589,Loom,2021-05-20,United States,San Francisco,Internet software & services,"Kleiner Perkins Caufield & Byers, Sequoia Capital, General Catalyst",1.53,37.7562,-122.443,,3592294.0,1840021543
+590,Ximalaya FM,2017-09-22,China,Shanghai,Mobile & telecommunications,"China Creation Ventures, Sierra Ventures, Xingwang Investment Management",1.52,31.1667,121.4667,admin,22120000.0,1156073548
+591,Carzone,2019-03-01,China,Nanjing,E-commerce & direct-to-consumer,"Alibaba Group,Co-Stone Venture Capital, Buhuo Venture Capital",1.52,32.05,118.7667,admin,7496000.0,1156644065
+592,Mu Sigma,2013-02-07,United States,Northbrook,Data management & analytics,"Sequoia Capital, General Atlantic",1.5,39.2467,-84.5796,,10684.0,1840034123
+593,Kushki,2022-06-07,Ecuador,Quito,Fintech,"Clocktower Technology Ventures, DILA Capital, Kaszek Ventures",1.5,-0.2186,-78.5097,primary,2011388.0,1218441993
+594,TuJia,2015-06-17,China,Beijing,Travel,"GGV Capital, QiMing Venture Partnersl",1.5,39.905,116.3914,primary,19433000.0,1156228865
+595,Mofang Living,2016-04-13,China,Shanghai,E-commerce & direct-to-consumer,"Warburg Pincus, Aviation Industry Corporation of China",1.5,31.1667,121.4667,admin,22120000.0,1156073548
+596,Gett,2016-05-24,United Kingdom,London,Auto & transportation,"Volkswagen, Access Industries, Vostok New Ventures",1.5,51.5072,-0.1275,primary,10979000.0,1826645935
+597,DT Dream,2017-06-08,China,Hangzhou,Data management & analytics,"Alibaba Group, China Everbright Investment Management, Yinxinggu Capital",1.5,30.25,120.1675,admin,6446000.0,1156275243
+598,Changingedu,2017-10-30,China,Shanghai,Edtech,"Trustbridge Partners, IDG Capital, Sequoia Capital China",1.5,31.1667,121.4667,admin,22120000.0,1156073548
+599,XiaoZhu,2017-11-01,China,Beijing,Travel,"Morningside Ventures, Capital Today, JOY Capital",1.5,39.905,116.3914,primary,19433000.0,1156228865
+600,JOLLY Information Technology,2018-05-29,China,Hangzhou,E-commerce & direct-to-consumer,"Legend Capital, CDH Investments, Sequoia Capital China",1.5,30.25,120.1675,admin,6446000.0,1156275243
+601,Yijiupi,2018-09-20,China,Beijing,Consumer & retail,"Source Code Capital, Meituan Dianping, Tencent Holdings",1.5,39.905,116.3914,primary,19433000.0,1156228865
+602,Cambridge Mobile Telematics,2018-12-19,United States,Cambridge,Mobile & telecommunications,SoftBank Group,1.5,42.3759,-71.1185,,118927.0,1840000429
+603,Collective Health,2019-06-17,United States,San Francisco,Fintech,"New Enterprise Associates, Founders Fund, Google Ventures",1.5,37.7562,-122.443,,3592294.0,1840021543
+604,Strava,2020-11-16,United States,San Francisco,Internet software & services,"Jackson Square Ventures, Madrone Capital Partners, Sequoia Capital",1.5,37.7562,-122.443,,3592294.0,1840021543
+605,Zenoti,2020-12-15,United States,Bellevue,Internet software & services,"Norwest Venture Partners, Accel, Tiger Global Management",1.5,47.5951,-122.1535,,148164.0,1840018417
+606,K Health,2021-01-19,United States,New York,Health,"Max Ventures, Mangrove Capital Partners, 14W",1.5,40.6943,-73.9249,,18713220.0,1840034016
+607,Uplight,2021-03-03,United States,Boulder,Other,"Rubicon Technology Partners, Max Ventures, Inclusive Capital Partners",1.5,40.0249,-105.2523,,124345.0,1840018774
+608,ID.me,2021-03-19,United States,McLean,Cybersecurity,"Moonshots Capital, BoxGroup, Blu Venture Investors",1.5,38.9436,-77.1943,,47682.0,1840006018
+609,Snapdocs,2021-05-25,United States,San Francisco,Fintech,"Sequoia Capital, Y Combinator, F-Prime Capital",1.5,37.7562,-122.443,,3592294.0,1840021543
+610,Chipper Cash,2021-05-31,United States,San Francisco,Fintech,"Deciens Capital, Bezos Expeditions, 500 Startups",2.0,37.7562,-122.443,,3592294.0,1840021543
+611,Ledger,2021-06-10,France,Paris,Hardware,"Digital Currency Group, Draper Esprit, Korelya Capital",1.5,48.8566,2.3522,primary,11020000.0,1250015082
+612,Next Silicon,2021-06-14,Israel,Tel Aviv-Yafo,Hardware,"Amiti Ventures, Playground Global, Aleph",1.5,32.08,34.78,admin,451523.0,1376401542
+613,YunQuNa,2021-06-29,China,Shanghai,"Supply chain, logistics, & delivery","Source Code Capital, Coatue Management, DCM Ventures",1.5,31.1667,121.4667,admin,22120000.0,1156073548
+614,impact.com,2021-07-13,United States,Santa Barbara,Internet software & services,"Redpoint Ventures, Providence Equity Partners, Silversmith Capital Partners",1.5,34.4285,-119.7202,,202401.0,1840021829
+615,SmartRecruiters,2021-07-20,United States,San Francisco,Internet software & services,"Mayfield Fund, Insight Partners, Rembrandt Venture Partners",1.5,37.7562,-122.443,,3592294.0,1840021543
+616,NotCo,2021-07-26,Chile,Santiago,Artificial Intelligence,"Kaszek Ventures, SOSV, Tiger Global Management",1.5,-33.45,-70.6667,primary,7007000.0,1152554349
+617,Culture Amp,2021-07-29,Australia,Richmond,Internet software & services,"Felicis Ventures, Index Ventures, Blackbird Ventures",1.5,-33.5983,150.7511,,5482.0,1036934091
+618,TaxBit,2021-08-04,United States,Draper,Fintech,"Insight Partners, Coinbase Ventures, PayPal Ventures",1.5,40.4957,-111.8605,,48587.0,1840018747
+619,Pacaso,2021-03-24,United States,Cincinnati,Fintech,"Global Founders Capital, Shea Ventures, Greycroft",1.5,39.1413,-84.5061,,1662691.0,1840003814
+620,1047 Games,2021-09-14,United States,Carson City,Internet software & services,"VGames, Lakestar, Galaxy Interactive",1.5,39.1512,-119.7474,admin,58756.0,1840003826
+621,Matillion,2021-09-15,United Kingdom,Altrincham,Data management & analytics,"Scale Venture Partners, Sapphire Ventures, Battery Ventures",1.5,53.3838,-2.3547,,52419.0,1826280426
+622,Persona,2021-09-15,United States,San Francisco,Cybersecurity,"Coatue Management, Index Ventures, Founders Fund",1.5,37.7562,-122.443,,3592294.0,1840021543
+623,Whatnot,2021-09-16,United States,Marina del Rey,E-commerce & direct-to-consumer,"Y Combinator, Andreessen Horowitz, Wonder Ventures",1.5,33.9765,-118.4486,,9852.0,1840017920
+624,Ascend Money,2021-09-27,Thailand,Bangkok,Fintech,"Ant Group, Charoen Pokphand Group, Bow Wave Capital",1.5,13.75,100.5167,primary,17066000.0,1764068610
+625,Andela,2021-09-29,United States,New York,Internet software & services,"Spark Capital, Google Ventures, CRE Venture Capital",1.5,40.6943,-73.9249,,18713220.0,1840034016
+626,Built,2021-09-30,United States,Nashville,Internet software & services,"Nyca Partners, Index Ventures, Technology Crossover Ventures",1.5,36.1715,-86.7843,admin,1081903.0,1840036155
+627,candy.com,2021-10-21,United States,New York,Fintech,"Insight Partners, Softbank Group, Connect Ventures",1.5,40.6943,-73.9249,,18713220.0,1840034016
+628,CoinList,2021-10-15,United States,San Francisco,Fintech,"Accomplice, Polychain Capital, GoldenTree Asset Management",1.5,37.7562,-122.443,,3592294.0,1840021543
+629,Lusha,2021-11-10,United States,New York,Internet software & services,"PSG, ION Crossover Partners",1.5,40.6943,-73.9249,,18713220.0,1840034016
+630,CureFit,2021-11-10,India,Bangalore,Health,"Chiratae Ventures, Accel, Kalaari Capital",1.5,12.9699,77.598,admin,13707000.0,1356410365
+631,Solugen,2021-09-10,United States,Houston,Other,"Fifty Years Fund, Refactor Capital, Temasek",1.5,29.7863,-95.3889,,5464251.0,1840020925
+632,Olist,2021-12-15,Brazil,Curitiba,E-commerce & direct-to-consumer,"Redpoint e.ventures, Valor Capital Group, SoftBank Latin America Fund",1.5,-25.4297,-49.2719,admin,1879355.0,1076701712
+633,Paradox,2021-12-27,United States,Scottsdale,Internet software & services,"Brighton Park Capital, Blue Cloud Ventures, Workday Ventures",1.5,33.6872,-111.8651,,258069.0,1840021940
+634,Airbyte,2021-12-17,United States,San Francisco,Internet software & services,"Accel, Benchmark, SV Angel",1.5,37.7562,-122.443,,3592294.0,1840021543
+635,StoreDot,2022-01-04,Israel,Herzliyya,Other,"Samsung Ventures, SingulariTeam, BP Ventures",1.5,32.1556,34.8422,,93989.0,1376303805
+636,Il Makiage,2022-01-10,United States,New York,E-commerce & direct-to-consumer,"L Catterton, Franklin Templeton, First Light Capital Group",1.5,40.6943,-73.9249,,18713220.0,1840034016
+637,Spendesk,2022-01-18,France,Paris,Fintech,"Index Ventures, Eight Roads Ventures, General Atlantic",1.5,48.8566,2.3522,primary,11020000.0,1250015082
+638,Veriff,2022-01-26,Estonia,Tallinn,Artificial intelligence,"Accel, Institutional Venture Partners, Tiger Global Management",1.5,59.4372,24.745,primary,438341.0,1233260021
+639,Athelas,2022-01-31,United States,Mountain View,Health,"Sequoia Capital, General Catalyst, 	Human Capital",1.5,37.4,-122.0796,,82739.0,1840020332
+640,ElasticRun,2022-02-07,India,Pune,"Supply chain, logistics, & delivery","Kalaari Capital, Norwest Venture Partners, Prosus Ventures",1.5,18.5196,73.8553,,7764000.0,1356081074
+641,Veho,2021-12-21,United States,Boulder,"Supply chain, logistics, & delivery","General Catalyst, Origin Ventures, Fontinalis Partners",1.5,40.0249,-105.2523,,124345.0,1840018774
+642,Temporal,2022-02-16,United States,Bellevue,Internet software & services,"Amplify Partners, Addition, Madrona Venture Group",1.5,47.5951,-122.1535,,148164.0,1840018417
+643,Fabric,2022-02-24,United States,Bellevue,E-commerce & direct-to-consumer,"Redpoint Ventures, Norwest Venture Partners, Sierra Ventures",1.5,47.5951,-122.1535,,148164.0,1840018417
+644,Zeta,2021-05-24,United States,San Francisco,Fintech,"Sodexo Ventures, SoftBank Group",1.5,37.7562,-122.443,,3592294.0,1840021543
+645,Boba,2022-04-05,United States,San Francisco,Fintech,"DeFi Technologies, Hypersphere Ventures, M13",1.5,37.7562,-122.443,,3592294.0,1840021543
+646,Upside,2022-04-26,United States,Washington,Mobile & telecommunications,"Bessemer Venture Partners, Builders VC, General Catalyst",1.5,38.9047,-77.0163,primary,5379184.0,1840006060
+647,Mashgin,2022-05-09,United States,Palo Alto,Artificial intelligence,"New Enterprise Associates, Matrix Partmers, Susa Ventures",1.5,37.3913,-122.1468,,65364.0,1840020333
+648,Dock,2022-05-12,Brazil,Sao Paulo,Fintech,"Viking Global Investors, Riverwood Capital, Lightrock",1.5,-23.5504,-46.6339,admin,22046000.0,1076532519
+649,Prometheus,2021-09-23,United States,Santa Cruz,Other,"BMW i Ventures, Metaplanet, Maersk Growth",1.5,36.9789,-122.0346,,176428.0,1840021579
+650,Yipin Shengxian,2019-03-11,China,Hefei,E-commerce & direct-to-consumer,"Eastern Bell Capital, Capital Today, Longzhu Capital",1.49,31.8639,117.2808,admin,7457027.0,1156332710
+651,Bordrin Motors,2019-06-03,China,Shanghai,Auto & transportation,"China Grand Prosperity Investment, CSC Group",1.48,31.1667,121.4667,admin,22120000.0,1156073548
+652,Shukun Technology,2021-08-16,China,Beijing,Artificial Intelligence,"Marathon Venture Partners, Huagai Capital, China Creation Ventures",1.46,39.905,116.3914,primary,19433000.0,1156228865
+653,Coocaa,2018-03-16,China,Shenzhen,Hardware,"Baidu, Tencent Holdings",1.45,22.535,114.054,minor,15929000.0,1156158707
+654,Juma Peisong,2018-11-26,China,Chengdu,"Supply chain, logistics, & delivery","Ding Xiang Capital, New Hope Fund, Sino-Ocean Capital",1.45,30.66,104.0633,admin,11309000.0,1156421555
+655,Ouyeel,2019-06-27,China,Shanghai,Internet software & services,Taigang Venture Capital,1.45,31.1667,121.4667,admin,22120000.0,1156073548
+656,Gymshark,2020-08-14,United Kingdom,Solihull,E-commerce & direct-to-consumer,General Atlantic,1.45,52.413,-1.778,,123187.0,1826720500
+657,M1,2021-07-14,United States,Chicago,Fintech,"Left Lane Capital, Clocktower Technology Ventures, Jump Capital",1.45,41.8373,-87.6862,,8604203.0,1840000494
+658,Aleo,2022-02-07,United States,San Francisco,Cybersecurity,"Slow Ventures, Andreessen Horowitz, SoftBank Group",1.45,37.7562,-122.443,,3592294.0,1840021543
+659,Einride,2021-12-31,Sweden,Stockholm,Auto & transportation,"Temasek,	BUILD Capital Partners, 	Northzone Ventures",1.44,59.3294,18.0686,primary,972647.0,1752425602
+660,Justworks,2020-01-28,United States,New York,Internet software & services,"Index Ventures, Thrive Capital, Bain Capital Ventures",1.43,40.6943,-73.9249,,18713220.0,1840034016
+661,Valgen Medtech,2021-05-06,China,Hangzhou,Health,"Sequoia Capital China, China Life Investment Holding Company, Qiming Venture Partners",1.43,30.25,120.1675,admin,6446000.0,1156275243
+662,SonderMind,2021-07-28,United States,Denver,Health,"Kickstart Fund, General Catalyst, Drive Capital",1.42,39.7621,-104.8759,admin,2876625.0,1840018789
+663,Papa,2021-11-04,United States,Miami,Health,"Initialized Capital, Canaan Partners, Sound Ventures",1.4,25.7839,-80.2102,,6445545.0,1840015149
+664,Figment,2021-12-20,Canada,Toronto,Internet software & services,"Bonfire Ventures, Two Sigma Ventures, FJ Labs",1.4,43.7417,-79.3733,,5429524.0,1124279679
+665,Envoy,2022-01-11,United States,San Francisco,Internet software & services,"Andreessen Horowitz, Initialized Capital, TriplePoint Capital",1.4,37.7562,-122.443,,3592294.0,1840021543
+666,Deliverect,2022-01-24,Belgium,Gent,Fintech,"Newion Partners, SmartFin Capital, OMERS Ventures",1.4,51.0536,3.7253,minor,262219.0,1056062897
+667,SparkCognition,2022-01-25,United States,Austin,Artificial intelligence,"March Capital Partners, Temasek, Doha Venture Capital",1.4,30.3004,-97.7522,admin,1687311.0,1840019590
+668,Firebolt,2022-01-26,Israel,Tel Aviv-Yafo,Data management & analytics,"TLV Partners, Zeev Ventures, Bessemer Venture Partners",1.4,32.08,34.78,admin,451523.0,1376401542
+669,Koudai,2014-10-23,China,Beijing,E-commerce & direct-to-consumer,"New Enterprise Associates, Tiger Global management, Tencent",1.4,39.905,116.3914,primary,19433000.0,1156228865
+670,Symphony,2017-05-16,United States,New York,Fintech,"BNP Paribas, Goldman Sachs, Google",1.4,40.6943,-73.9249,,18713220.0,1840034016
+671,Yidian Zixun,2017-10-17,China,Beijing,Mobile & telecommunications,"Phoenix New Media, Tianjin Haihe Industry Fund",1.4,39.905,116.3914,primary,19433000.0,1156228865
+672,Cabify,2018-01-22,Spain,Madrid,Auto & transportation,"Seaya Ventures, Otter Rock Capital, Rakuten",1.4,40.4167,-3.7167,primary,6026000.0,1724616994
+673,Hive Box,2018-01-23,China,Shenzhen,"Supply chain, logistics, & delivery","Eastern Bell Capital, SF Holding Co, STO Express",1.4,22.535,114.054,minor,15929000.0,1156158707
+674,Deezer,2018-08-02,France,Paris,Internet software & services,"Orange Digital Ventures, Access Industries",1.4,48.8566,2.3522,primary,11020000.0,1250015082
+675,Away,2019-05-15,United States,New York,E-commerce & direct-to-consumer,"Global Founders Capital, Comcast Ventures, Forerunner Ventures",1.4,40.6943,-73.9249,,18713220.0,1840034016
+676,Kong,2020-12-31,United States,San Francisco,Internet software & services,"New Enterprise Associates, CRV, Index Ventures",1.4,37.7562,-122.443,,3592294.0,1840021543
+677,Epidemic Sound,2021-03-11,Sweden,Stockholm,Internet software & services,"EQT Partners, Blackstone",1.4,59.3294,18.0686,primary,972647.0,1752425602
+678,Yotpo,2021-03-18,United States,New York,Internet software & services,"Bessemer Venture Partners, Vintage Investment Partners, Blumberg Capital",1.4,40.6943,-73.9249,,18713220.0,1840034016
+679,Rebel Foods,2021-10-07,India,Pune,E-commerce & direct-to-consumer,"Sequoia Capital India, Lightbox Ventures, Coatue Management",1.4,18.5196,73.8553,,7764000.0,1356081074
+680,Coda,2021-07-08,United States,Mountain View,Internet software & services,"Greylock Partners, General Catalyst, Khosla Ventures",1.4,37.4,-122.0796,,82739.0,1840020332
+681,Five Star Business Finance,2021-03-26,India,Chennai,Other,"Sequoia Capital India, Tiger Global Management, Tencent",1.4,13.0825,80.275,admin,11324000.0,1356374944
+682,Stash,2021-02-03,United States,New York,Fintech,"Goodwater Capital, Entree Capital, Valar Ventures",1.4,40.6943,-73.9249,,18713220.0,1840034016
+683,Rad Power Bikes,2021-10-28,United States,Seattle,Auto & transportation,"Durable Capital Partners, Cercano Management, 	T. Rowe Price",1.4,47.6211,-122.3244,,3789215.0,1840021117
+684,Clarify Health,2022-04-05,United States,San Francisco,Health,"KKR, Aspenwood Ventures, Spark Capital",1.4,37.7562,-122.443,,3592294.0,1840021543
+685,Bucketplace,2022-05-09,"Korea, South",Seoul,E-commerce & direct-to-consumer,"IMM Investment, Mirae Asset Capital, BOND",1.4,37.56,126.99,primary,21794000.0,1410836482
+686,Paddle,2022-05-09,United Kingdom,London,Fintech,"Notion Capital, Kindred Capital, BGF Ventures",1.4,51.5072,-0.1275,primary,10979000.0,1826645935
+687,Phenom People,2021-04-07,United States,Ambler,Internet software & services,"Sierra Ventures, AXA Venture Partners, Sigma Prime Ventures",1.4,40.1564,-75.2215,,6491.0,1840003693
+688,GupShup,2021-04-08,United States,San Francisco,Internet software & services,"Helion Venture Partners, Tiger Global management, CRV",1.4,37.7562,-122.443,,3592294.0,1840021543
+689,Degreed,2021-04-13,United States,Pleasanton,Edtech,"Signal Peak Ventures, Owl Ventures, Jump Capital",1.4,37.6663,-121.8805,,81777.0,1840020298
+690,Astranis Space Technologies,2021-04-14,United States,San Francisco,Mobile & telecommunications,"Refactor Capital, Andreessen Horowitz, Fifty Years Fund",1.4,37.7562,-122.443,,3592294.0,1840021543
+691,Scalable Capital,2021-06-08,Germany,Munich,Fintech,"BlackRock, Tengelmann Ventures, Holtzbrinck Ventures",1.4,48.1372,11.5755,admin,1471508.0,1276692352
+692,VideoAmp,2021-10-21,United States,Los Angeles,Internet software & services,"Simon Equity Partners, Wavemaker Partners, Anthem Venture Partners",1.4,34.1139,-118.4068,,12750807.0,1840020491
+693,Panther Labs,2021-12-02,United States,San Francisco,Cybersecurity,"Innovation Endeavors, s28 Capital, Lightspeed Venture Partners",1.4,37.7562,-122.443,,3592294.0,1840021543
+694,Salt Security,2022-02-10,United States,Palo Alto,Cybersecurity,"Y Combinator, S Capital, Tenaya Capital",1.4,37.3913,-122.1468,,65364.0,1840020333
+695,Tripledot,2022-02-14,United Kingdom,London,Mobile & telecommunications,"Lightspeed Venture Partners, Access Industries, Eldridge",1.4,51.5072,-0.1275,primary,10979000.0,1826645935
+696,Veepee,2007-07-02,France,Saint-Denis,E-commerce & direct-to-consumer,"Summit Partners, Qatar Holding",1.38,48.9356,2.3539,minor,111135.0,1250935115
+697,Neon,2022-02-14,Brazil,Sao Paulo,Fintech,"Propel Venture Partners, Monashees+, BBVA",1.38,-23.5504,-46.6339,admin,22046000.0,1076532519
+698,Movable Ink,2022-04-28,United States,New York,Internet Software Services,"Contour Venture Partners, Intel Capital, Silver Lake",1.36,40.6943,-73.9249,,18713220.0,1840034016
+699,DeepBlue Technology,2018-04-16,China,Shanghai,Artificial intelligence,"DESUN Capital, Yunfeng Capital, Meridian Capital",1.35,31.1667,121.4667,admin,22120000.0,1156073548
+700,Klook,2018-08-07,Hong Kong,Hong Kong,Travel,"Sequoia Capital China, Goldman Sachs, Matrix Partners China",1.35,22.305,114.185,primary,7347000.0,1344982653
+701,Yaoshibang,2021-06-15,China,Guangzhou,Health,"Green Pine Capital Partners, Ivy Capital, DCM Ventures",1.35,23.1288,113.259,admin,20902000.0,1156237133
+702,Alloy,2021-09-30,United States,New York,Fintech,"Bessemer Venture Partners, Eniac Ventures, Canapi Ventures",1.35,40.6943,-73.9249,,18713220.0,1840034016
+703,Epirus,2022-02-14,United States,Hawthorne,Other,"8VC, Bedrock Capital, Broom Ventures",1.35,33.9146,-118.3476,,86068.0,1840020486
+704,Signifyd,2021-04-15,United States,San Jose,Fintech,"Menlo Ventures, Resolute Ventures, IA Ventures",1.34,37.3019,-121.8486,,1798103.0,1840021570
+705,Motorway,2021-11-29,United Kingdom,London,E-commerce & direct-to-consumer,"Marchmont Ventures, BMW i Ventures, Index Ventures",1.33,51.5072,-0.1275,primary,10979000.0,1826645935
+706,RIDI,2022-01-24,"Korea, South",Seoul,E-commerce & direct-to-consumer,"Atinum Investment, Company K Partners, GIC",1.33,37.56,126.99,primary,21794000.0,1410836482
+707,Flipboard,2015-07-22,United States,Palo Alto,Internet software & services,"Kleiner Perkins Caufield & Byers, Comcast Ventures, Insight Partners",1.32,37.3913,-122.1468,,65364.0,1840020333
+708,Grove Collaborative,2019-09-06,United States,San Francisco,E-commerce & direct-to-consumer,"MHS Capital, NextView Ventures, Mayfield Fund",1.32,37.7562,-122.443,,3592294.0,1840021543
+709,GPclub,2018-10-22,"Korea, South",Seoul,Other,Goldman Sachs,1.32,37.56,126.99,primary,21794000.0,1410836482
+710,Tongdun Technology,2019-04-25,China,Hangzhou,Cybersecurity,"Advantech Capital, Temasek Holdings Ltd., Tiantu Capital Co.",1.32,30.25,120.1675,admin,6446000.0,1156275243
+711,Athletic Greens,2022-01-25,United States,New York,Health,"SC.Holdings, Not Boring Capital, Bolt Ventures",1.32,40.6943,-73.9249,,18713220.0,1840034016
+712,Unisound,2018-07-19,China,Beijing,Artificial intelligence,"Qiming Venture Partners, China Internet Investment Fund, Qualcomm Ventures",1.31,39.905,116.3914,primary,19433000.0,1156228865
+713,Alzheon,2020-09-30,United States,Framingham,Health,"ARCH Venture Partners, Ally Bridge Group",1.31,42.3085,-71.4368,,74416.0,1840003131
+714,HeartFlow,2017-12-04,United States,Redwood City,Health,"BlueCross BlueShield Venture Partners, US Venture Partners",1.3,37.5026,-122.2252,,85925.0,1840020304
+715,The Brandtech Group,2019-11-19,United States,New York,Other,Undisclosed,1.3,40.6943,-73.9249,,18713220.0,1840034016
+716,InSightec,2020-03-06,Israel,Tirat Karmel,Health,"York Capital Management, GE Healthcare, Koch Disruptive Technologies",1.3,32.7667,34.9667,,22200.0,1376894717
+717,Everly Health,2020-12-03,United States,Austin,E-commerce & direct-to-consumer,"Highland Capital Partners, Next Coast Ventures, SoGal Ventures",1.3,30.3004,-97.7522,admin,1687311.0,1840019590
+718,Manner,2020-12-24,China,Shanghai,Other,"Coatue Management, H Capital, Capital Today",1.3,31.1667,121.4667,admin,22120000.0,1156073548
+719,TalkingData,2021-01-06,China,Beijing,Mobile & telecommunications,"N5 Capital, CR Capital Mgmt, JD Digits",1.3,39.905,116.3914,primary,19433000.0,1156228865
+720,DistroKid,2021-08-16,United States,New York,Internet software & services,"Insight Partners, Silversmith Capital Partners, Spotify",1.3,40.6943,-73.9249,,18713220.0,1840034016
+721,Konfio,2021-09-29,Mexico,Mexico City,Fintech,"Kaszek Ventures, QED Investors, International Finance Corporation",1.3,19.4333,-99.1333,primary,20996000.0,1484247881
+722,Betterment,2021-09-29,United States,New York,Fintech,"Bessemer Venture Partners, Menlo Ventures, Anthermis",1.3,40.6943,-73.9249,,18713220.0,1840034016
+723,Flock Freight,2021-10-20,United States,Encinitas,"Supply chain, logistics, & delivery","SignalFire, GLP Capital Partners, Google Ventures",1.3,33.049,-117.2613,,62709.0,1840020619
+724,YugaByte,2021-10-28,United States,Sunnyvale,Data management & analytics,"Lightspeed Venture Partners, Dell Technologies Capital, Wipro Ventures",1.3,37.3836,-122.0256,,152703.0,1840021573
+725,Lukka,2022-01-14,United States,New York,Fintech,"Liberty City Ventures, Soros Fund Management, Summer Capital",1.3,40.6943,-73.9249,,18713220.0,1840034016
+726,TravelPerk,2022-01-12,Spain,Barcelona,Travel,"LocalGlobe, Kinnevik, Felix Capital",1.3,41.3825,2.1769,admin,4588000.0,1724594040
+727,iTrustCapital,2022-01-11,United States,Long Beach,Fintech,"Left Lane Capital, Walden Venture Capital",1.3,33.7981,-118.1675,,462628.0,1840020490
+728,Domestika,2022-01-27,United States,Berkeley,Internet software & services,"Zeev Ventures, GSV Ventures",1.3,37.8723,-122.276,,121363.0,1840018914
+729,CoinTracker,2022-01-27,United States,San Francisco,Fintech,"Initialized Capital, General Catalyst, Kraken Ventures",1.3,37.7562,-122.443,,3592294.0,1840021543
+730,Loadsmart,2022-02-01,United States,New York,"Supply chain, logistics, & delivery","Chromo Invest, Maersk Growth, BlackRock",1.3,40.6943,-73.9249,,18713220.0,1840034016
+731,TUNGEE,2021-12-15,China,Guangzhou,Artificial Intelligence,"UNITY VENTURES, Qiming Venture Partners, GGV Capital",1.3,23.1288,113.259,admin,20902000.0,1156237133
+732,CredAvenue,2022-03-07,India,Chennai,Fintech,"Insight Partners, B Capital Group, 	Lightspeed Venture Partners",1.3,13.0825,80.275,admin,11324000.0,1356374944
+733,LinkTree,2022-03-16,Australia,Melbourne,Internet software & services,"AirTree Ventures, Insight Partners, Index Ventures",1.3,-37.8136,144.9631,admin,5078193.0,1036533631
+734,Island,2022-03-23,United States,Dallas,Internet software & services,"Insight Partners, Sequoia Capital, Stripes Group",1.3,32.7936,-96.7662,,5743938.0,1840019440
+735,Clipboard Health,2022-02-01,United States,San Francisco,Internet software & services,"Caffeinated Capital, Initialized Capital, Y Combinator",1.3,37.7562,-122.443,,3592294.0,1840021543
+736,Biofourmis,2022-04-26,United States,Boston,Health,"General Atlantic, CVS Health, MassMutual Ventures",1.3,42.3188,-71.0846,admin,4688346.0,1840000455
+737,STORD,2021-09-13,United States,Atlanta,"Supply chain, logistics, & delivery","Dynamo VC, Susa Ventures, Founders Fund",1.3,33.7627,-84.4224,admin,5449398.0,1840013660
+738,Optibus,2022-05-16,Israel,Tel Aviv-Yafo,"Supply chain, logistics, & delivery","Bessemer Venture Partners, Insight Partners, Pitango Venture Capital",1.3,32.08,34.78,admin,451523.0,1376401542
+739,Intercom,2018-03-27,United States,San Francisco,Internet software & services,"FirstMark Capital, Tiger Global Management",1.28,37.7562,-122.443,,3592294.0,1840021543
+740,OVO Energy,2019-02-14,United Kingdom,Bristol,Other,"Mitsubishi Corporation, Mayfair Equity Partners",1.28,51.45,-2.5833,,724000.0,1826921049
+741,Huisuanzhang,2021-05-24,China,Beijing,Fintech,"IDG Capital, Gaocheng Capital, Chuanrong Capital",1.28,39.905,116.3914,primary,19433000.0,1156228865
+742,WTOIP,2018-04-08,China,Guangzhou,Internet software & services,"Dark Horse Technology Group, Hopu Investment Management, Kefa Capital",1.27,23.1288,113.259,admin,20902000.0,1156237133
+743,Greater Bay Technology,2022-04-02,China,Guangzhou,Hardware,"Tencent Holdings, Utrust Venture Capital, GF Xinde Investment Management Co.",1.26,23.1288,113.259,admin,20902000.0,1156237133
+744,BigID,2020-12-16,United States,New York,Cybersecurity,"BOLDstart Ventures, SAP.iO Fund, Scale Venture Partners",1.25,40.6943,-73.9249,,18713220.0,1840034016
+745,Kuaikan Manhua,2017-12-01,China,Beijing,Internet software & services,"Sequoia Capital China, CMC Capital Partners, Tencent Holdings",1.25,39.905,116.3914,primary,19433000.0,1156228865
+746,Marshmallow,2021-09-08,United Kingdom,London,Fintech,"Passion Capital, Hedosophia, Outrun Ventures",1.25,51.5072,-0.1275,primary,10979000.0,1826645935
+747,Honor Technology,2021-10-05,United States,San Francisco,Internet software & services,"Andreessen Horowitz, Prosus Ventures, Thrive Capital",1.25,37.7562,-122.443,,3592294.0,1840021543
+748,Mythical Games,2021-11-04,United States,Los Angeles,Internet software & services,"Javelin Venture Partners, Struck Capital, Alumni Ventures Group",1.25,34.1139,-118.4068,,12750807.0,1840020491
+749,Incode Technologies,2021-12-07,United States,San Francisco,Cybersecurity,"Dila Capital, Framework Ventures, 3L",1.25,37.7562,-122.443,,3592294.0,1840021543
+750,Tackle.io,2021-12-21,United States,Boise,Internet software & services,"Andreessen Horowitz, Bessemer Venture Partners, Coatue Management",1.25,43.6007,-116.2312,admin,389280.0,1840027142
+751,Flipdish,2022-01-13,Ireland,Dublin,Internet software & services,"Tencent Holdings, Tiger Global Management, Global Founders Capital",1.25,53.3497,-6.2603,primary,1173179.0,1372595407
+752,Route,2022-01-21,United States,Lehi,"Supply chain, logistics, & delivery","Madrona Venture Group, Banner Ventures, FJ Labs",1.25,40.4136,-111.8726,,69724.0,1840020168
+753,CaptivateIQ,2022-01-26,United States,San Francisco,Fintech,"Sequoia Capital, Y Combinator, Accel",1.25,37.7562,-122.443,,3592294.0,1840021543
+754,Talos,2022-05-10,United States,New York,Fintech,"Castle Island Ventures, PayPal Ventures, Andreessen Horowitz",1.25,40.6943,-73.9249,,18713220.0,1840034016
+755,BrewDog,2017-04-10,United Kingdom,Aberdeen,Consumer & retail,"TSG Consumer Partners, Crowdcube",1.24,57.15,-2.11,,214610.0,1826324306
+756,Enflame,2021-01-05,China,Shanghai,Hardware,"Tencent Holdings, Delta Capital, Redpoint Ventures China",1.24,31.1667,121.4667,admin,22120000.0,1156073548
+757,Shulan Health,2021-03-01,China,Hangzhou,Health,Qiming Venture Partners,1.24,30.25,120.1675,admin,6446000.0,1156275243
+758,EQRx,2021-01-11,United States,Cambridge,Health,"Nextech Invest, Casdin Capital, Google Ventures",1.23,42.3759,-71.1185,,118927.0,1840000429
+759,Nexii,2021-09-08,Canada,Vancouver,Other,"Trane Technologies, Honeywell",1.23,49.25,-123.1,,2264823.0,1124825478
+760,inDriver,2021-02-01,United States,Mountain View,Auto & transportation,"Leta Capital, Insight Partners, General Catalyst",1.23,37.4,-122.0796,,82739.0,1840020332
+761,GalaxySpace,2020-11-17,China,Beijing,Mobile & telecommunications,"Shunwei Capital Partners, 5Y Capital, Legend Capital",1.22,39.905,116.3914,primary,19433000.0,1156228865
+762,Spiber,2021-09-08,Japan,Tsuruoka,Other,"Cool Japan Fund, JAFCO, The Carlyle Group",1.22,38.7217,139.8217,,121371.0,1392935450
+763,Insider,2022-02-28,Turkey,Istanbul,Internet software & services,"Wamda Capital, Endeavor, Riverwood Capital",1.22,41.01,28.9603,admin,15154000.0,1792756324
+764,Kallyope,2022-02-15,United States,New York,Health,"The Column Group, Alexandria Venture Investments, Lux Capital",1.22,40.6943,-73.9249,,18713220.0,1840034016
+765,Zip,2022-05-25,United States,San Francisco,Fintech,"CRV, Tiger Global Management, Y Combinator",1.2,37.7562,-122.443,,3592294.0,1840021543
+766,Yiguo,2016-11-09,China,Shanghai,"Supply chain, logistics, & delivery","Alibaba Group, KKR, Goldman Sachs",1.2,31.1667,121.4667,admin,22120000.0,1156073548
+767,Fair,2018-12-20,United States,Santa Monica,Auto & transportation,"CreditEase Fintech Investment Fund, BMW i Ventures, SoftBank Group",1.2,34.0232,-118.4813,,90401.0,1840021866
+768,Glossier,2019-03-19,United States,New York,Consumer & retail,"Forerunner Ventures, Institutional Venture Partners, Thrive Capital",1.65,40.6943,-73.9249,,18713220.0,1840034016
+769,Workhuman,2020-06-23,Ireland,Dublin,Internet software & services,ICG,1.2,53.3497,-6.2603,primary,1173179.0,1372595407
+770,Qumulo,2020-07-16,United States,Seattle,Data management & analytics,"Madrona Venture Group, Kleiner Perkins Caufield & Byers, Highland Capital Partners",1.2,47.6211,-122.3244,,3789215.0,1840021117
+771,Tealium,2021-02-03,United States,San Diego,Internet software & services,"Georgian Partners, Silver Lake, Presidio Ventures",1.2,32.8312,-117.1225,,3220118.0,1840021990
+772,Public,2021-02-17,United States,New York,Fintech,"Accel, Greycroft, Advancit Capital",1.2,40.6943,-73.9249,,18713220.0,1840034016
+773,Pipa Coding,2021-03-25,China,Beijing,Edtech,"Source Code Capital, XVC Venture Capital, Hillhouse Capital Management",1.2,39.905,116.3914,primary,19433000.0,1156228865
+774,Pilot.com,2021-03-26,United States,San Francisco,Fintech,"Index Ventures, Sequoia Capital, Bezos Expeditions",1.2,37.7562,-122.443,,3592294.0,1840021543
+775,Aibee,2021-04-13,China,Beijing,Artificial intelligence,"Sequoia Capital China, Lenovo Capital and Incubator, Group GSR Ventures",1.0,39.905,116.3914,primary,19433000.0,1156228865
+776,Cava Group,2021-04-27,United States,Washington,Other,"SWaN & Legend Ventures, Revolution Growth, Invus Group",1.3,38.9047,-77.0163,primary,5379184.0,1840006060
+777,Vectra Networks,2021-04-29,United States,San Jose,Artificial intelligence,"IA Ventures, Khosla Ventures, AME Cloud Ventures",1.2,37.3019,-121.8486,,1798103.0,1840021570
+778,Ada Support,2021-05-07,Canada,Toronto,Artificial intelligence,"Version One Ventures, Bessemer Venture Partners, FirstMark Capital",1.2,43.7417,-79.3733,,5429524.0,1124279679
+779,Inari,2021-05-12,United States,Cambridge,Other,"Flagship Pioneering, Alexandria Venture Investments, Investment Corporation of Dubai",1.2,42.3759,-71.1185,,118927.0,1840000429
+780,Alation,2021-06-03,United States,Redwood City,Internet software & services,"Costanoa Ventures, Data Collective, Salesforce Ventures",1.2,37.5026,-122.2252,,85925.0,1840020304
+781,SmartMore,2021-06-24,China,Shenzhen,Artificial Intelligence,"IDG Capital, ZhenFund, Sequoia Capital China",1.2,22.535,114.054,minor,15929000.0,1156158707
+782,Rohlik,2021-07-01,Czechia,Prague,"Supply chain, logistics, & delivery","Partech Partners, Index Ventures, Quadrille Capital",1.2,50.0833,14.4167,primary,1335084.0,1203744823
+783,Prime Medicine,2021-07-13,United States,Cambridge,Health,"Newpath Partners, Google Ventures, F-Prime Capital",1.2,42.3759,-71.1185,,118927.0,1840000429
+784,FloQast,2021-07-21,United States,Los Angeles,Fintech,"Polaris Partners, Insight Partners, Norwest Venture Partners",1.2,34.1139,-118.4068,,12750807.0,1840020491
+785,MindTickle,2021-08-03,United States,San Francisco,Internet software & services,"Qualcomm Ventures, Accel, Canaan Partners",1.2,37.7562,-122.443,,3592294.0,1840021543
+786,DailyPay,2021-05-18,United States,New York,Fintech,"RPM Ventures, Inspiration Ventures, Carrick Capital Partners",1.2,40.6943,-73.9249,,18713220.0,1840034016
+787,Oda,2021-06-02,Norway,Oslo,E-commerce & direct-to-consumer,"Kinnevik, Softbank Group, Prosus Ventures",1.2,59.9111,10.7528,primary,693494.0,1578324706
+788,Offchain Labs,2021-08-31,United States,Princeton,Internet software & services,"Pantera Capital, Polychain Capital, Lightspeed Venture Partners",1.2,25.5396,-80.3971,,32299.0,1840014248
+789,Copado,2021-09-13,United States,Chicago,Data management & analytics,"Insight Partners, Salesforce Ventures, Perpetual Investors",1.2,41.8373,-87.6862,,8604203.0,1840000494
+790,Gem,2021-09-28,United States,San Francisco,Internet software & services,"Accel, Greylock Partners, Meritech Capital Partners",1.2,37.7562,-122.443,,3592294.0,1840021543
+791,CarDekho,2021-10-13,India,Jaipur,E-commerce & direct-to-consumer,"Sequoia Capital India, Hillhouse Capital Management, Sunley House Capital Management",1.2,26.9167,75.8667,admin,3073350.0,1356293537
+792,MyGlamm,2021-11-10,India,Mumbai,E-commerce & direct-to-consumer,"L'Occitane, Trifecta Capital, Bessemer Venture Partners",1.2,18.9667,72.8333,admin,23355000.0,1356226629
+793,AgentSync,2021-12-07,United States,Denver,Fintech,"Craft Ventures, Caffeinated Capital, Operator Collective",1.2,39.7621,-104.8759,admin,2876625.0,1840018789
+794,Pristyn Care,2021-12-07,India,Gurgaon,Health,"Sequoia Capital India, Hummingbird Ventures, Epiq Capital",1.4,28.45,77.02,,197340.0,1356836043
+795,Jokr,2021-12-02,United States,New York,E-commerce & direct-to-consumer,"GGV Capital, Tiger Global Management, Greycroft",1.2,40.6943,-73.9249,,18713220.0,1840034016
+796,Merama,2021-12-09,Mexico,Mexico City,E-commerce & direct-to-consumer,"SoftBank Latin America Fund, Advent International, Balderton Capital",1.2,19.4333,-99.1333,primary,20996000.0,1484247881
+797,SeekOut,2022-01-12,United States,Bellevue,Internet software & services,"Mayfield, Madrona Venture Group, Tiger Global Management",1.2,47.5951,-122.1535,,148164.0,1840018417
+798,BigPanda,2022-01-12,United States,Mountain View,Artificial intelligence,"Advent International, Battery Ventures, Sequoia Capital Israel",1.2,37.4,-122.0796,,82739.0,1840020332
+799,Phantom,2022-01-31,United States,San Francisco,Fintech,"Paradigm, Andreessen Horowitz, Jump Capital",1.2,37.7562,-122.443,,3592294.0,1840021543
+800,LivSpace,2022-02-08,India,Bangalore,E-commerce & direct-to-consumer,"Jungle Ventures, Helion Venture Partners, INGKA Investments",1.2,12.9699,77.598,admin,13707000.0,1356410365
+801,Xpressbees,2022-02-09,India,Pune,"Supply chain, logistics, & delivery","Norwest Venture Partners, Investcorp, Blackstone",1.2,18.5196,73.8553,,7764000.0,1356081074
+802,Nova Labs,2022-02-22,United States,San Francisco,Internet software & services,"FirstMark Capital, Tiger Global Management, FTX Venture",1.2,37.7562,-122.443,,3592294.0,1840021543
+803,Choco,2022-04-12,Germany,Berlin,E-commerce & direct-to-consumer,"Bessemer Venture Partners, G Squared, Insight Partners",1.2,52.5167,13.3833,primary,3644826.0,1276451290
+804,Viz.ai,2022-04-07,United States,San Francisco,Artificial Intelligence,"Kleiner Perkins Caufield & Byers, CRV, Threshold Ventures",1.2,37.7562,-122.443,,3592294.0,1840021543
+805,Unit,2022-05-17,United States,New York,Fintech,"Accel, Better Tomorrow Ventures, Flourish Ventures",1.2,40.6943,-73.9249,,18713220.0,1840034016
+806,CloudBees,2021-12-09,United States,San Jose,Data management & analytics,"Matrix Partners, Lightspeed Venture Partners, Verizon Ventures",1.15,37.3019,-121.8486,,1798103.0,1840021570
+807,L&P Cosmetic,2016-01-01,"Korea, South",Seoul,Consumer & retail,CDIB Capital,1.19,37.56,126.99,primary,21794000.0,1410836482
+808,Mininglamp Technology,2019-03-27,China,Beijing,Artificial intelligence,"Russia-China Investment Fund, Tencent Holdings, Sequoia Capital China",1.19,39.905,116.3914,primary,19433000.0,1156228865
+809,Luoji Siwei,2017-07-20,China,Beijing,Edtech,"Sequoia Capital China, Qiming Venture Partners, Tencent Holdings",1.18,39.905,116.3914,primary,19433000.0,1156228865
+810,Yimidida,2019-01-14,China,Shanghai,"Supply chain, logistics, & delivery","Source Code Capital, Global Logistic Properties, K2VC",1.17,31.1667,121.4667,admin,22120000.0,1156073548
+811,Modern Health,2021-02-11,United States,San Francisco,Health,"Kleiner Perkins Caufield & Byers, Afore Capital, Founders Fund",1.17,37.7562,-122.443,,3592294.0,1840021543
+812,IRL,2021-06-15,United States,San Francisco,Internet software & services,"Goodwater Capital, Floodgate, Founders Fund",1.17,37.7562,-122.443,,3592294.0,1840021543
+813,Tuhu,2018-09-15,China,Shanghai,Auto & transportation,"Qiming Venture Partners, Yaxia Automobile, Far East Horizon",1.16,31.1667,121.4667,admin,22120000.0,1156073548
+814,SOURCE Global,2022-04-29,United States,Scottsdale,Other,"Breakthrough Energy Ventures, Material Impact, 3x5 Special Opportunity Partners",1.16,33.6872,-111.8651,,258069.0,1840021940
+815,LifeMiles,2015-07-13,Colombia,Bogota,Other,Advent International,1.15,4.6126,-74.0705,primary,9464000.0,1170483426
+816,Venafi,2020-12-10,United States,Salt Lake City,Cybersecurity,"Pelion Venture Partners, Foundation Capital, Thoma Bravo",1.15,40.7777,-111.9306,admin,1098526.0,1840021383
+817,Guideline,2021-06-16,United States,San Mateo,Fintech,"Pelion Venture Partners, Foundation Capital, Thoma Bravo",1.15,37.5521,-122.3122,,104430.0,1840021551
+818,Rebellion Defense,2021-09-16,United States,Washington,Artificial intelligence,"Venrock, Innovation Endeavors, Insights Partners",1.15,38.9047,-77.0163,primary,5379184.0,1840006060
+819,Elemy,2021-10-06,United States,San Francisco,Health,"General Catalyst, Bling Capital, Felicis Ventures",1.15,37.7562,-122.443,,3592294.0,1840021543
+820,Happy Money,2022-02-08,United States,Tustin,Fintech,"FirstMark Capital, Anthemis, CMFG Ventures",1.15,33.7309,-117.8106,,79348.0,1840021967
+821,TELD,2019-12-16,China,Qingdao,Fintech,"China Reform Fund, Gaopeng Capital, Jinhui Xingye",1.12,36.1167,120.4,minor,5775000.0,1156112588
+822,At-Bay,2021-07-27,United States,Mountain View,Fintech,"Lightspeed Venture Partners, Khosla Ventures, Munich Re Ventures",1.12,37.4,-122.0796,,82739.0,1840020332
+823,Visby Medical,2022-03-01,United States,San Jose,Health,"Artiman Ventures, Pitango Venture Capital, Valo Ventures",1.12,37.3019,-121.8486,,1798103.0,1840021570
+824,TangoMe,2014-03-20,United States,Mountain View,Mobile & telecommunications,"Draper Fisher Jurtson, Qualcomm Ventures, Alibaba Group",1.1,37.4,-122.0796,,82739.0,1840020332
+825,AppDirect,2015-10-07,United States,San Francisco,E-commerce & direct-to-consumer,"Mithril, iNovia Capital, Foundry Group",1.1,37.7562,-122.443,,3592294.0,1840021543
+826,Juanpi,2016-04-14,China,Wuhan,E-commerce & direct-to-consumer,"Tiantu Capital, SAIF Partners China, Newsion Venture Capital",1.1,30.5872,114.2881,admin,8962000.0,1156117184
+827,OVH,2016-08-15,France,Roubaix,Other,"KKR, TowerBrook Capital Partners",1.1,50.6901,3.1817,,100000.0,1250000779
+828,GetYourGuide,2019-05-16,Germany,Berlin,Travel,"Spark Capital, Highland Europe, Sunstone Capital",1.1,52.5167,13.3833,primary,3644826.0,1276451290
+829,Ivalua,2019-05-21,United States,Redwood City,Fintech,"Ardian, Tiger Global Management, KKR",1.1,37.5026,-122.2252,,85925.0,1840020304
+830,Sisense,2020-01-09,United States,New York,Data management & analytics,"Opus Capital, Genesis Partners, Battery Ventures",1.1,40.6943,-73.9249,,18713220.0,1840034016
+831,Pharmapacks,2020-11-12,United States,Suffolk,E-commerce & direct-to-consumer,The Carlyle Group,1.1,36.6953,-76.6398,,92108.0,1840003873
+832,Sennder,2021-01-14,Germany,Berlin,"Supply chain, logistics, & delivery","Accelm Scania Growth Capital, Lakestar",1.1,52.5167,13.3833,primary,3644826.0,1276451290
+833,Nexthink,2021-02-08,Switzerland,Prilly,Data management & analytics,"Auriga, Galeo Ventures, Highland Europe",1.1,46.5333,6.6,,12399.0,1756590980
+834,Zego,2021-03-09,United Kingdom,London,Fintech,"LocalGlobe, Balderton Capital, Target Global",1.1,51.5072,-0.1275,primary,10979000.0,1826645935
+835,Rightway,2021-03-30,United States,New York,Health,"Thrive Capital, Khosla Ventures, Tiger Global Management",1.1,40.6943,-73.9249,,18713220.0,1840034016
+836,Sunbit,2021-05-20,United States,Los Angeles,Fintech,"Zeev Ventures, Group11, Chicago Ventures",1.1,34.1139,-118.4068,,12750807.0,1840020491
+837,Qingting FM,2021-06-02,China,Shanghai,Internet software & services,"China Culture Industrial Investment Fund, We Capital, China Minsheng Investment Group",1.1,31.1667,121.4667,admin,22120000.0,1156073548
+838,G2,2021-06-22,United States,Chicago,Internet software & services,"Pritzker Group Venture Capital, Accel, Hyde Park Venture Partners",1.1,41.8373,-87.6862,,8604203.0,1840000494
+839,Hailo,2021-10-12,Israel,Tel Aviv-Yafo,Artificial intelligence,"Glory Ventures, Maniv Mobility",1.0,32.08,34.78,admin,451523.0,1376401542
+840,Caribou,2022-05-23,United States,Denver,Fintech,"CMFG Ventures, Accomplice, Moderne Ventures",1.1,39.7621,-104.8759,admin,2876625.0,1840018789
+841,Nowports,2022-05-24,Mexico,Monterrey,"Supply chain, logistics, & delivery","Monashees+, Foundation Capital, Base10 Partners",1.1,25.6667,-100.3,admin,4295000.0,1484559591
+842,People.ai,2021-08-11,United States,San Francisco,Internet software & services,"GGV Capital, Lightspeed Venture Partners, ICONIQ Capital",1.1,37.7562,-122.443,,3592294.0,1840021543
+843,Carousell,2021-09-15,Singapore,Singapore,E-commerce & direct-to-consumer,"500 Global, Rakuten Ventures, Golden Gate Ventures",1.1,1.3,103.8,primary,5745000.0,1702341327
+844,apna,2021-09-15,India,Bangalore,Internet software & services,"Sequoia Capital India, Rocketship.vc, Lightspeed India Partners",1.1,12.9699,77.598,admin,13707000.0,1356410365
+845,Karat,2021-10-13,United States,Seattle,Internet software & services,"8VC, Norwest Venture Partners, Tiger Global Management",1.1,47.6211,-122.3244,,3789215.0,1840021117
+846,Enpal,2021-10-18,Germany,Berlin,Internet software & services,"HV Capital, Softbank Group, BlackRock",1.1,52.5167,13.3833,primary,3644826.0,1276451290
+847,Acko General Insurance,2021-10-28,India,Bangalore,Fintech,"Intact Ventures, Munich Re Ventures, General Atlantic",1.1,12.9699,77.598,admin,13707000.0,1356410365
+848,Daily Harvest,2021-11-16,United States,New York,E-commerce & direct-to-consumer,"M13, Lightspeed Venture Partners, Lone Pine Capital",1.1,40.6943,-73.9249,,18713220.0,1840034016
+849,The Bank of London,2021-11-30,United Kingdom,London,Fintech,"Mangrove Capital Partners,14W. ForgeLight",1.1,51.5072,-0.1275,primary,10979000.0,1826645935
+850,Fundbox,2021-11-30,United States,San Francisco,Fintech,"Khosla Ventures, General Catalyst, Blumberg Capital",1.1,37.7562,-122.443,,3592294.0,1840021543
+851,Turing,2021-12-20,United States,Palo Alto,Internet software & services,"Foundation Capital, 	Frontier Ventures, AltaIR Capital",1.1,37.3913,-122.1468,,65364.0,1840020333
+852,GlobalBees,2021-12-28,India,New Delhi,E-commerce & direct-to-consumer,"Chiratae Ventures, SoftBank Group, Trifecta Capital",1.1,28.7,77.2,primary,142004.0,1356215164
+853,LEAD School,2022-01-13,India,Mumbai,Edtech,"WestBridge Capital, GSV Ventures, Elevar Equity",1.1,18.9667,72.8333,admin,23355000.0,1356226629
+854,eSentire,2022-02-22,Canada,Waterloo,Cybersecurity,"Edison Partners, Georgian Partners, VentureLink",1.1,43.4667,-80.5167,,104986.0,1124321390
+855,Beyond Identity,2022-02-22,United States,New York,Cybersecurity,"New Enterprise Associates, Koch Disruptive Technologies, Evolution Equity Partners",1.1,40.6943,-73.9249,,18713220.0,1840034016
+856,Staffbase,2022-03-15,Germany,Chemnitz,Internet software & services,"Insight Partners, e.ventures, General Atlantic",1.1,50.8333,12.9167,minor,245403.0,1276519956
+857,Chief,2022-03-31,United States,New York,Other,"General Catalyst, Inspired Capital, Flybridge Capital Partners",1.1,40.6943,-73.9249,,18713220.0,1840034016
+858,IntelyCare,2022-04-06,United States,Quincy,Health,"Kaiser Permanente Ventures, Endeavour Vision, LRVHealth",1.1,42.2516,-71.0183,,94470.0,1840000461
+859,Teleport,2022-05-03,United States,Oakland,Cybersecurity,"Kleiner Perkins Caufield & Byers, s28 Capital, Insight Partners",1.1,37.7903,-122.2165,,433031.0,1840020296
+860,Imply Data,2022-05-17,United States,Burlingame,Data management & analytics,"Andreessen Horowitz, Bessemer Venture Partners, Khosla Ventures,",1.1,37.586,-122.3669,,30889.0,1840018925
+861,Material Security,2022-05-11,United States,Redwood City,Cybersecurity,"Andreessen Horowitz, Founders Fund",1.1,37.5026,-122.2252,,85925.0,1840020304
+862,PhysicsWallah,2022-06-07,India,Lucknow,Edtech,"GSV Ventures, WestBridge Capital",1.1,26.847,80.947,admin,3382000.0,1356891790
+863,Recover,2022-06-09,Spain,Alicante,Other,"Goldman Sachs Asset Management, STORY3 Capital Partners",1.1,38.3453,-0.4831,minor,337482.0,1724923163
+864,Purplle,2022-06-09,India,Mumbai,E-commerce & direct-to-consumer,"Blume Ventures, JSW Ventures, IvyCap Ventures",1.1,18.9667,72.8333,admin,23355000.0,1356226629
+865,Nxin,2018-09-18,China,Beijing,Internet software & services,"Beijing Juneng Hesheng Industry Investment Fund, Beijing Shuju Xinrong Fund",1.08,39.905,116.3914,primary,19433000.0,1156228865
+866,UISEE Technology,2021-01-25,China,Beijing,"Supply chain, logistics, & delivery","Shenzhen Capital Group, Robert Bosch Venture Capital, SeptWolves Ventures",1.08,39.905,116.3914,primary,19433000.0,1156228865
+867,56PINGTAI,2021-01-25,China,Shanghai,"Supply chain, logistics, & delivery","QF Capital, QC Capital, Unicom Innovation Venture Capital",1.08,31.1667,121.4667,admin,22120000.0,1156073548
+868,Cirkul,2022-06-13,United States,Sarasota,Consumer & retail,"AF Ventures, Siddhi Capital, SC.Holdings",1.07,27.3386,-82.5431,,722243.0,1840015988
+869,Rubicon,2017-08-25,United States,Atlanta,Other,"Goldman Sachs, Leonardo DiCaprio, Promecap",1.07,33.7627,-84.4224,admin,5449398.0,1840013660
+870,Radius Payment Solutions,2017-11-27,United Kingdom,Crewe,Fintech,Inflexion Private Equity,1.07,53.099,-2.44,,71722.0,1826086541
+871,Rivigo,2019-07-11,India,Gurgaon,"Supply chain, logistics, & delivery","SAIF Partners India, Warburg Pincus, Trifecta Capital Advisors",1.07,28.45,77.02,,197340.0,1356836043
+872,Mamaearth,2021-12-28,India,Gurgaon,E-commerce & direct-to-consumer,"Fireside Ventures, Sequoia Capital India, Stellaris Venture Partners",1.07,28.45,77.02,,197340.0,1356836043
+873,0x,2022-04-26,United States,San Francisco,Fintech,"Jump Capital, Pantera Capital, Greylock Partners",1.05,37.7562,-122.443,,3592294.0,1840021543
+874,Jiuxian,2015-07-30,China,Beijing,E-commerce & direct-to-consumer,"Sequoia Capital China, Rich Land Capital, Merrysunny Wealth",1.05,39.905,116.3914,primary,19433000.0,1156228865
+875,Instabase,2019-10-21,United States,San Francisco,Data management & analytics,"New Enterprise Associates, Greylock Partners, Andreessen Horowitz",1.05,37.7562,-122.443,,3592294.0,1840021543
+876,Sendbird,2021-04-06,United States,San Mateo,Mobile & telecommunications,"FundersClub, Y Combinator, Tiger Global Management",1.05,37.5521,-122.3122,,104430.0,1840021551
+877,Density,2021-11-10,United States,San Francisco,Hardware,"Founders Fund, Upfront Ventures, 	01 Advisors",1.05,37.7562,-122.443,,3592294.0,1840021543
+878,Mixpanel,2021-11-15,United States,San Francisco,Internet software & services,"Bain Capital Tech Opportunities, Andreessen Horowitz, Sequoia Capital",1.05,37.7562,-122.443,,3592294.0,1840021543
+879,Aprogen,2019-05-31,"Korea, South",Songnam,Health,"Lindeman Asia Investment, Nichi-Iko Pharmaceutical",1.04,37.4386,127.1378,,948757.0,1410622472
+880,OrCam Technologies,2018-02-20,Israel,Jerusalem,Artificial intelligence,"Intel Capital, Aviv Venture Capital",1.03,31.7833,35.2167,primary,919438.0,1376261644
+881,Ample,2021-11-11,United States,San Francisco,Hardware,"Shell Ventures, Blackstone, Moore Strategic Ventures",1.02,37.7562,-122.443,,3592294.0,1840021543
+882,Leap Motor,2018-11-20,China,Hangzhou,Auto & transportation,"Sequoia Capital China, Gopher Asset Management, Shanghai Electric Group",1.01,30.25,120.1675,admin,6446000.0,1156275243
+883,Wheel,2022-01-19,United States,Austin,Health,"Silverton Partners, Tusk Ventures, CRV",1.01,30.3004,-97.7522,admin,1687311.0,1840019590
+884,TransferMate,2022-05-22,Ireland,Kilkenny,Fintech,Railway Pension Trustee Co. Ltd.,1.0,52.6477,-7.2561,admin,22179.0,1372926521
+885,Lookout,2013-10-10,United States,San Francisco,Cybersecurity,"Accel Partners, Greylock Partners, Lowercase Capital",1.0,37.7562,-122.443,,3592294.0,1840021543
+886,Perimeter 81,2022-06-06,Israel,Tel Aviv-Yafo,Cybersecurity,"Insight Partners, Toba Capital, Spring Ventures",1.0,32.08,34.78,admin,451523.0,1376401542
+887,Snapdeal,2014-05-21,India,New Delhi,E-commerce & direct-to-consumer,"SoftBankGroup, Blackrock, Alibaba Group",1.0,28.7,77.2,primary,142004.0,1356215164
+888,TechStyle Fashion Group,2014-08-29,United States,El Segundo,E-commerce & direct-to-consumer,"Matrix Partners, Passport Capital, Rho Ventures",1.0,33.9169,-118.4021,,16610.0,1840020481
+889,InMobi,2014-12-02,India,Bangalore,Mobile & telecommunications,"Kleiner Perkins Caufield & Byers, Softbank Corp., Sherpalo Ventures",1.0,12.9699,77.598,admin,13707000.0,1356410365
+890,LinkSure Network,2015-01-01,China,Shanghai,Mobile & telecommunications,No Available info,1.0,31.1667,121.4667,admin,22120000.0,1156073548
+891,Red Ventures,2015-01-07,United States,Fort Mill,Other,"Silver Lake Partners, General Atlantic",1.0,35.0062,-80.9388,,22284.0,1840016479
+892,BeiBei,2015-01-22,China,Hangzhou,E-commerce & direct-to-consumer,"Banyan Capital, New Horizon Capital, IDG Capital Partners",1.0,30.25,120.1675,admin,6446000.0,1156275243
+893,Lamabang,2015-03-06,China,Shenzhen,E-commerce & direct-to-consumer,"5Y Capital, Matrix Partners China, K2VC",1.0,22.535,114.054,minor,15929000.0,1156158707
+894,JimuBox,2015-04-21,China,Beijing,Fintech,"Matrix Partners China, Ventech China, Shunwei Capital Partners",1.0,39.905,116.3914,primary,19433000.0,1156228865
+895,FXiaoKe,2015-07-02,China,Beijing,Mobile & telecommunications,"IDG Capital, Northern Light Venture Capital, DCM Ventures",1.0,39.905,116.3914,primary,19433000.0,1156228865
+896,Vox Media,2015-08-12,United States,Washington,Internet software & services,"Accel Partners, Comcast Ventures, General Atlantic",1.0,38.9047,-77.0163,primary,5379184.0,1840006060
+897,Mia.com,2015-09-08,China,Beijing,E-commerce & direct-to-consumer,"Sequoia Capital China, ZhenFund, K2 Ventures",1.0,39.905,116.3914,primary,19433000.0,1156228865
+898,58 Daojia,2015-10-12,China,Beijing,Internet software & services,"KKR, Alibaba Group, Ping An Insurance",1.0,39.905,116.3914,primary,19433000.0,1156228865
+899,Womai,2015-10-12,China,Beijing,E-commerce & direct-to-consumer,"SAIF Partners China, Baidu, IDG Capital",1.0,39.905,116.3914,primary,19433000.0,1156228865
+900,HuJiang,2015-10-29,China,Shanghai,Edtech,"China Minsheng Investment, Baidu, Wanxin Media",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+901,iTutorGroup,2015-11-18,China,Shanghai,Edtech,"QiMing Venture Partners, Temasek Holdings, Silverlink Capital",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+902,MindMaze,2016-01-28,Switzerland,Lausanne,Health,Hinduja Group,1.0,46.5333,6.6333,admin,138905.0,1756055099
+903,iCarbonX,2016-04-12,China,Shenzhen,Artificial intelligence,"Tencent, Vcanbio",1.0,22.535,114.054,minor,15929000.0,1156158707
+904,SMS Assist,2016-06-07,United States,Chicago,Internet software & services,"Goldman Sachs, Insights Venture Partners, Pritzker Group Venture Capital",1.0,41.8373,-87.6862,,8604203.0,1840000494
+905,Kendra Scott,2016-12-21,United States,Austin,Consumer & retail,"Berkshire Partners, Norwest Venture Partners",1.0,30.3004,-97.7522,admin,1687311.0,1840019590
+906,Mobvoi,2017-04-06,China,Beijing,Consumer & retail,"Sequoia Capital China, SIG Asia Investments, ZhenFund",1.0,39.905,116.3914,primary,19433000.0,1156228865
+907,Zhuan Zhuan,2017-04-18,China,Beijing,E-commerce & direct-to-consumer,"58.com, Tencent Holdings",1.0,39.905,116.3914,primary,19433000.0,1156228865
+908,Modernizing Medicine,2017-05-10,United States,Boca Raton,Health,"Warburg Pincus, Summit Partners, Sands Capital",1.0,26.3752,-80.108,,99805.0,1840014207
+909,Zhaogang,2017-06-29,China,Shanghai,E-commerce & direct-to-consumer,"K2 Ventures, Matrix Partners China, IDG Capital",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+910,DianRong,2017-08-02,China,Shanghai,E-commerce & direct-to-consumer,"Standard Chartered, FinSight Ventures, Affirma Capital",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+911,Cell C,2017-08-07,South Africa,Johannesburg,Mobile & telecommunications,"Blue Label Telecoms, Net1 UEPS Technologies",1.0,-26.2044,28.0416,admin,4434827.0,1710550792
+912,YH Global,2017-09-21,China,Shenzhen,"Supply chain, logistics, & delivery","Co-Energy Finance, Grandland",1.0,22.535,114.054,minor,15929000.0,1156158707
+913,Revolution Precrafted,2017-10-23,Philippines,Manila,Other,"K2 Global, 500 Startups",1.0,14.6,120.9833,primary,23088000.0,1608618140
+914,WeLab,2017-11-08,Hong Kong,Hong Kong,Fintech,"Sequoia Capital China, ING, Alibaba Entrepreneurs Fund",1.0,22.305,114.185,primary,7347000.0,1344982653
+915,Maimai,2017-11-15,China,Beijing,Mobile & telecommunications,"Morningside Venture Capital, IDG Capital, DCM Ventures",1.0,39.905,116.3914,primary,19433000.0,1156228865
+916,Dxy.cn,2018-04-10,China,Hangzhou,Health,"Tencent Holdings, DCM Ventures",1.0,30.25,120.1675,admin,6446000.0,1156275243
+917,Orbbec Technology,2018-05-21,China,Shenzhen,Hardware,"R-Z Capital, Green Pine Capital Partners, SAIF Partners China",1.0,22.535,114.054,minor,15929000.0,1156158707
+918,HMD Global,2018-05-21,Finland,Espoo,Mobile & telecommunications,Ginko Ventures,1.0,60.21,24.66,minor,269802.0,1246357316
+919,Huike Group,2018-05-24,China,Beijing,Edtech,"Fosun RZ Capital, Oceanwide Holdings, Shenzhen Qianhe Capital Management Co.",1.0,39.905,116.3914,primary,19433000.0,1156228865
+920,China Cloud,2018-06-11,China,Wuxi,Hardware,"V Star Capital, GF Xinde Investment Management Co., Haitong Leading Capital Management",1.0,31.5667,120.2833,minor,4580000.0,1156019650
+921,LinkDoc Technology,2018-07-05,China,Beijing,Health,"China Investment Corporation, New Enterprise Associates",1.0,39.905,116.3914,primary,19433000.0,1156228865
+922,MediaMath,2018-07-10,United States,New York,Internet software & services,"Silicon Valley Bank, QED Investors, European Founders Fund",1.0,40.6943,-73.9249,,18713220.0,1840034016
+923,Movile,2018-07-12,Brazil,Sao Paulo,Mobile & telecommunications,"Innova Capital - FIP, 3G Capital Management, Prosus Ventures",1.0,-23.5504,-46.6339,admin,22046000.0,1076532519
+924,Kuaigou Dache,2018-07-13,China,Tianjin,"Supply chain, logistics, & delivery","Sequoia Capital China, InnoVision Capital, Qianhai Fund of Funds",1.0,39.1467,117.2056,admin,10800000.0,1156174046
+925,Pat McGrath Labs,2018-07-16,United States,New York,Consumer & retail,"One Luxury Group, Eurazeo",1.0,40.6943,-73.9249,,18713220.0,1840034016
+926,Wacai,2018-07-18,China,Hangzhou,Mobile & telecommunications,"Qiming Venture Partners, China Broadband Capital, CDH Investments",1.0,30.25,120.1675,admin,6446000.0,1156275243
+927,FlashEx,2018-08-27,China,Beijing,"Supply chain, logistics, & delivery","Prometheus Capital, Matrix Partners China, JD Capital Management",1.0,39.905,116.3914,primary,19433000.0,1156228865
+928,Banma Network Technologies,2018-09-13,China,Shanghai,Auto & transportation,"Yunfeng Capital, SDIC Innovation Investment Management, Shang Qi Capital",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+929,Tresata,2018-10-10,United States,Charlotte,Fintech,GCP Capital Partners,1.0,35.208,-80.8304,,1512923.0,1840014557
+930,Momenta,2018-10-17,China,Beijing,Artificial intelligence,"Sinovation Ventures, Tencent Holdings, Sequoia Capital China",1.0,39.905,116.3914,primary,19433000.0,1156228865
+931,Hosjoy,2018-10-18,China,Nanjing,E-commerce & direct-to-consumer,"U.S.-China Green Fund, Founder H Fund, Richland Equities",1.0,32.05,118.7667,admin,7496000.0,1156644065
+932,Omio,2018-10-23,Germany,Berlin,Travel,"Lakestar, Battery Ventures, New Enterprise Associates",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+933,TERMINUS Technology,2018-10-25,China,Beijing,Hardware,"China Everbright Limited, IDG Capital, iFLYTEK",1.0,39.905,116.3914,primary,19433000.0,1156228865
+934,BitFury,2018-11-06,Netherlands,Amsterdam,Hardware,"Georgian Co-Investment Fund, iTech Capital, Galaxy Digital",1.0,52.3667,4.8833,primary,862965.0,1528355309
+935,iFood,2018-11-13,Brazil,Osasco,"Supply chain, logistics, & delivery","Movile, Just Eat, Naspers",1.0,-23.5328,-46.7919,,694844.0,1076786452
+936,Geek+,2018-11-21,China,Beijing,Hardware,"Volcanics Ventures, Vertex Ventures China, Warburg Pincus",1.0,39.905,116.3914,primary,19433000.0,1156228865
+937,REEF Technology,2018-12-10,United States,Miami,"Supply chain, logistics, & delivery","Target Global, UBS Asset Management, Mubadala Capital",1.0,25.7839,-80.2102,,6445545.0,1840015149
+938,Globality,2019-01-22,United States,Menlo Park,Artificial intelligence,SoftBank Group,1.0,37.4686,-122.1672,,34698.0,1840020305
+939,Ynsect,2019-02-21,France,Evry,Other,"Astanor Ventures, Upfront Ventures, IDInvest Partners",1.0,48.6239,2.4294,minor,53641.0,1250675373
+940,Intellifusion,2019-03-22,China,Shenzhen,Artificial intelligence,"BOC International, TopoScend Capital, Hongxiu VC",1.0,22.535,114.054,minor,15929000.0,1156158707
+941,Poizon,2019-04-29,China,Shanghai,Mobile & telecommunications,"DST Global, Sequoia Capital China, Gaorong Capital",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+942,VTS,2019-05-07,United States,New York,Internet software & services,"Trinity Ventures, Fifth Wall Ventures, OpenView Venture Partners",1.0,40.6943,-73.9249,,18713220.0,1840034016
+943,SITECH DEV,2019-05-16,China,Guiyang,Other,China Prosperity Capital,1.0,26.5794,106.7078,admin,4365000.0,1156932620
+944,KnowBox,2019-05-30,China,Beijing,Edtech,"TAL Education Group, Legend Star, Alibaba Group",1.0,39.905,116.3914,primary,19433000.0,1156228865
+945,Yanolja,2019-06-10,"Korea, South",Seoul,Travel,"SBI Investment Korea, Partners Investment, GIC",1.0,37.56,126.99,primary,21794000.0,1410836482
+946,Meero,2019-06-18,France,Paris,Artificial intelligence,"Aglae Ventures, Global Founders Capital, Alven Capital",1.0,48.8566,2.3522,primary,11020000.0,1250015082
+947,SumUp,2019-07-16,United Kingdom,London,Fintech,"American Express Ventures, Goldman Sachs, Bain Capital Credit",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+948,Ibotta,2019-08-06,United States,Denver,Fintech,"Koch Disruptive Technologies, Teamworthy Ventures, GGV Capital",1.0,39.7621,-104.8759,admin,2876625.0,1840018789
+949,C2FO,2019-08-07,United States,Leawood,Fintech,"Union Square Ventures, Summerhill Venture Partners, Mithril Capital Management",1.0,38.9076,-94.6258,,34727.0,1840001638
+950,Numbrs,2019-08-22,Switzerland,Zurich,Fintech,"Investment Corporation of Dubai, Centralway",1.0,47.3786,8.54,admin,434008.0,1756539143
+951,EBANX,2019-10-16,Brazil,Curitiba,Fintech,"FTV Capital, Endeavor",1.0,-25.4297,-49.2719,admin,1879355.0,1076701712
+952,KK Group,2019-10-23,China,Dongguan,E-commerce & direct-to-consumer,"Matrix Partners China, Bright Venture Capita, Shenzhen Capital Group",3.0,23.0475,113.7493,minor,7981000.0,1156478242
+953,Alto Pharmacy,2020-01-30,United States,San Francisco,Health,"Jackson Square Ventures, Greenoaks Capital Management, Softbank Group",1.0,37.7562,-122.443,,3592294.0,1840021543
+954,Hotmart,2020-03-17,Netherlands,Amsterdam,E-commerce & direct-to-consumer,"Technology Crossover Ventures, Alkeon Capital Management, General Atlantic",1.0,52.3667,4.8833,primary,862965.0,1528355309
+955,Emerging Markets Property Group,2020-04-28,United Arab Emirates,Dubai,Other,"OLX Group, KCK Group, EXOR Seeds",1.0,25.2697,55.3094,admin,2502715.0,1784736618
+956,Quizlet,2020-05-13,United States,San Francisco,Edtech,"Union Square Ventures, Altos Ventures, Costanoa Ventures",1.0,37.7562,-122.443,,3592294.0,1840021543
+957,Orca Bio,2020-06-17,United States,Menlo Park,Health,"Lightspeed Venture Partners, Data Collective, 8VC",1.0,37.4686,-122.1672,,34698.0,1840020305
+958,Newlink Group,2020-07-10,China,Beijing,E-commerce & direct-to-consumer,"JOY Capital, NIO Capital, Blueflame Capital",1.0,39.905,116.3914,primary,19433000.0,1156228865
+959,Infobip,2020-07-30,Croatia,Pula,Mobile & telecommunications,One Equity Partners,1.0,44.8667,13.8333,minor,57053.0,1191143009
+960,Zwift,2020-09-16,United States,Long Beach,E-commerce & direct-to-consumer,"Novator Partners, True, Causeway Media Partners",1.0,33.7981,-118.1675,,462628.0,1840020490
+961,Playco,2020-09-21,Japan,Tokyo,Other,"Sozo Ventures, Caffeinated Capital, Sequoia Capital",1.0,35.6897,139.6922,primary,37977000.0,1392685764
+962,Socar,2020-10-16,"Korea, South",Jeju,Auto & transportation,"Bain Capital, Altos Ventures, Songhyun Investment",1.07,33.5097,126.5219,admin,435413.0,1410364424
+963,Gousto,2020-11-03,United Kingdom,London,"Supply chain, logistics, & delivery","MMC Ventures, BGF Ventures, Unilever Ventures",1.7,51.5072,-0.1275,primary,10979000.0,1826645935
+964,Boom Supersonic,2020-12-16,United States,Englewood,Other,"WRVI Capital, Caffeinated Capital, Y Combinator",1.0,39.6468,-104.9942,,34917.0,1840020211
+965,Quantum Metric,2021-01-07,United States,Colorado Springs,Data management & analytics,"Insight Partners, Bain Capital Ventures",1.0,38.8674,-104.7606,,642413.0,1840018825
+966,News Break,2021-01-07,United States,Mountain View,Internet software & services,"IDG Capital, Francisco Partners, ZhenFund",1.0,37.4,-122.0796,,82739.0,1840020332
+967,MadeiraMadeira,2021-01-07,Brazil,Parana,E-commerce & direct-to-consumer,"Flybridge Capital Partners, SoftBank Group, Monashees+",1.0,-12.615,-47.8828,,10437.0,1076862389
+968,PPRO,2021-01-19,United Kingdom,London,Fintech,"Wellington Management, Eurazeo, Citi Ventures",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+969,Splashtop,2021-01-27,United States,San Jose,Internet software & services,"Storm Ventures, DFJ DragonFund, New Enterprise Associates",1.0,37.3019,-121.8486,,1798103.0,1840021570
+970,DriveNets,2021-01-27,Israel,Ra`ananna,Internet software & services,"Bessemer Venture Partners, Pitango Venture Capital, D1 Capital Partners",1.0,32.1833,34.8667,,74000.0,1376791991
+971,Flash Express,2021-02-01,Thailand,Bangkok,"Supply chain, logistics, & delivery","SCB 10X, Krungsri Finnovate, eWTP Capital",1.0,13.75,100.5167,primary,17066000.0,1764068610
+972,Axiom Space,2021-02-16,United States,Houston,Other,"C5 Capital, Hemisphere Ventures, The Venture Collective",1.0,29.7863,-95.3889,,5464251.0,1840020925
+973,Locus Robotics,2021-02-17,United States,Wilmington,Hardware,"Scale Venture Partners, Bond, Tiger Global Management",1.0,34.21,-77.8866,,255616.0,1840015576
+974,Standard,2021-02-17,United States,San Francisco,Artificial intelligence,"CRV, Y Combinator, Initialized Capital",1.0,37.7562,-122.443,,3592294.0,1840021543
+975,WeBull,2021-02-18,China,Changsha,Fintech,"Bojiang Capital, Hongdao Capital, Mobai Capital",1.0,28.1987,112.9709,admin,8394500.0,1156961497
+976,Skydio,2021-02-25,United States,Redwood City,"Supply chain, logistics, & delivery","Andreessen Horowitz, Andreessen Horowitz, Institutional Venture Partners, Accel",1.0,37.5026,-122.2252,,85925.0,1840020304
+977,Newsela,2021-02-25,United States,New York,Internet software & services,"Owl Ventures, Technology Crossover Ventures, Tao Capital Partners",1.0,40.6943,-73.9249,,18713220.0,1840034016
+978,Aqua Security,2021-03-10,Israel,Ramat Gan,Cybersecurity,"TLV Partners, Lightspeed Venture Partners, M12",1.0,32.07,34.8235,,152596.0,1376357911
+979,PatSnap,2021-03-16,Singapore,Singapore,Internet software & services,"Sequoia Capital China, Shunwei Capital Partners, Qualgro",1.0,1.3,103.8,primary,5745000.0,1702341327
+980,Evidation,2021-03-22,United States,San Mateo,Health,"B Capital Group,, GE Ventures, McKesson Ventures",1.0,37.5521,-122.3122,,104430.0,1840021551
+981,Sidecar Health,2021-01-26,United States,El Segundo,Fintech,"GreatPoint Ventures, Tiger Global Management, Menlo Ventures",1.0,33.9169,-118.4021,,16610.0,1840020481
+982,Feedzai,2021-03-24,United States,San Mateo,Artificial intelligence,"Global Founders Capital, Shea Ventures, Greycroft",1.0,37.5521,-122.3122,,104430.0,1840021551
+983,Yunxuetang,2021-03-29,China,Suzhou,Edtech,"Matrix Partners China, Sequoia Capital China, Hundreds Capital",1.0,33.6333,116.9683,,5690000.0,1156871297
+984,Cameo,2021-03-30,United States,Chicago,Internet software & services,"Lightspeed Venture Partners, Kleiner Perkins Caufield & Byers, Origin Ventures",1.0,41.8373,-87.6862,,8604203.0,1840000494
+985,Hyperchain,2021-04-11,China,Hangzhou,Fintech,"Yinhong Equity Investment Fund, E Fund, Ideal International",1.0,30.25,120.1675,admin,6446000.0,1156275243
+986,The Zebra,2021-04-12,United States,Austin,E-commerce & direct-to-consumer,"Silverton Partners, Accel, Ballast Point Ventures",1.0,30.3004,-97.7522,admin,1687311.0,1840019590
+987,Clearcover,2021-04-13,United States,Chicago,Fintech,"American Family Ventures, Cox Enterprises, OMERS Ventures",1.0,41.8373,-87.6862,,8604203.0,1840000494
+988,Groq,2021-04-14,United States,Mountain View,Artificial intelligence,"TDK Ventures, Social Capital, D1 Capital Partners",1.0,37.4,-122.0796,,82739.0,1840020332
+989,Fiture,2021-04-14,China,Chengdu,Health,"Bertelsmann Asia Investments, Sequoia Capital China, NIO Capital",1.0,30.66,104.0633,admin,11309000.0,1156421555
+990,Injective Protocol,2021-04-20,United States,New York,Fintech,"Pantera Capital, Cadenza Ventures, BlockTower Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+991,Sift,2021-04-22,United States,San Francisco,Artificial intelligence,"Union Square Ventures, Insight Partners, Spark Capital",1.0,37.7562,-122.443,,3592294.0,1840021543
+992,SaltPay,2021-04-09,United Kingdom,London,Fintech,"Tiger Global Management, Hedosophia",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+993,Capsule,2021-04-28,United States,New York,Health,"Thrive Capital, Durable Capital Partners, G Squared",1.0,40.6943,-73.9249,,18713220.0,1840034016
+994,MOLOCO,2021-04-29,United States,Redwood City,Artificial intelligence,"Smilegate Investment, DSC Investments, KTB Ventures",1.5,37.5026,-122.2252,,85925.0,1840020304
+995,Mux,2021-04-30,United States,San Francisco,Internet software & services,"Accel, Cobalt Capital, Andreessen Horowitz",1.0,37.7562,-122.443,,3592294.0,1840021543
+996,XForcePlus,2021-06-01,China,Shanghai,Internet software & services,"Eastern Bell Capital, Danhua Capital, MSA Capital",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+997,Firefly Aerospace,2021-05-04,United States,Cedar Park,Other,"XBTO Ventures, Raven One Ventures, SK Ventures",1.1,30.5106,-97.8196,,79462.0,1840019572
+998,Shift Technology,2021-05-06,France,Paris,Artificial intelligence,"Griffin Gaming Partners, Andreessen Horowitz, Battery Ventures",1.0,48.8566,2.3522,primary,11020000.0,1250015082
+999,TensTorrent,2021-05-05,Canada,Toronto,Artificial intelligence,"Eclipse Ventures, Fidelity Investments, Moore Capital Management",1.0,43.7417,-79.3733,,5429524.0,1124279679
+1000,Zihaiguo,2021-05-06,China,Chongqing,Consumer & retail,"Xingwang Investment Management, China Capital Investment Group, Matrix Partners China",1.0,29.5628,106.5528,admin,7739000.0,1156936556
+1001,Forte Labs,2021-05-12,United States,San Francisco,Fintech,"Iris Capital, Accel, Elaia Partners",1.73,37.7562,-122.443,,3592294.0,1840021543
+1002,Axtria,2021-05-13,United States,Berkeley Heights,Data management & analytics,"Helion Venture Partners, Bain Capital Tech Opportunities, Sequoia Capital India",1.0,40.6764,-74.4244,,13310.0,1840081748
+1003,Amount,2021-05-17,United States,Chicago,Fintech,"Invus Group, Hanaco Venture Capital, WestCap Group",1.0,41.8373,-87.6862,,8604203.0,1840000494
+1004,Vise,2021-05-18,United States,New York,Fintech,"Sequoia Capital, Founders Fund, Bling Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1005,Printful,2021-05-24,United States,Charlotte,Other,Bregal Sagemount,1.0,35.208,-80.8304,,1512923.0,1840014557
+1006,Matrixport,2021-06-01,Singapore,Singapore,Fintech,"Dragonfly Captial, Qiming Venture Partners, DST Global",1.05,1.3,103.8,primary,5745000.0,1702341327
+1007,Shippo,2021-06-02,United States,San Francisco,"Supply chain, logistics, & delivery","Version One Ventures, Uncork Capital, Bessemer Venture Partners",1.0,37.7562,-122.443,,3592294.0,1840021543
+1008,Thirty Madison,2021-06-02,United States,New York,Health,"Northzone Ventures, Maveron, Johnson & Johnson Innovation",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1009,LetsGetChecked,2021-06-07,Ireland,Dublin,Health,"Optum Ventures, Qiming Venture Partners, Transformation Capital",1.0,53.3497,-6.2603,primary,1173179.0,1372595407
+1010,EcoFlow,2021-06-10,China,Shenzhen,Hardware,"Delian Capital, China International Capital Corporation, Sequoia Capital China",1.0,22.535,114.054,minor,15929000.0,1156158707
+1011,Carro,2021-06-14,Singapore,Singapore,E-commerce & direct-to-consumer,"SingTel Innov8, Alpha JWC Ventures, Golden Gate Ventures",1.0,1.3,103.8,primary,5745000.0,1702341327
+1012,Tractable,2021-06-16,United Kingdom,London,Artificial intelligence,"Insight Partners, Ignition Partners, Georgian Partners",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+1013,Xiaoe Tech,2021-06-15,China,Shenzhen,Internet software & services,"GGV Capital, Hillhouse Capital Management, IDG Capital",1.0,22.535,114.054,minor,15929000.0,1156158707
+1014,Bringg,2021-06-16,Israel,Tel Aviv-Yafo,"Supply chain, logistics, & delivery","Salesforce Ventures, next47, Pereg Ventures",1.0,32.08,34.78,admin,451523.0,1376401542
+1015,Claroty,2021-06-17,United States,New York,Cybersecurity,"Bessemer Venture Partners, MoreVC, Team8",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1016,JoyTunes,2021-06-21,Israel,Tel Aviv-Yafo,Edtech,"Genesis Partners, Aleph, Insight Partners",1.0,32.08,34.78,admin,451523.0,1376401542
+1017,Aircall,2021-06-23,United States,New York,Internet software & services,"Balderton Capital, Next World Capital, Draper Esprit",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1018,Worldcoin,2021-06-29,United States,San Francisco,Fintech,"Day One Ventures, Coinbase Ventures, Andreessen Horowitz",1.0,37.7562,-122.443,,3592294.0,1840021543
+1019,SmartAsset,2021-06-24,United States,New York,Fintech,"Javelin Venture Partners, TTV Capital, Peterson Ventures",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1020,Morning Consult,2021-06-08,United States,Washington,Internet software & services,"Advance Venture Partners, Susquehanna Growth Equity, Lupa Systems",1.0,38.9047,-77.0163,primary,5379184.0,1840006060
+1021,Visier,2021-06-29,Canada,Vancouver,Internet software & services,"Foundation Capital, 	Summit Partners, Adams Street Partners",1.0,49.25,-123.1,,2264823.0,1124825478
+1022,ShipBob,2021-06-29,United States,Chicago,"Supply chain, logistics, & delivery","Hyde Park Venture Partners,	FundersClub. Bain Capital Ventures",1.0,41.8373,-87.6862,,8604203.0,1840000494
+1023,bolttech,2021-07-01,Singapore,Singapore,Fintech,"Mundi Ventures, Doqling Capital Partners, Activant Capital",1.0,1.3,103.8,primary,5745000.0,1702341327
+1024,MobileCoin,2021-07-07,United States,San Francisco,Fintech,"General Catalyst, Future Ventures, AU21",1.06,37.7562,-122.443,,3592294.0,1840021543
+1025,Amperity,2021-07-13,United States,Seattle,Artificial intelligence,"Madrona Venture Group, Tiger Global Management, Madera Technology Partners",1.0,47.6211,-122.3244,,3789215.0,1840021117
+1026,Pantheon Systems,2021-07-13,United States,San Francisco,Internet software & services,"Foundry Group, Scale Venture Partners, SoftBank Group",1.0,37.7562,-122.443,,3592294.0,1840021543
+1027,Xiaobing,2021-07-12,China,Beijing,Fintech,"NetEase Capital, Northern Light Venture Capital, Microsoft",1.0,39.905,116.3914,primary,19433000.0,1156228865
+1028,dMed Biopharmaceutical,2021-07-12,China,Shanghai,Health,"Qiming Venture Partners, Vivo Capital, Sequoia Capital China",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+1029,Carson Group,2021-07-14,United States,Lincoln,Fintech,Bain Capital,1.0,40.809,-96.6788,admin,289490.0,1840009357
+1030,GO1,2021-07-19,Australia,Brisbane,Internet software & services,"Y Combinator, M12, SEEK",1.0,-27.4678,153.0281,admin,2514184.0,1036192929
+1031,Interos,2021-07-22,United States,Arlington,Fintech,"Kleiner Perkins Caufield & Byers, NightDragon Security, Venrock",1.0,32.6998,-97.125,,398854.0,1840019422
+1032,BlackBuck,2021-07-22,India,Bangalore,"Supply chain, logistics, & delivery","Accel, Sands Capital, International Finance Corporation",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1033,NIUM,2021-07-13,Singapore,Singapore,Fintech,"Vertex Ventures SE Asia, Global Founders Capital, Visa Ventures",1.0,1.3,103.8,primary,5745000.0,1702341327
+1034,Human Interest,2021-08-04,United States,San Francisco,Fintech,"Wing Venture Capital, Slow Ventures, Uncork Capital",1.0,37.7562,-122.443,,3592294.0,1840021543
+1035,Bluecore,2021-08-05,United States,New York,Artificial intelligence,"FirstMark Capital, Georgian Partners, Norwest Venture Partners",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1036,Freshbooks,2021-08-10,Canada,Toronto,Fintech,"Accomplice, Oak Investment Partners, Georgian Partners",1.0,43.7417,-79.3733,,5429524.0,1124279679
+1037,Snorkel AI,2021-08-09,United States,Palo Alto,Artificial intelligence,"Greylock Partners, Google Ventures, BlackRock",1.0,37.3913,-122.1468,,65364.0,1840020333
+1038,Gelato,2021-08-16,Norway,Oslo,E-commerce & direct-to-consumer,"Greylock Partners, Google Ventures, BlackRock",1.0,59.9111,10.7528,primary,693494.0,1578324706
+1039,Maven Clinic,2021-08-17,United States,New York,Health,"Female Founders Fund, Oak HC/FT Partners, Sequoia Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1040,Dunamu,2021-07-22,"Korea, South",Seoul,Fintech,"Qualcomm Ventures, Woori Investment, Hanwha Investment & Securities",1.0,37.56,126.99,primary,21794000.0,1410836482
+1041,Shield AI,2021-08-24,United States,San Diego,Artificial intelligence,"Andreessen Horowitz, Homebrew, Point72 Ventures",1.0,32.8312,-117.1225,,3220118.0,1840021990
+1042,PicsArt,2021-08-26,United States,San Francisco,Mobile & telecommunications,"Sequoia Capital, DCM Ventures, Insight Partners",1.0,37.7562,-122.443,,3592294.0,1840021543
+1043,1KMXC,2021-08-30,China,Hangzhou,Hardware,"Goldman Sachs Asset Management, SDP Investment, Alibaba Group",1.0,30.25,120.1675,admin,6446000.0,1156275243
+1044,Cider,2021-09-02,Hong Kong,Hong Kong,E-commerce & direct-to-consumer,"Andreessen Horowitz, DST Global, IDG Capital",1.0,22.305,114.185,primary,7347000.0,1344982653
+1045,Berlin Brands Group,2021-09-01,Germany,Berlin,E-commerce & direct-to-consumer,"Ardian, Bain Capital",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+1046,Agile Robots,2021-09-09,Germany,Munich,Hardware,"Hillhouse Capital Management, Sequoia Capital China, Linear Venture",1.0,48.1372,11.5755,admin,1471508.0,1276692352
+1047,GrubMarket,2021-09-14,United States,San Francisco,E-commerce & direct-to-consumer,"GGV Capital, BlackRock, ACE & Company",1.2,37.7562,-122.443,,3592294.0,1840021543
+1048,Mammoth Biosciences,2021-09-09,United States,San Francisco,Health,"NFX, Plum Alley, Mayfield",1.0,37.7562,-122.443,,3592294.0,1840021543
+1049,Orchard,2021-09-09,United States,New York,Fintech,"Accomplice, Juxtapose, FirstMark Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1050,Xendit,2021-09-14,Indonesia,Jakarta,Fintech,"Accel, Y Combinator, Amasia",1.0,-6.2146,106.8451,primary,34540000.0,1360771077
+1051,TrueLayer,2021-09-21,United Kingdom,London,Fintech,"Anthemis, Connect Ventures, Northzone Ventures",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+1052,Assembly,2021-09-21,United States,Culver City,Internet software & services,"Advent International, PSG, Providence Equity Partners",1.0,34.0058,-118.3968,,39185.0,1840019243
+1053,PandaDoc,2021-09-22,United States,San Francisco,Internet software & services,"Rembrandt Venture Partners, M12, Altos Ventures",1.0,37.7562,-122.443,,3592294.0,1840021543
+1054,Keenon Robotics,2021-09-15,China,Shanghai,"Supply chain, logistics, & delivery","Yunqi Partners, SoftBank Group, iVision Ventures",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+1055,HAYDON,2021-09-24,China,Shanghai,Consumer & retail,"Tencent Holdings, Hillhouse Capital Management",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+1056,Ninja Van,2021-09-27,Singapore,Singapore,"Supply chain, logistics, & delivery","B Capital Group, Monk's Hill Ventures, Dynamic Parcel Distribution",1.0,1.3,103.8,primary,5745000.0,1702341327
+1057,Vedantu,2021-09-29,India,Bangalore,Edtech,"Accel, Tiger Global Management, Omidyar Network",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1058,TrialSpark,2021-09-30,United States,New York,Health,"Sequoia Capital, Thrive Capital, Sound Ventures",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1059,Ajaib,2021-10-04,Indonesia,Jakarta,Fintech,"Softbank Ventures Asia, Alpha JWC Ventures, Insignia Ventures Partners",1.0,-6.2146,106.8451,primary,34540000.0,1360771077
+1060,Licious,2021-10-05,India,Bangalore,E-commerce & direct-to-consumer,"3one4 Capital Partners, Bertelsmann India Investments, Vertex Ventures SE Asia",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1061,Masterworks,2021-10-05,United States,New York,Fintech,"Left Lane Capital, Galaxy Interactive, Tru Arrow Partners",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1062,Chronosphere,2021-10-07,United States,New York,Data management & analytics,"Greylock Partners, Lux Capital, General Atlantic",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1063,Solo.io,2021-10-07,United States,Cambridge,Internet software & services,"True Ventures, Altimeter Capital, Redpoint Ventures",1.0,42.3759,-71.1185,,118927.0,1840000429
+1064,Savage X Fenty,2021-02-10,United States,El Segundo,E-commerce & direct-to-consumer,"Speedinvest, Valar Ventures, Uniqa Ventures",1.0,33.9169,-118.4021,,16610.0,1840020481
+1065,Swile,2021-10-11,France,Montpellier,Fintech,"Index Ventures, IDInvest Partners, Daphni",1.0,43.6119,3.8772,minor,607896.0,1250819356
+1066,MobiKwik,2021-10-13,India,Gurgaon,Fintech,"Sequoia Capital India, The Times Group, GMO VenturePartners",1.0,28.45,77.02,,197340.0,1356836043
+1067,Weights & Biases,2021-10-13,United States,San Francisco,Internet software & services,"Coatue Management, Insight Partners, Trinity Ventures",1.0,37.7562,-122.443,,3592294.0,1840021543
+1068,Zopa,2021-10-19,United Kingdom,London,Fintech,"IAG Capital Partners, Augmentum Fintech, Northzone Ventures",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+1069,Dental Monitoring,2021-10-21,France,Paris,Health,"Vitruvian Partners, Merieux Equity Partners, Straumann",1.0,48.8566,2.3522,primary,11020000.0,1250015082
+1070,CargoX,2021-10-21,Brazil,Sao Paulo,"Supply chain, logistics, & delivery","Valor Capital Group, Lightrock, Softbank Group",1.0,-23.5504,-46.6339,admin,22046000.0,1076532519
+1071,Fabric,2021-10-26,United States,New York,"Supply chain, logistics, & delivery","Innovation Endeavors, Aleph, Temasek",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1072,Augury,2021-10-26,United States,New York,Artificial intelligence,"Lerer Hippeau, Munich Re Ventures, Eclipse Ventures",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1073,Moka,2021-11-02,China,Beijing,Internet software & services,"GGV Capital, GSR Ventures, FreesFund",1.0,39.905,116.3914,primary,19433000.0,1156228865
+1074,Tezign,2021-11-02,China,Shanghai,Internet software & services,"Sequoia Capital China, Linear Venture, Hearst Ventures",1.0,31.1667,121.4667,admin,22120000.0,1156073548
+1075,Vagaro,2021-11-03,United States,Dublin,Internet software & services,FTV Capital,1.0,37.7161,-121.8963,,64826.0,1840018916
+1076,Drata,2021-11-08,United States,San Diego,Cybersecurity,"Cowboy Ventures, Leaders Fund, GGV Capital",1.0,32.8312,-117.1225,,3220118.0,1840021990
+1077,Razor,2021-11-08,Germany,Berlin,Consumer & retail,"Global Founders Capital, 468 Capital, Redalpine Venture Partners",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+1078,OpenWeb,2021-11-09,United States,New York,Internet software & services,"Insight Partners, AltaIR Capital, Norma Investments",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1079,Contrast Security,2021-11-09,United States,Los Altos,Cybersecurity,"Acero Capital, General Catalyst, M12",1.0,37.3685,-122.0966,,30089.0,1840020328
+1080,Wrapbook,2021-11-10,United States,New York,Fintech,"Equal Ventures, Uncork Capital, Andreessen Horowitz",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1081,Gaussian Robotics,2021-11-10,China,Shanghai,Hardware,"BlueRun Ventures, Grand Flight Investment, Meituan Dianping",1.1,31.1667,121.4667,admin,22120000.0,1156073548
+1082,Mensa Brands,2021-11-16,India,Bangalore,Other,"Accel, Falcon Edge Capital, Norwest Venture Partners",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1083,Heyday,2021-11-16,United States,Chicago,E-commerce & direct-to-consumer,"Khosla Ventures,General Catalyst, Victory Park Capital",1.0,41.8373,-87.6862,,8604203.0,1840000494
+1084,PLACE,2021-11-17,United States,Bellingham,Internet software & services,"Goldman Sachs Asset Management, 3L",1.0,48.7543,-122.4687,,130641.0,1840018346
+1085,Stytch,2021-11-18,United States,San Francisco,Cybersecurity,"Index Ventures, Benchmark, Thrive Capital",1.0,37.7562,-122.443,,3592294.0,1840021543
+1086,Owkin,2021-11-18,United States,New York,Artificial Intelligence,"Google Ventures, Cathay Innovation, NJF Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1087,Expel,2021-11-18,United States,Herndon,Cybersecurity,"Paladin Capital Group, Greycroft, Scale Venture Partners",1.0,38.9699,-77.3867,,24601.0,1840006037
+1088,NoBroker,2021-11-23,India,Bangalore,Internet software & services,"General Atlantic, Elevation Capital, BEENEXT",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1089,Lessen,2021-11-30,United States,Scottsdale,Internet software & services,"Khosla Ventures, General Catalyst, Navitas Capital",1.0,33.6872,-111.8651,,258069.0,1840021940
+1090,Clara,2021-12-06,Mexico,Mexico City,Fintech,"DST Global, General Catalyst, Monashees+",1.0,19.4333,-99.1333,primary,20996000.0,1484247881
+1091,YipitData,2021-12-06,United States,New York,Internet software & services,"RRE Ventures+, Highland Capital Partners, The Carlyle Group",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1092,Anyscale,2021-12-07,United States,Berkeley,Artificial Intelligence,"Andreessen Horowitz, Intel Capital, Foundation Capital",1.0,37.8723,-122.276,,121363.0,1840018914
+1093,Iodine Software,2021-12-01,United States,Austin,Data management & analytics,"Advent International, Bain Capital Ventures, Silversmith Capital Partners",1.0,30.3004,-97.7522,admin,1687311.0,1840019590
+1094,ReliaQuest,2021-12-01,United States,Tampa,Cybersecurity,"KKR, FTV Capital, Ten Eleven Ventures",1.0,27.9942,-82.4451,,2908063.0,1840015982
+1095,Pet Circle,2021-12-06,Australia,Sydney,E-commerce & direct-to-consumer,"Prysm Capital, Baillie Gifford & Co., TDM Growth Partners",1.0,-33.865,151.2094,admin,5312163.0,1036074917
+1096,Nature's Fynd,2021-07-19,United States,Chicago,Other,"Danone Manifesto Ventures, 1955 Capital, Breakthrough Energy Ventures",1.0,41.8373,-87.6862,,8604203.0,1840000494
+1097,Lydia,2021-12-08,France,Paris,Fintech,"NewAlpha, XAnge Private Equity, Tencent Holdings",1.0,48.8566,2.3522,primary,11020000.0,1250015082
+1098,SellerX,2021-12-09,Germany,Berlin,E-commerce & direct-to-consumer,"Cherry Ventures, Felix Capital, 83North",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+1099,SnapLogic,2021-12-13,United States,San Mateo,Internet software & services,"Andreessen Horowitz, Triangle Peak Partners, Ignition Partners",1.0,37.5521,-122.3122,,104430.0,1840021551
+1100,Cadence,2021-12-14,United States,New York,Health,"Thrive Capital, General Catalyst, Coatue Management",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1101,Noname Security,2021-12-15,United States,Palo Alto,Cybersecurity,"Insight Partners, Lightspeed Venture Partners, CyberStarts",1.0,37.3913,-122.1468,,65364.0,1840020333
+1102,Rothy's,2021-12-21,United States,San Francisco,Consumer & retail,"Alpargatas, GS Growth, Lightspeed Venture Partners",1.0,37.7562,-122.443,,3592294.0,1840021543
+1103,VOI,2021-12-21,Sweden,Stockholm,Travel,"Vostok New Ventures, The Raine Group, Balderton Capital",1.0,59.3294,18.0686,primary,972647.0,1752425602
+1104,Haomao.AI,2021-12-22,China,Beijing,Artificial Intelligence,"Qualcomm Ventures, Nine Intelligence Capital, Hillhouse Capital Management",1.0,39.905,116.3914,primary,19433000.0,1156228865
+1105,Kopi Kenangan,2021-12-27,Indonesia,Jakarta,Consumer & retail,"Horizons Ventures, Sequoia Capital India, Alpha JWC Ventures",1.0,-6.2146,106.8451,primary,34540000.0,1360771077
+1106,InFarm,2021-12-16,Germany,Berlin,Other,"Atomico, Hanaco Venture Capital, TriplePoint Capital",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+1107,ONE,2021-12-08,Singapore,Singapore,Internet software & services,"Temasek, Guggenheim Investments, Qatar Investment Authority",1.0,1.3,103.8,primary,5745000.0,1702341327
+1108,Fractal Analytics,2022-01-05,India,Mumbai,Data management & analytics,"TPG Capital, Apax Partners, TA Associates",1.0,18.9667,72.8333,admin,23355000.0,1356226629
+1109,Assent,2022-01-06,Canada,Ottawa,"Supply chain, logistics, & delivery","Vista Equity Partners, Warburg Pincus, First Ascent Ventures",1.0,45.4247,-75.695,,989567.0,1124399363
+1110,CAIS,2022-01-11,United States,New York,Fintech,"Franklin Templeton, Motive Partners. Apollo Global Management",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1111,Placer.ai,2022-01-12,United States,Los Altos,Artificial intelligence,"Fifth Wall Ventures, JBV Capital, Array Ventures",1.0,37.3685,-122.0966,,30089.0,1840020328
+1112,Pentera,2022-01-11,Israel,Petah Tiqwa,Cybersecurity,"AWZ Ventures, Blackstone, Insight Partners",1.0,32.0833,34.8833,,236169.0,1376362310
+1113,Darwinbox,2022-01-25,India,Hyderabad,Internet software & services,"Lightspeed India Partners, Sequoia Capital India, Endiya Partners",1.0,17.3667,78.4667,admin,9746000.0,1356871768
+1114,Minio,2022-01-26,United States,Palo Alto,Data management & analytics,"General Catalyst, Nexus Venture Partners, Dell Technologies Capital",1.0,37.3913,-122.1468,,65364.0,1840020333
+1115,Fever Labs,2022-01-26,United States,New York,Internet software & services,"Accel, 14W, GS Growth",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1116,Esusu,2022-01-27,United States,New York,Fintech,"Next Play Ventures, Zeal Capital Partners, SoftBank Group",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1117,Betterfly,2022-02-01,Chile,Santiago,Artificial intelligence,"QED Investors, DST Global, Endeavor",1.0,-33.45,-70.6667,primary,7007000.0,1152554349
+1118,Dune Analytics,2022-02-02,Norway,Oslo,Data management & analytics,"Multicoin Capital, Coatue Management, Dragonfly Capital Partners",1.0,59.9111,10.7528,primary,693494.0,1578324706
+1119,Scandit,2022-02-09,Switzerland,Zurich,"Supply chain, logistics, & delivery","Atomico, NGP Capital, Google Ventures",1.0,47.3786,8.54,admin,434008.0,1756539143
+1120,Payhawk,2022-02-14,United Kingdom,London,Fintech,"Earlybird Venture Capital, Eleven Ventures, QED Investors",1.0,51.5072,-0.1275,primary,10979000.0,1826645935
+1121,Watershed,2022-02-08,United States,San Francisco,Internet software & services,"Kleiner Perkins Caufield & Byers, Sequoia Capital",1.0,37.7562,-122.443,,3592294.0,1840021543
+1122,Axelar,2022-02-15,Canada,Waterloo,Internet software & services,"Lemniscap VC, North Island Ventures, Polychain Capital",1.0,43.4667,-80.5167,,104986.0,1124321390
+1123,CHEQ,2022-02-22,United States,New York,Cybersecurity,"Battery Ventures, Tiger Global Management, Hanaco Ventures",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1124,Hasura,2022-02-22,India,Bangalore,Internet software & services,"Nexus Venture Partners, Vertex Ventures, STRIVE",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1125,Timescale,2022-02-22,United States,New York,Internet software & services,"New Enterprise Associates, Benchmark, Two Sigma Ventures",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1126,Scalapay,2022-02-23,Italy,Milan,Fintech,"Fasanara Capital, Tiger Global Management, Baleen Capital",1.0,45.4669,9.19,admin,1366180.0,1380724377
+1127,Omada Health,2022-02-23,United States,San Francisco,Health,"U.S. Venture Partners, dRx Capital, Andreessen Horowitz",1.0,37.7562,-122.443,,3592294.0,1840021543
+1128,BlueVoyant,2022-02-23,United States,New York,Cybersecurity,"8VC, Liberty Strategic Capital, Eden Global Partners",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1129,Veev,2022-02-24,United States,San Mateo,Internet software & services,"Zeev Ventures, Bond, Fifth Wall Ventures",1.0,37.5521,-122.3122,,104430.0,1840021551
+1130,Gauntlet Networks,2022-03-07,United States,New York,Fintech,"Polychain Capital, Paradigm, Ribbit Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1131,Aptos,2022-03-15,United States,Palo Alto,Internet software & services,"Andreessen Horowitz, Coinbase Ventures, Tiger Global Management",1.0,37.3913,-122.1468,,65364.0,1840020333
+1132,Amagi,2022-03-16,India,Bangalore,Internet software & services,"Mayfield, Accel, Norwest Venture Partners",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1133,Glia,2022-03-21,United States,New York,Fintech,"Wildcat Capital Management, Insight Partners, Tola Capital",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1134,CommerceIQ,2022-03-21,United States,Palo Alto,Artificial Intelligence,"Trinity Ventures, Madrona Venture Group, Shasta Ventures",1.0,37.3913,-122.1468,,65364.0,1840020333
+1135,RapidAPI,2022-03-23,United States,San Francisco,Internet software & services,"Green Bay Ventures, M12, Andreessen Horowitz",1.0,37.7562,-122.443,,3592294.0,1840021543
+1136,Tarana Wireless,2022-03-23,United States,Milpitas,Mobile & telecommunications,"Prime Movers Lab, Khosla Ventures, I Squared Capital",1.0,37.4339,-121.8921,,84196.0,1840020329
+1137,FLASH,2022-03-16,United States,Austin,Fintech,"L Catterton, Trellis Partners, Vista Equity Partners",1.0,30.3004,-97.7522,admin,1687311.0,1840019590
+1138,Electric,2022-03-29,United States,New York,Cybersecurity,"Primary Venture Partners, Bessemer Venture Partners, Harmonic Growth Partners",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1139,LayerZero Labs,2022-03-30,United States,New York,Internet software & services,"Andreessen Horowitz, FTX Ventures, Tiger Global Management",1.0,40.6943,-73.9249,,18713220.0,1840034016
+1140,BostonGene,2022-04-06,United States,Waltham,Health,"Japan Industrial Partners, Impact Investment Capital, NEC",1.0,42.3889,-71.2423,,62495.0,1840000428
+1141,Grover,2022-04-07,Germany,Berlin,E-commerce & direct-to-consumer,"Varengold Bank, Circularity Capital, Coparion",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+1142,Genies,2022-04-12,United States,Venice,Internet software & services,"New Enterprise Associates, Tull Investment Group, Silver Lake",1.0,27.1163,-82.4135,,23985.0,1840015989
+1143,Oyster,2022-04-20,United States,Wilmington,Fintech,"Emergence Capital, Slack Fund, PayPal Ventures",1.0,34.21,-77.8866,,255616.0,1840015576
+1144,NexHealth,2022-04-21,United States,San Francisco,Health,"iSeed Ventures, Point Nine Capital, Buckley Ventures",1.0,37.7562,-122.443,,3592294.0,1840021543
+1145,Instabox,2022-04-21,Sweden,Stockholm,"Supply chain, logistics, & delivery","Creades, EQT Ventures, Verdane Capital",1.0,59.3294,18.0686,primary,972647.0,1752425602
+1146,UPSIDE Foods,2022-04-21,United States,Berkeley,Other,"Battery Ventures, Adams Street Partners, Coatue Management",1.0,37.8723,-122.276,,121363.0,1840018914
+1147,Divergent 3D,2022-04-25,United States,Torrance,Auto & transportation,"Hedosophia, Horizons Ventures, Alumni Ventures Group",1.0,33.8346,-118.3417,,143592.0,1840021873
+1148,Taxfix,2022-04-28,Germany,Berlin,Fintech,"Valar Ventures, Index Ventures, Creandum",1.0,52.5167,13.3833,primary,3644826.0,1276451290
+1149,Open,2022-05-02,India,Bangalore,Fintech,"3one4 Capital Partners, Tiger Global Management, Temasek",1.0,12.9699,77.598,admin,13707000.0,1356410365
+1150,Polarium,2022-05-03,Sweden,Stockholm,Other,AMF Pensionsforsakring,1.0,59.3294,18.0686,primary,972647.0,1752425602
+1151,Opn,2022-05-09,Japan,Tokyo,Fintech,"Sinar Mas Digital Ventures, JIC Venture Growth Investments, Golden Gate Ventures",1.0,35.6897,139.6922,primary,37977000.0,1392685764
+1152,Remarkable,2022-05-10,Norway,Oslo,Internet software & services,Spark Capital,1.0,59.9111,10.7528,primary,693494.0,1578324706
+1153,Habi,2022-05-11,Colombia,Bogota,Fintech,"Homebrew, Inspired Capital, Tiger Global Management",1.0,4.6126,-74.0705,primary,9464000.0,1170483426
+1154,Glean,2022-05-18,United States,Palo Alto,Internet software & services,"General Catalyst, Kleiner Perkins Caufield & Byers, Lightspeed Venture Partners",1.0,37.3913,-122.1468,,65364.0,1840020333
+1155,CareBridge,2022-06-08,United States,Nashville,Health,"Bain Capital Ventures, Splunk Ventures, Cisco Investments",1.0,36.1715,-86.7843,admin,1081903.0,1840036155
+1156,Immuta,2022-06-08,United States,Boston,Data management & analytics,"DFJ Growth Fund, Dell Technologies Capital, Ten Eleven Ventures",1.0,42.3188,-71.0846,admin,4688346.0,1840000455
+1157,JupiterOne,2022-06-02,United States,Morrisville,Cybersecurity,"Bain Capital Ventures, Splunk Ventures, Cisco Investments",1.0,35.8367,-78.8348,,28846.0,1840016195
