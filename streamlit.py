@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pydeck as pdk
-import plotly.express as px
 
 DATA_URL = ('[Github](https://github.com/Eli-2020/unicorns_2022.csv)')
 
