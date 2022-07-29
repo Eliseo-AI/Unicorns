@@ -58,7 +58,7 @@ st.write(pdk.Deck(
     layers=[
         pdk.Layer(
         "HexagonLayer",
-        data =data_unicorn[['unicorn','lat','lng']],
+        data =data_unicorn[['value','lat','lng']],
         get_position=['lng','lat'],
         radius=100,
         extruded=True,
@@ -68,7 +68,7 @@ st.write(pdk.Deck(
         ),
         pdk.Layer(
              'ScatterplotLayer',
-             data= data_unicorn[['unicorn','lat','lng']],
+             data= data_unicorn[['value','lat','lng']],
              get_position='[lon, lat]',
              get_color='[200, 30, 0, 160]',
              get_radius=200,
