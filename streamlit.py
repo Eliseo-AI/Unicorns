@@ -58,7 +58,7 @@ st.write(pdk.Deck(
     layers=[
         pdk.Layer(
         "HexagonLayer",
-        data_unicorn =data_unicorn[['unicorn','lat','lng']],
+        data =data_unicorn[['unicorn','lat','lng']],
         get_position=['lng','lat'],
         radius=100,
         extruded=True,
@@ -66,6 +66,13 @@ st.write(pdk.Deck(
         elevation_scale=4,
         elevation_range=[0,1000],
         ),
+        pdk.Layer(
+             'ScatterplotLayer',
+             data= data_unicorn[['unicorn','lat','lng']],
+             get_position='[lon, lat]',
+             get_color='[200, 30, 0, 160]',
+             get_radius=200,
+         ),
     ],
 ))    
     
