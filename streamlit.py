@@ -50,8 +50,8 @@ with dataset:
 st.write(pdk.Deck(
     map_style="mapbox://styles/mapbox/light-v9",
     initial_view_state={
-        "lat": midpoint[0],
-        "lng": midpoint[1],
+        "latitude": 37.76,
+        "longitude": -122.4,
         "zoom": 11,
         "pitch": 50,
     },
