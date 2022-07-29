@@ -40,10 +40,10 @@ with dataset:
     data_unicorn = data_unicorn[data_unicorn['industry'].isin(industry_u)]
     data_unicorn = data_unicorn[data_unicorn['date_joined']==date]
     
-    fig2 = px.bar(data_unicorn,x="industry",y="value",color="industry", range_y=[0,500])
+    fig = px.bar(data_unicorn,x="industry",y="value",color="industry", range_y=[0,500])
     
-    fig2.update_layout(width=800)
+    fig.update_layout(width=800)
     
-    st.write(fig2)
+    st.write(fig)
     
     
