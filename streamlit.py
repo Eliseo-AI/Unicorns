@@ -46,4 +46,25 @@ with dataset:
     
     st.write(fig)
     
+st.write(pdk.Deck(
+    map_style="mapbox://styles/mapbox/light-v9",
+    initial_view_state={
+        "latitude": midpoint[0],
+        "longitude": midpoint[1],
+        "zoom": 11,
+        "pitch": 50,
+    },
+    layers=[
+        pdk.Layer(
+        "HexagonLayer",
+        data_unicorn =data_unicorn[['unicorn','lat','lng']],
+        get_position=['lng','lat'],
+        radius=100,
+        extruded=True,
+        pickable=True,
+        elevation_scale=4,
+        elevation_range=[0,1000],
+        ),
+    ],
+))    
     
