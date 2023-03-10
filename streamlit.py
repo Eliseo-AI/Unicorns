@@ -123,7 +123,8 @@ view_state = pdk.ViewState(
 map = pdk.Deck(
     layers=[layer],
     initial_view_state=view_state,
-    tooltip={"text": "Name: {unicorn}\nCategory: {industry}\nElevation: {elevations}"}
+    tooltip={"text": "Name: {unicorn}\nElevation: {elevations}"}
+    ## tooltip={"text": "Name: {unicorn}\nCategory: {industry}\nElevation: {elevations}"}
 )
 
 st.pydeck_chart(map)
