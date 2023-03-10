@@ -23,12 +23,7 @@ with dataset:
   
     st.subheader('Total Valuation of Unicorns by Country')
     countries = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
-    bar_chart = alt.Chart(countries).mark_bar().encode(
-        y="country(Name):O",
-        x="sum(value($)):Q",
-        color="country:N"
-    )
-    st.altair_chart(bar_chart)
+    st.bar_chart(data=countries)
     
     st.subheader('Total Valuation by Industry')
     industry_value = pd.DataFrame(data_unicorn.groupby(["industry"])["value"].sum()).head(50)
