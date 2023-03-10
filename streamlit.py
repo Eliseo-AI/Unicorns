@@ -29,7 +29,7 @@ with dataset:
     industry_value = pd.DataFrame(data_unicorn.groupby(["industry"])["value"].sum()).head(50)
     st.bar_chart(data=industry_value)
         
-    st.subheader('Choose the Best combination between date and age range for you')
+    st.subheader('Choose the Best combination between date and Industry')
     
     data_unicorn['date_joined'] = pd.to_datetime(data_unicorn['date_joined']).dt.strftime('%Y-%m-%d')
     
