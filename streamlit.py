@@ -100,7 +100,7 @@ layer = pdk.Layer(
 )
 
 # Crear función para obtener la forma del marcador según la categoría
-CATEGORY_TO_ICON = {
+##CATEGORY_TO_ICON = {
     'heliport': '\uf0fe',
     'closed': '\uf071',
     'seaplane_base': '\uf5fc',
@@ -109,8 +109,8 @@ CATEGORY_TO_ICON = {
     'small_airport': '\uf072'
 }
 
-def get_icon(category):
-    return CATEGORY_TO_ICON.get(category, '\uf3c5')
+##  def get_icon(industry):
+    ## return CATEGORY_TO_ICON.get(industry, '\uf3c5')
 
 # Crear mapa centrado en Estados Unidos
 view_state = pdk.ViewState(
