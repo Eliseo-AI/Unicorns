@@ -101,13 +101,13 @@ layer = pdk.Layer(
 
 # Crear función para obtener la forma del marcador según la categoría
 ##CATEGORY_TO_ICON = {
-    'heliport': '\uf0fe',
-    'closed': '\uf071',
-    'seaplane_base': '\uf5fc',
-    'large_airport': '\uf072',
-    'medium_airport': '\uf072',
-    'small_airport': '\uf072'
-}
+   ## 'heliport': '\uf0fe',
+   ## 'closed': '\uf071',
+   ## 'seaplane_base': '\uf5fc',
+   ## 'large_airport': '\uf072',
+   ## 'medium_airport': '\uf072',
+   ## 'small_airport': '\uf072'
+# }
 
 ##  def get_icon(industry):
     ## return CATEGORY_TO_ICON.get(industry, '\uf3c5')
