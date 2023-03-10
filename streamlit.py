@@ -77,3 +77,53 @@ st.write(pdk.Deck(
     ],
 ))    
     
+
+locations = data_unicorn[['lng', 'lat']]
+elevations = data['value']
+names = data['unicorn']
+categories = data['industry']
+
+locations['unicorn'] = names
+locations['industry'] = categories
+
+# Crear capa de marcadores para cada ubicación en el archivo
+layer = pdk.Layer(
+    'ScatterplotLayer',
+    data=locations,
+    get_position='[lng, lat]',
+    get_fill_color='[elevations, 0, 255-elevations]',
+    get_radius=50000,
+    radius_min_pixels=5,
+    radius_max_pixels=15,
+    pickable=True,
+    get_icon='get_icon(industry)'
+)
+
+# Crear función para obtener la forma del marcador según la categoría
+CATEGORY_TO_ICON = {
+    'heliport': '\uf0fe',
+    'closed': '\uf071',
+    'seaplane_base': '\uf5fc',
+    'large_airport': '\uf072',
+    'medium_airport': '\uf072',
+    'small_airport': '\uf072'
+}
+
+def get_icon(category):
+    return CATEGORY_TO_ICON.get(category, '\uf3c5')
+
+# Crear mapa centrado en Estados Unidos
+view_state = pdk.ViewState(
+    longitude=-95.7129,
+    latitude=37.0902,
+    zoom=4
+)
+
+# Crear mapa con capa de marcadores y escala de colores basada en elevación
+map = pdk.Deck(
+    layers=[layer],
+    initial_view_state=view_state,
+    tooltip={"text": "Name: {unicorn}\nCategory: {industry}\nElevation: {elevations}"}
+)
+
+st.pydeck_chart(map)
