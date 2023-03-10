@@ -22,11 +22,16 @@ with dataset:
   
     st.subheader('Total Valuation of Unicorns by Country')
     countries = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
-    st.bar(countries, orientation='h')
+    bar_chart = alt.Char(countries).mark_bar().encode(
+        y="country(Name):O",
+        x="sum(value($)):Q",
+        color="country:N"
+    )
+    st.altair_chart(bar_chart)
     
     st.subheader('Total Valuation by Industry')
     industry_value = pd.DataFrame(data_unicorn.groupby(["industry"])["value"].sum()).head(50)
-    st.bar(data=industry_value, orientation='h')
+    st.bar_chart(data=industry_value)
         
     st.subheader('Choose the Best combination between date and age range for you')
     
