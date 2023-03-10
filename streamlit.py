@@ -79,9 +79,9 @@ st.write(pdk.Deck(
     
 
 locations = data_unicorn[['lng', 'lat']]
-elevations = data['value']
-names = data['unicorn']
-categories = data['industry']
+elevations = data_unicorn['value']
+names = data_unicorn['unicorn']
+categories = data_unicorn['industry']
 
 locations['unicorn'] = names
 locations['industry'] = categories
