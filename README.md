@@ -15,17 +15,15 @@ Table of Content
 A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the [Digital Sciences Track of Université Paris Cité](https://u-paris.fr/en/master-aire-digital-sciences/). 
 
 ## Datasets
-The data sets are from the open data of [Jonhs Hopkins University](https://github.com/CSSEGISandData/COVID-19)
-* Dataset_COVID_Death_complete.csv
-* Dataset_COVID_confiremed_complete.csv
-* Dataset_COVID_recovered_complete.csv
+
 
 Columns in the datasets:
 
-- `Country / region`: identifies the name of the country
+- `unicorns`: the name of the company
+- `country / region`: identifies the name of the country
 - `Province / state`: identifies the name of the states
-- `Latitude`: the geographic coordinates that specifies the north – south position of a point on the Earth's surface.
-- `Longitude`: the geographic coordinates that specifies the east – west position of a point on the Earth's surface.
+- `Lat`: the geographic coordinates that specifies the north – south position of a point on the Earth's surface.
+- `Lng`: the geographic coordinates that specifies the east – west position of a point on the Earth's surface.
 - `Date`: identifies the cumulative cases per day in each of the countries.
 
 To calulcate the normalization we acquire to get the population of the each country https://www.kaggle.com/tanuprabhu/population-by-country-2020 and we only used `Country and Population`. 
@@ -39,14 +37,17 @@ pip install -r requirements.txt
 ```
 - Requirements includes:
 ```
-pandas == 1.4.3
-streamlit==1.11.0
+pandas == 1.5.3
+streamlit==1.19.0
 plotly.express==0.4.0
+altair==4.2.2 
 numpy==1.23.1
+pydeck==0.7.1
+folium==0.14.0
 ```
 To run the streamlit code
 ```
-streamlit run app.py
+streamlit run exercise.py
 ```
 ## Licensing
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
