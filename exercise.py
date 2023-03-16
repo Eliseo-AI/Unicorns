@@ -28,7 +28,7 @@ st.plotly_chart(fig1)
 # Bubble graph by industry
 st.header("Bubble Graph by Industry")
 industry_data = data.groupby('industry').agg({'value': 'sum', 'unicorn': 'count'}).reset_index()
-fig2 = px.scatter(industry_data, x='unicorn', y='value', size='value', color='industry', text='industry')
+fig2 = px.scatter(industry_data, x='unicorn', y='value', size='count', color='industry', text='industry')
 fig2.add_hline(y=industry_data['value'].mean())
 fig2.add_vline(x=industry_data['unicorn'].mean())
 st.plotly_chart(fig2)
