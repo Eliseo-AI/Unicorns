@@ -22,7 +22,7 @@ selected_countries = st.multiselect("Select countries:", countries, default=coun
 filtered_data = data[data['country'].isin(selected_countries)]
 agg_data = filtered_data.groupby(['country', 'date_joined']).agg({'value': 'sum'}).reset_index()
 
-fig1 = px.line(agg_data, x='value', y='date_joined', color='country', orientation='h')
+fig1 = px.line(agg_data, x='date_joined', y='value', color='country', orientation='h')
 st.plotly_chart(fig1)
 
 # Bubble graph by industry
@@ -60,7 +60,7 @@ st.header("Investor Analysis")
 investors_counter = Counter([investor for investors in data['selected_investors'] for investor in investors])
 range_slider = st.slider("Select range:", min_value=0, max_value=max(investors_counter.values()), value=(0, max(investors_counter.values())))
 investors_filtered = {k: v for k, v in investors_counter.items() if range_slider[0] <= v <= range_slider[1]}
-fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns=['count']).reset_index(), x='index', y='count', labels={'index': 'Investor'})
+fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns=['count']).reset_index(), x='count', y='index', labels={'index': 'Investor'})
 st.plotly_chart(fig4)
 
 investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
