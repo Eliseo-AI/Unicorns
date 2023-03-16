@@ -42,14 +42,14 @@ st.plotly_chart(fig3)
 
 # Map visualization
 st.header("Map Visualization")
-m = folium.Map(location=[37.7749, -122.4194], zoom_start=3)
+m = folium.Map(location=[37.7749, -122.4194], zoom_start=1.5)
 
 for index, row in data.iterrows():
     folium.CircleMarker(
         location=[row['lat'], row['lng']],
         radius=row['value'] * 1,
         color=row['country'],
-        popup=f"{row['unicorn']} - {row['value']} - {row['industry']}",
+        popup=f"{row['country']} -row['unicorn']} - {row['value']} - {row['industry']}",
         fill=True
     ).add_to(m)
 
