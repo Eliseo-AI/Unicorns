@@ -49,7 +49,7 @@ for index, row in data.iterrows():
         location=[row['lat'], row['lng']],
         radius=row['value'] * 10,
         color=row['date_joined'],
-        popup=f"{row['unicorns']} - {row['value']} trillion - {row['industry']}",
+        popup=f"{row['unicorn']} - {row['value']} trillion - {row['industry']}",
         fill=True
     ).add_to(m)
 
@@ -64,7 +64,7 @@ fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns
 st.plotly_chart(fig4)
 
 investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
-investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['unicorns', 'value', 'industry']]
+investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['unicorn', 'value', 'industry']]
 st.write(investor_companies)
 
 # Bubble map with animation
