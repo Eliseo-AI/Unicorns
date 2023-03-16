@@ -47,7 +47,7 @@ m = folium.Map(location=[37.7749, -122.4194], zoom_start=4)
 for index, row in data.iterrows():
     folium.CircleMarker(
         location=[row['lat'], row['lng']],
-        radius=row['value'] * 10,
+        radius=row['value'] * 1,
         color=row['date_joined'],
         popup=f"{row['unicorn']} - {row['value']} - {row['industry']}",
         fill=True
@@ -70,5 +70,5 @@ st.write(investor_companies)
 # Bubble map with animation
 st.header("Bubble Map with Animation")
 animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'population', 'date_joined']).agg({'value': 'sum'}).reset_index()
-fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', color='id_city', animation_frame='date_joined', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
+fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size= 'value', color='id_city', animation_frame='date_joined', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
 st.plotly_chart(fig5)
