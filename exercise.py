@@ -49,7 +49,7 @@ for index, row in data.iterrows():
         location=[row['lat'], row['lng']],
         radius=row['value'] * 10,
         color=row['date_joined'],
-        popup=f"{row['unicorn']} - {row['value']} trillion - {row['industry']}",
+        popup=f"{row['unicorn']} - {row['value']} - {row['industry']}",
         fill=True
     ).add_to(m)
 
