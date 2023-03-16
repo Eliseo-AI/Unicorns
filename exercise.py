@@ -17,7 +17,7 @@ st.title("Data Analysis")
 # Horizontal line graph by country
 st.header("Horizontal Line Graph by Country")
 countries = data['country'].unique()
-selected_countries = st.multiselect("Select countries:", countries, default=countries)
+selected_countries = st.multiselect("Select countries:", countries, default=countries[:3])
 
 filtered_data = data[data['country'].isin(selected_countries)]
 agg_data = filtered_data.groupby(['country', 'date_joined']).agg({'value': 'sum'}).reset_index()
@@ -37,7 +37,7 @@ st.plotly_chart(fig2)
 st.header("Boxplot Graph")
 countries_to_compare = st.multiselect("Select countries to compare:", countries, default=countries[:3])
 boxplot_data = data[data['country'].isin(countries_to_compare)]
-fig3 = px.box(boxplot_data, x='country', y='value')
+fig3 = px.box(boxplot_data, x='country', y='value', color='country')
 st.plotly_chart(fig3)
 
 # Map visualization
