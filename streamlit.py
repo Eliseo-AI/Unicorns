@@ -7,7 +7,7 @@ from streamlit_folium import folium_static
 from collections import Counter
 
 # Load your data as a Pandas DataFrame (replace "your_data.csv" with your actual file)
-data = pd.read_csv("data/unicorn_2022.csv")
+data = pd.read_csv("data/unicorns_2022.csv")
 
 # Clean selected_investors column
 data['selected_investors'] = data['selected_investors'].apply(lambda x: [i.strip() for i in x.split(',')])
