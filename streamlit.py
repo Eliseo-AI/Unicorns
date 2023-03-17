@@ -60,7 +60,7 @@ st.header("Investor Analysis")
 investors_counter = Counter([investor for investors in data['selected_investors'] for investor in investors])
 range_slider = st.slider("Select range:", min_value=0, max_value=max(investors_counter.values()), value=(0, max(investors_counter.values())))
 investors_filtered = {k: v for k, v in investors_counter.items() if range_slider[0] <= v <= range_slider[1]}
-fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns=['count']).reset_index(), x='index', y='count', labels={'index': 'Investor'})
+fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns=['count']).reset_index(), x='count', y='index', labels={'index': 'Investor'}).head(5)
 st.plotly_chart(fig4)
 
 investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
