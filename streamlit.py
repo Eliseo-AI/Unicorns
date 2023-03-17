@@ -5,10 +5,10 @@ import seaborn as sns
 import altair as alt
 from keplergl import KeplerGl
 import json
-Load the data file (e.g., data.csv) and preprocess the data:
+
 @st.cache
 def load_data():
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv('data/unicorns_2022.csv')
     data['date_joined'] = pd.to_datetime(data['date_joined'])
     data['year'] = data['date_joined'].dt.year
     data['selected_investors'] = data['selected_investors'].apply(lambda x: [i.strip() for i in x.split(',')])
