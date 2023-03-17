@@ -15,7 +15,7 @@ def load_data():
     return data
 
 data = load_data()
-Create a sidebar for user input:
+# Create a sidebar for user input:
 st.sidebar.title("User Input")
 selected_countries = st.sidebar.multiselect("Select countries", data['country'].unique(), default=['Country1', 'Country2'])
 Create the scatter plot:
@@ -29,7 +29,7 @@ scatter = alt.Chart(scatter_data).mark_circle().encode(
 ).interactive()
 
 st.altair_chart(scatter, use_container_width=True)
-Create the bubble chart:
+# Create the bubble chart:
 bubble_data = data.groupby('industry').agg({'unicorn': 'count', 'value': 'sum'}).reset_index()
 
 bubble = alt.Chart(bubble_data).mark_circle().encode(
@@ -40,7 +40,7 @@ bubble = alt.Chart(bubble_data).mark_circle().encode(
 ).interactive()
 
 st.altair_chart(bubble, use_container_width=True)
-Create the boxplot chart:
+# Create the boxplot chart:
 boxplot_data = data[data['country'].isin(selected_countries)]
 
 boxplot = alt.Chart(boxplot_data).mark_boxplot().encode(
