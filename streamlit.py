@@ -1,74 +1,74 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 import numpy as np
-import seaborn as sns
-import altair as alt
-from keplergl import KeplerGl
-import json
+import folium
+from streamlit_folium import folium_static
+from collections import Counter
 
-@st.cache_data
-def load_data():
-    data = pd.read_csv('data/unicorns_2022.csv')
-    data['date_joined'] = pd.to_datetime(data['date_joined'])
-    data['year'] = data['date_joined'].dt.year
-    data['selected_investors'] = data['selected_investors'].apply(lambda x: [i.strip() for i in x.split(',')])
-    return data
+# Load your data as a Pandas DataFrame (replace "your_data.csv" with your actual file)
+data = pd.read_csv("data/unicorn_2022.csv")
 
-data = load_data()
-# Create a sidebar for user input:
-st.sidebar.title("User Input")
-selected_countries = st.sidebar.multiselect("Select countries", data['country'].unique())
-# Create the scatter plot:
-scatter_data = data[data['country'].isin(selected_countries)]
+# Clean selected_investors column
+data['selected_investors'] = data['selected_investors'].apply(lambda x: [i.strip() for i in x.split(',')])
 
-scatter = alt.Chart(scatter_data).mark_circle().encode(
-    alt.X('value', title='Value Range'),
-    alt.Y('year', title='Year'),
-    alt.Color('country', legend=alt.Legend(title="Countries")),
-    tooltip=['unicorn', 'country', 'year']
-).interactive()
+st.title("Data Analysis")
 
-st.altair_chart(scatter, use_container_width=True)
-# Create the bubble chart:
-bubble_data = data.groupby('industry').agg({'unicorn': 'count', 'value': 'sum'}).reset_index()
+# Horizontal line graph by country
+st.header("Horizontal Line Graph by Country")
+countries = data['country'].unique()
+selected_countries = st.multiselect("Select countries:", countries, default=countries)
 
-bubble = alt.Chart(bubble_data).mark_circle().encode(
-    alt.X('unicorn', title='Number of Companies by Industry'),
-    alt.Y('value', title='Total Value by Industry'),
-    alt.Color('industry', legend=alt.Legend(title="Industries")),
-    tooltip=['industry', 'unicorn', 'value']
-).interactive()
+filtered_data = data[data['country'].isin(selected_countries)]
+agg_data = filtered_data.groupby(['country', 'year']).agg({'value': 'sum'}).reset_index()
 
-st.altair_chart(bubble, use_container_width=True)
-# Create the boxplot chart:
-boxplot_data = data[data['country'].isin(selected_countries)]
+fig1 = px.scatter(agg_data, x='year', y='value', color='country'')
+st.plotly_chart(fig1)
 
-boxplot = alt.Chart(boxplot_data).mark_boxplot().encode(
-    alt.X('country', title='Country'),
-    alt.Y('value', title='Value Range'),
-    alt.Color('country', legend=alt.Legend(title="Countries")),
-    tooltip=['unicorn', 'country', 'value']
-).interactive()
+# Bubble graph by industry
+st.header("Bubble Graph by Industry")
+industry_data = data.groupby('industry').agg({'value': 'sum', 'unicorns': 'count'}).reset_index()
+fig2 = px.scatter(industry_data, x='unicorns', y='value', size='value', color='industry', text='industry')
+fig2.add_hline(y=industry_data['value'].mean())
+fig2.add_vline(x=industry_data['unicorns'].mean())
+st.plotly_chart(fig2)
 
-st.altair_chart(boxplot, use_container_width=True)
-# Create the 3D map:
-map_data = data[['unicorn', 'industry', 'lat', 'lng', 'value', 'year']].copy()
-map_data.columns = ['name', 'industry', 'latitude', 'longitude', 'elevation', 'year']
+# Boxplot graph
+st.header("Boxplot Graph")
+countries_to_compare = st.multiselect("Select countries to compare:", countries, default=countries[:3])
+boxplot_data = data[data['country'].isin(countries_to_compare)]
+fig3 = px.box(boxplot_data, x='country', y='value')
+st.plotly_chart(fig3)
 
-view_state = pdk.ViewState(latitude=37.7749, longitude=-122.4194, zoom=10, pitch=50)
+# Map visualization
+st.header("Map Visualization")
+m = folium.Map(location=[37.7749, -122.4194], zoom_start=4)
 
-map_layer = pdk.Layer(
-    "HexagonLayer",
-    data=map_data,
-    get_position=["longitude", "latitude"],
-    get_elevation="elevation",
-    elevation_scale=1000,
-    extruded=True,
-    pickable=True,
-    coverage=1,
-    get_fill_color=["year * 10", "year * 10", "year * 10", 255],
-)
+for index, row in data.iterrows():
+    folium.CircleMarker(
+        location=[row['lat'], row['lng']],
+        radius=row['value'] * 10,
+        color=row['date_joined'],
+        popup=f"{row['unicorns']} - {row['value']} trillion - {row['industry']}",
+        fill=True
+    ).add_to(m)
 
-map = pdk.Deck(map_style="mapbox://styles/mapbox/light-v9", initial_view_state=view_state, layers=[map_layer], tooltip={"text": "{name}\nValue: {elevation}\nIndustry: {industry}"})
+folium_static(m)
 
-st.pydeck_chart(map)
+# Investor analysis
+st.header("Investor Analysis")
+investors_counter = Counter([investor for investors in data['selected_investors'] for investor in investors])
+range_slider = st.slider("Select range:", min_value=0, max_value=max(investors_counter.values()), value=(0, max(investors_counter.values())))
+investors_filtered = {k: v for k, v in investors_counter.items() if range_slider[0] <= v <= range_slider[1]}
+fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns=['count']).reset_index(), x='index', y='count', labels={'index': 'Investor'})
+st.plotly_chart(fig4)
+
+investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
+investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['unicorns', 'value', 'industry']]
+st.write(investor_companies)
+
+# Bubble map with animation
+st.header("Bubble Map with Animation")
+animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'population', 'date_joined']).agg({'value': 'sum'}).reset_index()
+fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', color='id_city', animation_frame='date_joined', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
+st.plotly_chart(fig5)
