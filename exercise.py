@@ -16,12 +16,9 @@ st.title("Data Analysis")
 
 # Horizontal line graph by country
 st.header("Horizontal Line Graph by Country")
-data_year = data.copy()
-data_year['date_joined'] = pd.to_datetime(data_year['date_joined'])
-data_year['year'] = data_year['date_joined'].dt.year
 
 # Create a scatter plot
-fig = px.scatter(data_year, x="value", y="year", color="country", 
+fig = px.scatter(data, x="value", y="year", color="country", 
                  log_x=True, size="value", hover_name="unicorn",
                  symbol="industry")
 
@@ -37,9 +34,25 @@ fig.update_layout(
     width=800
 )
 
-# Add a slider to select the year range
-year_range = st.slider("Year range", min_value=data_year['year'].min(), 
-                       max_value=data_year['year'].max(), value=(data_year['year'].min(), data_year['year'].max()))
+# Add a slider to select the year
+year = st.slider("Year", min_value=data['year'].min(), 
+                 max_value=data['year'].max(), value=data['year'].min())
+
+# Add a multiselect to select the countries to display
+countries = st.multiselect("Select countries", options=data['country'].unique(), default=data['country'].unique())
+
+# Filter the data by year and country
+data_filtered = data[(data['year'] == year) & (data['country'].isin(countries))]
+
+# Display the plot
+st.plotly_chart(fig.update_traces(marker_opacity=0.8, marker_line_width=0.2, hovertemplate="<b>%{hovertext}</b><br>Country: %{customdata}<br>Value: %{x:.2f} trillion dollars<br>Industry: %{symbol}"), use_container_width=True)
+
+# Show the selected countries
+st.write("Selected countries:", countries)
+
+# Show the filtered data
+st.write("Data for year", year, "and selected countries:")
+st.write(data_filtered)
 
 # Add a multiselect to select the countries to display
 countries = st.multiselect("Select countries", options=data['country'].unique(), default=data['country'].unique())
