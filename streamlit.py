@@ -1,78 +1,74 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pydeck as pdk
-import plotly.express as px
+import seaborn as sns
+import altair as alt
+from keplergl import KeplerGl
+import json
+Load the data file (e.g., data.csv) and preprocess the data:
+@st.cache
+def load_data():
+    data = pd.read_csv('data.csv')
+    data['date_joined'] = pd.to_datetime(data['date_joined'])
+    data['year'] = data['date_joined'].dt.year
+    data['selected_investors'] = data['selected_investors'].apply(lambda x: [i.strip() for i in x.split(',')])
+    return data
 
-header = st.container()
-dataset = st.container()
-features = st.container()
-model_trainig = st.container()
+data = load_data()
+Create a sidebar for user input:
+st.sidebar.title("User Input")
+selected_countries = st.sidebar.multiselect("Select countries", data['country'].unique(), default=['Country1', 'Country2'])
+Create the scatter plot:
+scatter_data = data[data['country'].isin(selected_countries)]
 
-with header:
-    st.title('Welcome')
-    st.text('This is the Dashboard of the Unicorn Companies')
+scatter = alt.Chart(scatter_data).mark_circle().encode(
+    alt.X('value', title='Value Range'),
+    alt.Y('year', title='Year'),
+    alt.Color('country', legend=alt.Legend(title="Countries")),
+    tooltip=['unicorn', 'country', 'year']
+).interactive()
 
-with dataset:
-    st.header('Dataset')
-    st.text('The dateset include the total of Unicorns companies around the world top 10 Unicorns by Valuation in US$')
-   
-    data_unicorn = pd.read_csv('data/unicorns_2022.csv', sep=',')
-    st.write(data_unicorn.head(10))
-  
-    st.subheader('Total Valuation of Unicorns by Country')
-    countries = pd.DataFrame(data_unicorn.groupby(["country"])["value"].sum()).head(50)
-    st.bar_chart(data=countries)
-    
-    st.subheader('Total Valuation by Industry')
-    industry_value = pd.DataFrame(data_unicorn.groupby(["industry"])["value"].sum()).head(50)
-    st.bar_chart(data=industry_value)
-        
-    st.subheader('Choose the Best combination between date and Industry')
-    
-    data_unicorn['date_joined'] = pd.to_datetime(data_unicorn['date_joined']).dt.strftime('%Y-%m-%d')
-    
-    industry_options = data_unicorn['industry'].unique().tolist()
-    year_option = pd.DatetimeIndex(data_unicorn['date_joined']).unique().tolist()
-        
-    date = st.selectbox("Which date would you like to see", year_option,100)
-    industry_u = st.multiselect("Which industry would you like to see", industry_options, ['Fintech'])
-    
-    data_unicorn = data_unicorn[data_unicorn['industry'].isin(industry_u)]
-    data_unicorn = data_unicorn[data_unicorn['date_joined']==date]
-    
-    fig = px.bar(data_unicorn,x="industry",y="value",color="industry", range_y=[0,500])
-    
-    fig.update_layout(width=800)
-    
-    st.write(fig)
-    
-st.write(pdk.Deck(
-    map_style="mapbox://styles/mapbox/light-v9",
-    initial_view_state={
-        "latitude": 37.76,
-        "longitude": -122.4,
-        "zoom": 11,
-        "pitch": 50,
-    },
-    layers=[
-        pdk.Layer(
-        "HexagonLayer",
-        data =data_unicorn[['value','lat','lng']],
-        get_position=['lng','lat'],
-        radius=100,
-        extruded=True,
-        pickable=True,
-        elevation_scale=4,
-        elevation_range=[0,1000],
-        ),
-        pdk.Layer(
-             'ScatterplotLayer',
-             data= data_unicorn[['value','lat','lng']],
-             get_position='[lon, lat]',
-             get_color='[200, 30, 0, 160]',
-             get_radius=200,
-         ),
-    ],
-))    
-   
+st.altair_chart(scatter, use_container_width=True)
+Create the bubble chart:
+bubble_data = data.groupby('industry').agg({'unicorn': 'count', 'value': 'sum'}).reset_index()
+
+bubble = alt.Chart(bubble_data).mark_circle().encode(
+    alt.X('unicorn', title='Number of Companies by Industry'),
+    alt.Y('value', title='Total Value by Industry'),
+    alt.Color('industry', legend=alt.Legend(title="Industries")),
+    tooltip=['industry', 'unicorn', 'value']
+).interactive()
+
+st.altair_chart(bubble, use_container_width=True)
+Create the boxplot chart:
+boxplot_data = data[data['country'].isin(selected_countries)]
+
+boxplot = alt.Chart(boxplot_data).mark_boxplot().encode(
+    alt.X('country', title='Country'),
+    alt.Y('value', title='Value Range'),
+    alt.Color('country', legend=alt.Legend(title="Countries")),
+    tooltip=['unicorn', 'country', 'value']
+).interactive()
+
+st.altair_chart(boxplot, use_container_width=True)
+Create the 3D map:
+map_data = data[['unicorn', 'industry', 'lat', 'lng', 'value', 'year']].copy()
+map_data.columns = ['name', 'industry', 'latitude', 'longitude', 'elevation', 'year']
+
+view_state = pdk.ViewState(latitude=37.7749, longitude=-122.4194, zoom=10, pitch=50)
+
+map_layer = pdk.Layer(
+    "HexagonLayer",
+    data=map_data,
+    get_position=["longitude", "latitude"],
+    get_elevation="elevation",
+    elevation_scale=1000,
+    extruded=True,
+    pickable=True,
+    coverage=1,
+    get_fill_color=["year * 10", "year * 10", "year * 10", 255],
+)
+
+map = pdk.Deck(map_style="mapbox://styles/mapbox/light-v9", initial_view_state=view_state, layers=[map_layer], tooltip={"text": "{name}\nValue: {elevation}\nIndustry: {industry}"})
+
+st.pydeck_chart(map)
