@@ -6,7 +6,7 @@ import altair as alt
 from keplergl import KeplerGl
 import json
 
-@st.cache
+@st.cache_data
 def load_data():
     data = pd.read_csv('data/unicorns_2022.csv')
     data['date_joined'] = pd.to_datetime(data['date_joined'])
