@@ -22,7 +22,7 @@ data_year['year'] = data_year['date_joined'].dt.year
 
 # Create a scatter plot
 fig = px.scatter(data_year, x="value", y="year", color="country", 
-                 log_x=True, size="value", hover_name="unicorns",
+                 log_x=True, size="value", hover_name="unicorn",
                  symbol="industry")
 
 # Customize the layout
