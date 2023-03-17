@@ -22,7 +22,7 @@ selected_countries = st.multiselect("Select countries:", countries, default=coun
 filtered_data = data[data['country'].isin(selected_countries)]
 agg_data = filtered_data.groupby(['country', 'date_joined']).agg({'value': 'sum'}).reset_index()
 
-fig1 = px.scatter(agg_data, x='date_joined', y='value', color='country', symbol=data['industry'])
+fig1 = px.scatter(agg_data, x='date_joined', y='value', color='country')
 st.plotly_chart(fig1)
 
 # Bubble graph by industry
