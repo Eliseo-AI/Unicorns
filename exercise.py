@@ -34,10 +34,6 @@ fig.update_layout(
     width=800
 )
 
-# Add a slider to select the year
-year = st.slider("Year", min_value=data['year'].min(), 
-                 max_value=data['year'].max(), value=data['year'].min())
-
 # Add a multiselect to select the countries to display
 countries = st.multiselect("Select countries", options=data['country'].unique(), default=data['country'].unique())
 
