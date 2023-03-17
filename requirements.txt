@@ -8,4 +8,3 @@ folium==0.14.0
 streamlit-folium==0.11.1
 seaborn==0.11.2
 keplergl==0.2.2
-json==2.0.1
