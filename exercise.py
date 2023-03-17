@@ -17,12 +17,12 @@ st.title("Data Analysis")
 # Horizontal line graph by country
 st.header("Horizontal Line Graph by Country")
 countries = data['country'].unique()
-selected_countries = st.multiselect("Select countries:", countries, default=countries[:3])
+selected_countries = st.multiselect("Select countries:", countries, default=countries[:2])
 
 filtered_data = data[data['country'].isin(selected_countries)]
 agg_data = filtered_data.groupby(['country', 'date_joined']).agg({'value': 'sum'}).reset_index()
 
-fig1 = px.line(agg_data, x='date_joined', y='value', color='country', orientation='h')
+fig1 = px.scatter(agg_data, x='date_joined', y='value', color='country', symbol='industry')
 st.plotly_chart(fig1)
 
 # Bubble graph by industry
