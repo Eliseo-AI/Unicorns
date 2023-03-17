@@ -15,7 +15,7 @@ data['selected_investors'] = data['selected_investors'].apply(lambda x: [i.strip
 st.title("Data Analysis")
 
 # Horizontal line graph by country
-st.header("Horizontal Line Graph by Country")
+st.header("Scatter Plot Graph by Country")
 countries = data['country'].unique()
 selected_countries = st.multiselect("Select countries:", countries, default=countries[:2])
 
@@ -42,12 +42,12 @@ st.plotly_chart(fig3)
 
 # Map visualization
 st.header("Map Visualization")
-m = folium.Map(location=[37.7749, -122.4194], zoom_start=4)
+m = folium.Map(location=[37.7749, -122.4194], zoom_start=8)
 
 for index, row in data.iterrows():
     folium.CircleMarker(
         location=[row['lat'], row['lng']],
-        radius=row['value'] * 10,
+        radius=row['value'] ,
         color=row['year'],
         popup=f"{row['unicorn']} - {row['value']} trillion - {row['industry']}",
         fill=True
