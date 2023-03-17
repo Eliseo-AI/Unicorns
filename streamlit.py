@@ -51,7 +51,7 @@ boxplot = alt.Chart(boxplot_data).mark_boxplot().encode(
 ).interactive()
 
 st.altair_chart(boxplot, use_container_width=True)
-Create the 3D map:
+# Create the 3D map:
 map_data = data[['unicorn', 'industry', 'lat', 'lng', 'value', 'year']].copy()
 map_data.columns = ['name', 'industry', 'latitude', 'longitude', 'elevation', 'year']
 
