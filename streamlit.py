@@ -17,7 +17,7 @@ def load_data():
 data = load_data()
 # Create a sidebar for user input:
 st.sidebar.title("User Input")
-selected_countries = st.sidebar.multiselect("Select countries", data['country'].unique(), default=[:2])
+selected_countries = st.sidebar.multiselect("Select countries", data['country'].unique(), default=country[:2])
 # Create the scatter plot:
 scatter_data = data[data['country'].isin(selected_countries)]
 
