@@ -16,14 +16,39 @@ st.title("Data Analysis")
 
 # Horizontal line graph by country
 st.header("Horizontal Line Graph by Country")
-countries = data['country'].unique()
-selected_countries = st.multiselect("Select countries:", countries, default=countries[:2])
+data_year = data.copy()
+data_year['date_joined'] = pd.to_datetime(data_year['date_joined'])
+data_year['year'] = data_year['date_joined'].dt.year
 
-filtered_data = data[data['country'].isin(selected_countries)]
-agg_data = filtered_data.groupby(['country', 'date_joined']).agg({'value': 'sum'}).reset_index()
+# Create a scatter plot
+fig = px.scatter(data_year, x="value", y="year", color="country", 
+                 log_x=True, size="value", hover_name="unicorns",
+                 symbol="industry")
 
-fig1 = px.scatter(agg_data, x='date_joined', y='value', color='country')
-st.plotly_chart(fig1)
+# Customize the layout
+fig.update_layout(
+    title="Unicorn Companies by Country",
+    xaxis_title="Value (in trillions of dollars)",
+    yaxis_title="Year",
+    legend_title="Country",
+    hovermode="closest",
+    margin=dict(l=0, r=0, t=50, b=0),
+    height=600,
+    width=800
+)
+
+# Add a slider to select the year range
+year_range = st.slider("Year range", min_value=data_year['year'].min(), 
+                       max_value=data_year['year'].max(), value=(data_year['year'].min(), data_year['year'].max()))
+
+# Add a multiselect to select the countries to display
+countries = st.multiselect("Select countries", options=data['country'].unique(), default=data['country'].unique())
+
+# Filter the data by year and country
+data_filtered = data_year[(data_year['year'] >= year_range[0]) & (data_year['year'] <= year_range[1]) & (data_year['country'].isin(countries))]
+
+# Display the plot
+st.plotly_chart(fig.update_traces(marker_opacity=0.8, marker_line_width=0.2), use_container_width=True)
 
 # Bubble graph by industry
 st.header("Bubble Graph by Industry")
