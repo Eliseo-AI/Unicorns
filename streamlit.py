@@ -22,7 +22,7 @@ selected_countries = st.multiselect("Select countries:", countries, default=coun
 filtered_data = data[data['country'].isin(selected_countries)]
 agg_data = filtered_data.groupby(['country', 'year']).agg({'value': 'sum'}).reset_index()
 
-fig1 = px.scatter(agg_data, x='year', y='value', color='country'')
+fig1 = px.scatter(agg_data, x='year', y='value', color='country')
 st.plotly_chart(fig1)
 
 # Bubble graph by industry
@@ -48,8 +48,8 @@ for index, row in data.iterrows():
     folium.CircleMarker(
         location=[row['lat'], row['lng']],
         radius=row['value'] * 10,
-        color=row['date_joined'],
-        popup=f"{row['unicorns']} - {row['value']} trillion - {row['industry']}",
+        color=row['year'],
+        popup=f"{row['unicorn']} - {row['value']} trillion - {row['industry']}",
         fill=True
     ).add_to(m)
 
@@ -64,11 +64,11 @@ fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns
 st.plotly_chart(fig4)
 
 investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
-investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['unicorns', 'value', 'industry']]
+investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['unicorn', 'value', 'industry']]
 st.write(investor_companies)
 
 # Bubble map with animation
 st.header("Bubble Map with Animation")
-animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'population', 'date_joined']).agg({'value': 'sum'}).reset_index()
-fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', color='id_city', animation_frame='date_joined', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
+animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'population', 'year']).agg({'value': 'sum'}).reset_index()
+fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', color='id_city', animation_frame='year', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
 st.plotly_chart(fig5)
