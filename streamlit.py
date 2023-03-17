@@ -17,7 +17,7 @@ st.title("Data Analysis")
 # Horizontal line graph by country
 st.header("Horizontal Line Graph by Country")
 countries = data['country'].unique()
-selected_countries = st.multiselect("Select countries:", countries, default=countries)
+selected_countries = st.multiselect("Select countries:", countries, default=countries[:2])
 
 filtered_data = data[data['country'].isin(selected_countries)]
 agg_data = filtered_data.groupby(['country', 'year']).agg({'value': 'sum'}).reset_index()
