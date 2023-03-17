@@ -35,9 +35,9 @@ st.plotly_chart(fig2)
 
 # Boxplot graph
 st.header("Boxplot Graph")
-countries_to_compare = st.multiselect("Select countries to compare:", countries, default=countries[:3])
+countries_to_compare = st.multiselect("Select countries to compare:", countries, default=countries[:2])
 boxplot_data = data[data['country'].isin(countries_to_compare)]
-fig3 = px.box(boxplot_data, x='country', y='value')
+fig3 = px.box(boxplot_data, x='country', y='value', color='country')
 st.plotly_chart(fig3)
 
 # Map visualization
