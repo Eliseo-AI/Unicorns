@@ -6,7 +6,12 @@ import folium
 from streamlit_folium import folium_static
 from collections import Counter
 
-# Load your data as a Pandas DataFrame (replace "your_data.csv" with your actual file)
+st.set_page_config(
+    page_title="Dashboard About Unicorn Companies",
+    page_icon="🦄",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 data = pd.read_csv("data/unicorns_2022.csv")
 
 # Clean selected_investors column
