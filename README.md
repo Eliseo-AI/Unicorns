@@ -1,5 +1,4 @@
-# Unicorns
-### The term “unicorn” was first coined in 2013 by Aileen Lee, the founder of Cowboy Ventures, a US-based seed-stage venture capital firm. In a TechCrunch article Welcome to The Unicorn Club: Learning from Billion-Dollar Startups (2013), she named a startup company valued at US $1 Billion or more as a unicorn. [Article-Jan,2023](https://www.alphajwc.com/en/the-differences-between-unicorn-decacorn-and-hectocorn/)
+Unicorns
 Table of Content
 ================
 * [Interactive-Unicorns_Companies-Dashboard](#Interactive-Unicorns_Companies-Dashboard)
@@ -11,7 +10,8 @@ Table of Content
 
 # Interactive-Unicorns-Dashboard
 [Streamlit app](https://eli-2020-unicorns-streamlit-1oh7v8.streamlitapp.com/)
-
+## Definition
+The term “unicorn” was first coined in 2013 by Aileen Lee, the founder of Cowboy Ventures, a US-based seed-stage venture capital firm. In a TechCrunch article Welcome to The Unicorn Club: Learning from Billion-Dollar Startups (2013), she named a startup company valued at US $1 Billion or more as a unicorn. [Article-Jan,2023](https://www.alphajwc.com/en/the-differences-between-unicorn-decacorn-and-hectocorn/)
 ## Description
 A work of building an interactive dashboard to provide insights about Unicorns Companies globally by master's student from the [Digital Sciences Track of Université Paris Cité](https://u-paris.fr/en/master-aire-digital-sciences/). 
 
