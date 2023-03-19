@@ -75,6 +75,6 @@ st.write(investor_companies)
 
 # Bubble map with animation
 st.header("Bubble Map with Animation")
-animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'population', 'year']).agg({'value': 'sum'}).reset_index().sort_values('year')
-fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', color='city', animation_frame='year', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
+animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'industry', 'year']).agg({'value': 'sum'}).reset_index().sort_values('year')
+fig5 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', color='industry', animation_frame='year', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='natural earth')
 st.plotly_chart(fig5)
