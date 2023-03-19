@@ -1,7 +1,7 @@
-Unicorns
 Table of Content
 ================
 * [Interactive-Unicorns_Companies-Dashboard](#Interactive-Unicorns_Companies-Dashboard)
+  * [Definition](#definition)
   * [Description](#description)
   * [Datasets](#datasets)
   * [Installation Requirements](#installation-requirements)
