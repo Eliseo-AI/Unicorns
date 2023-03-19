@@ -9,13 +9,13 @@ Table of Content
   * [Authors](#Authors)
 
 # Interactive-Unicorns-Dashboard
-- Scatter Plot GRaph by Country (Comparison by years 2011-2022)
+- Scatter Plot Graph by Country (Comparison by years 2011-2022)
 - Bubble Graph by Industry (Acumulate Value by Industry)
 - Box Plot Graph (Comparison)
 - Map Visualization of Unicorn Companies
 - Investor Analysis (Funds, Countries)
 - Buble Map with Animation (During Years, by Cities)
-See all the graphs in the link [Streamlit app](https://eli-2020-unicorns-streamlit-1oh7v8.streamlitapp.com/)
+- See all the graphs in the link [Streamlit app](https://eli-2020-unicorns-streamlit-1oh7v8.streamlitapp.com/)
 ## Definition
 The term “unicorn” was first coined in 2013 by Aileen Lee, the founder of Cowboy Ventures, a US-based seed-stage venture capital firm. In a TechCrunch article Welcome to The Unicorn Club: Learning from Billion-Dollar Startups (2013), she named a startup company valued at US $1 Billion or more as a unicorn. [Article-Jan,2023](https://www.alphajwc.com/en/the-differences-between-unicorn-decacorn-and-hectocorn/)
 ## Description
