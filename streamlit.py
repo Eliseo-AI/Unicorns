@@ -67,7 +67,17 @@ range_slider = st.slider("Select range:", min_value=0, max_value=max(investors_c
 investors_filtered = {k: v for k, v in investors_counter.items() if range_slider[0] <= v <= range_slider[1]}
 #fig4 = px.bar(pd.DataFrame.from_dict(investors_filtered, orient='index', columns=['count']).reset_index(), x='count', y='index', labels={'index': 'Investor'})
 top_investors = dict(sorted(investors_filtered.items(), key=lambda x: x[1], reverse=True)[:10])
-fig4 = go.Figure(data=[go.Bar(x=list(top_investors.values()), y=list(top_investors.keys()), orientation='h', text=list(top_investors.keys()), marker={'color': list(top_investors.keys())})])
+df = pd.DataFrame({'Investor': list(top_investors.keys()), 'Count': list(top_investors.values()), 'Fund': list(top_investors.keys())})
+
+fig4 = px.bar(df, x='Count', y='Investor', color='Fund', orientation='h', text='Investor')
+
+fig4.update_layout(
+    title="Investor Analysis",
+    xaxis_title="Investor Count",
+    yaxis_title="Investor",
+    bargap=0.1
+)
+
 
 fig4.update_layout(
     title="Investor Analysis",
