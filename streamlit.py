@@ -88,7 +88,7 @@ col1, col2 = st.beta_columns(2)
 # Display the table in the left column
 col1.write(investor_companies)
 fig5 = px.pie(investor_companies, names='country', hole=0.5, color='country')
-fig5.update_layout(title=dict(text='Fund by Country', x=0.5, y=0.9, xanchor='center', yanchor='top'), legend=dict(orientation='v', y=0.5, x=1.1, xanchor='left', yanchor='middle'))
+fig5.update_layout(title=dict(text='Fund by Country', x=0.5, y=0.9, xanchor='center', yanchor='top'), legend=dict(orientation='h', y=-0.2, x=0.5, xanchor='center', yanchor='top'))
 col2.plotly_chart(fig5, use_container_width=True)
 
 # Bubble map with animation
