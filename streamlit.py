@@ -83,12 +83,13 @@ investor_choice = st.selectbox("Select an investor:", list(investors_filtered.ke
 investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['ranking_companies','unicorn', 'value', 'industry','country']]
 investor_companies = investor_companies.rename(columns={'ranking_companies': 'Ranking', 'unicorn': 'Company'})
 investor_companies.index = range(1, len(investor_companies) + 1)
-st.write(investor_companies)
+col1, col2 = st.beta_columns(2)
 
+# Display the table in the left column
+col1.write(investor_companies)
 fig5 = px.pie(investor_companies, names='country', hole=0.5, color='country')
-fig5.update_layout(title='Fund by Country', legend=dict(orientation='h', y=-0.2, x=0.5, xanchor='center', yanchor='top'))
-
-st.plotly_chart(fig5)
+fig5.update_layout(title=dict(text='Fund by Country', x=0.5, y=0.9, xanchor='center', yanchor='top'), legend=dict(orientation='v', y=0.5, x=1.1, xanchor='left', yanchor='middle'))
+col2.plotly_chart(fig5, use_container_width=True)
 
 # Bubble map with animation
 st.header("Bubble Map with Animation")
