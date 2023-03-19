@@ -72,31 +72,6 @@ investor_choice = st.selectbox("Select an investor:", list(investors_filtered.ke
 investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['ranking_companies','unicorn', 'value', 'industry','country']]
 st.write(investor_companies)
 
-def plot_top_funds(df):
-    fund_counts = df['selected_investors'].str.split(',').explode().value_counts()
-    top_funds = fund_counts[:10]
-
-    plt.figure(figsize=(10, 6))
-    sns.barplot(x=top_funds, y=top_funds.index, palette='bright')
-    plt.xlabel('Number of Investments')
-    plt.ylabel('Fund Name')
-    plt.title('Top 10 Funds by Number of Investments')
-    st.pyplot()
-
-def display_table(df, fund):
-    companies = df[df['selected_investors'].str.contains(fund)][['ranking_companies', 'unicorn', 'country', 'industry', 'selected_investors']]
-    companies = companies.rename(columns={'ranking_companies': 'Ranking', 'unicorn': 'Company', 'country': 'Country', 'industry': 'Industry', 'selected_investors': 'Fund'})
-    companies.reset_index(drop=True, inplace=True)
-    st.table(companies.head())
-
-def plot_country_counts(df):
-    country_counts = df['country'].value_counts()
-
-    plt.figure(figsize=(8, 8))
-    plt.pie(country_counts, labels=country_counts.index, autopct='%1.1f%%')
-    plt.title('Companies by Country')
-    plt.legend(title='Country', loc='center left', bbox_to_anchor=(1, 0, 0.5, 1))
-    st.pyplot()
 
 # Bubble map with animation
 st.header("Bubble Map with Animation")
