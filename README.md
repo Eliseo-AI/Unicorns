@@ -20,15 +20,19 @@ A work of building an interactive dashboard to provide insights about Unicorns C
 
 Columns in the datasets:
 
-- `unicorns`: the name of the company
-- `country / region`: identifies the name of the country
-- `Province / state`: identifies the name of the states
-- `Lat`: the geographic coordinates that specifies the north – south position of a point on the Earth's surface.
-- `Lng`: the geographic coordinates that specifies the east – west position of a point on the Earth's surface.
-- `Date`: identifies the cumulative cases per day in each of the countries.
-
-To calulcate the normalization we acquire to get the population of the each country https://www.kaggle.com/tanuprabhu/population-by-country-2020 and we only used `Country and Population`. 
-
+- unicorns: the name of the company
+- ranking_companies = ranking of companies by market value
+- date_joined = official start of each company
+- country = country
+- city = city 
+- industry = industry category 
+- selected_investros = funds that invested in the company 
+- value = company value in trillions of dollars 
+- lat = latitude
+- lng = longitude 
+- capital = city type category ("primary" = country capital, "admin" = regional capital, "minor"= metropolitan city, "" = city) 
+- population= population of the city. 
+- id_city = international identification number of the city.
 
 ## Installation Requirements
 
