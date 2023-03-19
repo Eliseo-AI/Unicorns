@@ -86,7 +86,7 @@ investor_companies.index = range(1, len(investor_companies) + 1)
 st.write(investor_companies)
 
 fig5 = px.pie(investor_companies, names='country', hole=0.5, color='country')
-fig5.update_layout(title='Fund by Country', legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1))
+fig5.update_layout(title='Fund by Country', legend=dict(orientation='h', y=-0.2, x=0.5, xanchor='center', yanchor='top'))
 
 st.plotly_chart(fig5)
 
@@ -94,4 +94,4 @@ st.plotly_chart(fig5)
 st.header("Bubble Map with Animation")
 animated_data = data.groupby(['id_city', 'lat', 'lng', 'city', 'population', 'year']).agg({'value': 'sum'}).reset_index().sort_values('year')
 fig6 = px.scatter_geo(animated_data, lat='lat', lon='lng', size='value', animation_frame='year', hover_name='city', hover_data=['id_city', 'population', 'value'], projection='orthographic')
-st.plotly_chart(fig5)
+st.plotly_chart(fig6)
