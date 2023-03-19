@@ -75,10 +75,9 @@ fig4.update_layout(
     title="Investor Analysis",
     xaxis_title="Investor Count",
     yaxis_title="Investor",
-    bargap=0.1
+    bargap=0.1,
+    category_orders={'Investor': 'category descending'}
 )
-
-
 fig4.update_layout(
     title="Investor Analysis",
     xaxis_title="Investor Count",
