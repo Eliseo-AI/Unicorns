@@ -63,6 +63,10 @@ folium_static(m)
 
 # Investor analysis
 st.subheader("Investor Analysis")
+with st.beta_expander("Explanation & Tips"):
+     st.markdown(""" 1. US$1 Billion or more as a Unicorn, 
+     2. US$10 Billion as a Decacorn,
+     3. US$100 Billion as a Hectatorn.""")
 investors_counter = Counter([investor for investors in data['selected_investors'] for investor in investors])
 range_slider = st.slider("Select range:", min_value=0, max_value=max(investors_counter.values()), value=(0, max(investors_counter.values())))
 investors_filtered = {k: v for k, v in investors_counter.items() if range_slider[0] <= v <= range_slider[1]}
@@ -80,10 +84,6 @@ st.plotly_chart(fig4)
 
 # Fund Selection, comparison and Analysis 
 st.subheader("Compare the funds")
-with st.beta_expander("Explanation & Tips"):
-     st.markdown(""" 1. US$1 Billion or more as a Unicorn, 
-     2. US$10 Billion as a Decacorn,
-     3. US$100 Billion as a Hectatorn.""")
 investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
 investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['ranking_companies','unicorn', 'value', 'industry','country']]
 investor_companies = investor_companies.rename(columns={'ranking_companies': 'Ranking', 'unicorn': 'Company'})
