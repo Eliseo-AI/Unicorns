@@ -22,8 +22,8 @@ with st.beta_expander("Explanation & Tips"):
      st.markdown(""" Analysis of All Unicorn Companies around the world in 2022, the information include the Market-Value, Industry and Country \n
      1. US$1 Billion or more as a Unicorn, 
      2. US$10 Billion as a Decacorn,
-     3. US$100 Billion as a Hectatorn.
-     """)
+     3. US$100 Billion as a Hectatorn.""")
+
 # Scatter Plot Graph by Country
 st.subheader("Scatter Plot Graph by Country")
 countries = data['country'].unique()
@@ -79,6 +79,12 @@ fig4.update_layout(
 st.plotly_chart(fig4)
 
 # Fund Selection, comparison and Analysis 
+st.subheader("Compare the funds")
+with st.beta_expander("Explanation & Tips"):
+     st.markdown(""" Select the Fund \n
+     1. US$1 Billion or more as a Unicorn, 
+     2. US$10 Billion as a Decacorn,
+     3. US$100 Billion as a Hectatorn.""")
 investor_choice = st.selectbox("Select an investor:", list(investors_filtered.keys()))
 investor_companies = data[data['selected_investors'].apply(lambda x: investor_choice in x)][['ranking_companies','unicorn', 'value', 'industry','country']]
 investor_companies = investor_companies.rename(columns={'ranking_companies': 'Ranking', 'unicorn': 'Company'})
